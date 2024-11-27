@@ -218,7 +218,7 @@ background-color: #212121;">
                     <img src="fonts/windranger.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Windranger</h1>
                 </a>
-                <a class="category_box">
+                <a href = "zeus.php" class="category_box">
                     <img src="fonts/Zeus.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Zeus</h1>
                 </a>
@@ -226,7 +226,7 @@ background-color: #212121;">
                     <img src="fonts/Kunka.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Kunkka</h1>
                 </a>
-                <a class="category_box">
+                <a href = "lina.php" class="category_box">
                     <img src="fonts/Lina.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Lina</h1>
                 </a>

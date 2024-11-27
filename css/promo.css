@@ -1,0 +1,86 @@
+.herous_container {
+    width: auto;
+    height: 1080px;
+}
+.category_box {
+    z-index: 10;
+    background-color: #545454;
+    border: 1px solid #525252;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.2);
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 170px;
+    width: 165px;
+    padding: 17px;
+    margin-right: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.hero_name {
+    color: white;
+    font-size: medium;
+    justify-self: center;
+    margin-inline: 10px;
+    text-align: center;
+}
+.category_box_row {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 28px;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-direction: row;
+}
+.category_box_row a:hover, .category_box_row label:hover {
+    outline-offset: 3px;
+    transition: all 0.3s;
+}
+.category_box_row a:hover img, .category_box_row a:hover, .category_box_row label:hover, .category_box_row label:hover img {
+    transition: all 0.3s;
+}
+.category_box_row a:hover img, .category_box_row a:hover, .category_box_row label:hover, .category_box_row label:hover img{
+    transform: scale(1.15);
+}
+.heroous_search {
+    font-size: xx-large;
+    color: white;
+    margin-top: 48px;
+    margin-bottom: 78px;
+    margin-left: 11%;
+}
+.atribut_search, .atribut_grey_row, .atribut_black_row{
+    display: flex;
+    flex-direction: row;
+}
+.atribut_grey_row {
+    background-color: #525252;
+    width: 136px;
+    height: 26px;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+.atribut_black_row {
+    background-color: black;
+    width: 136px;
+    height: 26px;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+.sila {
+    margin-left: 13px;
+}
+.atribut_grey_row a:hover, .atribut_grey_row label:hover {
+    outline-offset: 3px;
+    transition: all 0.3s;
+}
+.atribut_grey_row a:hover img, .atribut_grey_row a:hover, .atribut_grey_row label:hover, .atribut_grey_row label:hover img {
+    transition: all 0.3s;
+}
+.atribut_grey_row a:hover img, .atribut_grey_row a:hover, .atribut_grey_row label:hover, .atribut_grey_row label:hover img{
+    transform: scale(1.15);
+}
+.atribut_img:hover {
+    color: #FF6046;
+}

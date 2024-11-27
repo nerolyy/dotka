@@ -1,0 +1,145 @@
+body {
+    background-image: url('fonts/mainfont.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #212121;
+}
+.top_row {
+    background-color: #545454;
+}
+.more_line {
+    background-color: #545454;
+}
+.left_side {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 17px;
+    padding-top: 20px;
+    color: #545454;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+.left_side{
+    display: flex;
+    justify-content: end;
+    flex-wrap: nowrap;
+    list-style: none;
+    flex-direction: row;
+    max-width: 37%;
+}
+.left_side a:hover, .left_side label:hover, .menu_more a:hover, .menu_more label:hover {
+    outline-offset: 3px;
+    transition: all 0.3s;
+}
+.left_side a:hover img, .left_side a:hover, .left_side label:hover, .left_side label:hover img, .menu_more a:hover, .menu_more label:hover{
+    transition: all 0.3s;
+}
+.left_side a:hover img, .left_side a:hover, .left_side label:hover, .left_side label:hover img, .menu_more a:hover, .menu_more label:hover{
+    transform: scale(1.15);
+}
+.right_side a:hover, .right_side label:hover, .item a:hover, .item label:hover{
+    outline-offset: 3px;
+    transition: all 0.3s;
+}
+.right_side a:hover img, .right_side a:hover, .right_side label:hover, .right_side label:hover img, .item a:hover, .item label:hover {
+    transition: all 0.3s;
+}
+.right_side a:hover img, .right_side a:hover, .right_side label:hover, .right_side label:hover img, .item a:hover, .item label:hover{
+    transform: scale(1.15);
+}
+.kolokol__link, .setting__link {
+    margin-top: 2px;
+}
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #FF6046; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 10px 45px 9px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    margin-top: -4px;
+    font-size: large;
+}
+.dota_logo_img {
+    margin-top: 3px;
+    display: block;
+}
+.mail_img {
+    margin-top: -2px;
+    margin-right: 18px;
+}
+.kolokol_img {
+    margin-top: 2px;
+    margin-right: 20px;
+}
+.menu_menu_more {
+
+    position: absolute;
+    top: 11px;
+    display: block;
+    z-index: 1;
+    margin-left: 30px;
+    height: 0;
+    width: 250px;
+    -webkit-transition: height .5s ease;
+    -webkit-transition-delay: .4s;
+}
+.menu_more {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-around;
+    height: 150px;
+    box-sizing: border-box;
+    margin-top: 17px;
+}
+.col-6 {
+    display: block;
+    width: 1377px;
+}
+.col-1 {
+    display: block;
+    width: 93px;
+}
+.col-50 {
+    display: block;
+    width: 50%;
+}
+.right_side{
+    display: flex;
+    justify-content: end;
+    flex-wrap: nowrap;
+    list-style: none;
+    flex-direction: row;
+    max-width: 85%;
+}
+.your_stats, .meta_herous, .top_players {
+    text-decoration: none;
+    color: #fff;
+}
+.menu_menu_img {
+    margin-top: -18px;
+}
+.your_stats:hover, .vibor:hover {
+    outline-offset: 3px;
+    transition: all 0.3s;
+    transform: scale(1.15);
+}
+.setings_img {
+    margin-right: 28px;
+}
+.vibor:hover {
+    color: #FF6046;
+}
+.item {
+    justify-content: center;
+    box-shadow: 2px black;
+}
+.summary_img{
+    width: 35px;
+}

@@ -1,0 +1,14 @@
+.logo_bar {
+    position: -webkit-sticky;
+    list-style: none;
+    display: flex;
+    flex-direction: row;    
+    margin-left: auto;
+    margin-right: 10%;
+}
+.first_img {
+    margin-right: 30px;
+}
+.first_img, .second_img {
+    opacity: 0.3;
+}

@@ -1,5 +1,5 @@
 @media (min-width: 1200px) {
-    @media (max-width: 1199.8px) {
+
         .category_box_row {
             margin-left: 0%;
             margin-right: -3%;
@@ -10,6 +10,9 @@
         .heroous_search {
             margin-left: 10%;
         }
-    }
+        .mr-l608 {
+            margin-left: 428px;
+        }
+
 }
 

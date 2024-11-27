@@ -1,8 +1,11 @@
 @media (min-width: 922px) {
-    @media (max-width: 991.8px) {
         .heroous_search {
             margin-left: 8%;
         }
-    }
+        .mr-l608 {
+            margin-left:0px;
+            margin-top: 5px;
+        }
+
 }
 

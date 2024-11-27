@@ -127,7 +127,7 @@ background-color: #212121;">
                         <img src="fonts/Alhimik.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Alchemist</h1>
                     </a>
-                    <a href="razor.php" class="category_box">
+                    <a href="axe.php" class="category_box">
                         <img src="fonts/Axe.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Axe</h1>
                     </a>

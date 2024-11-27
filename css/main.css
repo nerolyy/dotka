@@ -77,3 +77,8 @@
 .category_box_row a:hover img, .category_box_row a:hover, .category_box_row label:hover, .category_box_row label:hover img{
     transform: scale(1.15);
 }
+.pt-15{
+    padding-top: 15%;
+    padding-left: 30%;
+    padding-right: 30%;
+}

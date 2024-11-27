@@ -1,114 +1,67 @@
-<!DOCTYPE html>
 <html lang="en">
+<?php
+ ini_set("session.cookie_secure", 1);
+ session_start();
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/b8991598b2.js"></script>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="css/promo.css">
-    <link rel="stylesheet" href="css/last.css">
-    <link rel="stylesheet" href="hero.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <style>
-    body {
-        font-family: 'Montserrat';font-size: 22px;
-    }
-    </style>
-    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
 <body style="background-image: url('fonts/mainfont.svg');
 background-repeat: no-repeat;
-background-size: cover;
-background-color: #212121;">
-    <header>
-            <div class="top_row">
-                <div class="container">
-                    <div class="col-50">
-                        <ul class="left_side">
-                            <div class="menu_item">
-                                <div class="dota_logo_menu">
-                                    <a href="index.php" class="dota_logo">
-                                        <img src="img/dotalogo.svg" alt="" class="dota_logo_img">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="menu_item">
-                                <details class="menu_menu_more">
-                                <summary class="summary_img">
-                                    <img src="img/more.svg" alt="" class="menu_menu_img">
-                                </summary>
-                                <div class="more_line">
-                                    <ul class="menu_more">
-                                        <div class="item">
-                                            <a href="your_stats.php" class="your_stats">
-                                                <span class="vibor">личная статистика</span> 
-                                            </a>
-                                        </div>
-                                        <div class="item">
-                                            <a href="meta_herous.php" class="meta_herous">
-                                                <span class="vibor">meta herous</span>
-                                            </a>
-                                        </div>
-                                        <div class="item">
-                                            <a href="best_players.php" class="top_players">
-                                                <span class="vibor">лучшие игроки</span>
-                                            </a>
-                                        </div>
-                                    </ul>
-                                </div>
-                                </details>
-                            </div>
-                        </ul>
-                    </div>
-                    <div class="col-50">
-                        <ul class="right_side">
-                            <div class="menu_item">
-                                <a href="#" class="mail_href">
-                                    <img src="img/mail.svg" alt="" class="mail_img">
-                                </a>
-                            </div>
-                            <div class="menu_item">
-                                <a href="#" class="kolokol_href">
-                                    <img id="image" src="img/kolokol.svg" onClick="imgsrc();" class="kolokol_img">
-                                </a>
-                            </div>
-                            <div class="menu_item">
-                                <a href="#" class="setings_href">
-                                    <img src="img/Layer 10.svg" alt="" class="setings_img">
-                                </a>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-    </header>
-    <main>
-        <div class="p-container">
-            <form method="post" action="authall.php">
-              <div class="row">
-                <h2 style="text-align:center">Authentication</h2>
-                <ul class="passlog">
-                    <input type="text" name="username" placeholder="Username" required>
-                    <input type="password" name="password" placeholder="Password" required>
-                    <input type="submit" value="Login" style="width: 760px !important;">
+background-color: #212121;
+z-index:10">
+<header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="index.php" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <img class="bi me-2 tmsk" src="img/dotalogo.svg" width="109" height="22" role="img" aria-label="Bootstrap">
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="your_stats.php" class="nav-link px-2 text-white tmsk">личная статистика</a></li>
+                    <li><a href="meta_herous.php" class="nav-link px-2 text-white tmsk">meta herous</a></li>
+                    <li><a href="best_players.php" class="nav-link px-2 text-white tmsk">лучшие игроки</a></li>
                 </ul>
+
+                <div class="text-end">
+                    <a type="button" href="login.php" class="btn btn-outline-light me-2">Login</a>
                 </div>
-              </div>
-            </form>
-          </div>
-          
-          <div class="bottom-container">
-            <div class="row">
-              <div class="col">
-                <a href="#" style="color:white" class="btn">Sign up</a>
-              </div>
-              <div class="col">
-                <a href="#" style="color:white" class="btn pp">Forgot password?</a>
-              </div>
+
+                    </div>
+                </div>
             </div>
-          </div>
-    </main>
+        </div>
+</header>
+    
+<main class="form-signin w-100 m-auto pt-15">
+  <form>
+    <h1 class="h3 mb-3 fw-normal text-center text-white">Please Sign-up</h1>
+
+    <div class="form-floating text-white">
+      <input type="login" class="form-control bg-dark" id="floatingInput" placeholder="login">
+      <label for="floatingInput">Login</label>
+    </div>
+    <div class="form-floating text-white">
+      <input type="password" class="form-control bg-dark" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+
+    <div class="form-check text-start  my-3">
+    </div>
+    <button class="btn btn-primary w-100 py-2 bg-dark" type="submit">Sign up</button>
+  </form>
+</main>
+
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+  
 </body>
 </html>

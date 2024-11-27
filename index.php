@@ -14,8 +14,8 @@
 </head>
 <body style="background-image: url('fonts/mainfont.svg');
 background-repeat: no-repeat;
-background-size: cover;
-background-color: #212121;">
+background-color: #212121;
+z-index:10">
 <header class="p-3 bg-dark text-white">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -70,105 +70,105 @@ background-color: #212121;">
                 </div>
             </div>
             <div class="category_box_row">
-                    <a href="antimage.php" class="category_box">
+                    <a href="antimage.php" class="category_box bg-dark">
                         <img src="fonts/Anti-mage.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Anti-mage</h1>
                     </a>
-                    <a href="arc_warden.php" class="category_box">
+                    <a href="arc_warden.php" class="category_box bg-dark">
                         <img src="fonts/Arc.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Arc Warden</h1>
                     </a>
-                    <a href="bloodseeker.php" class="category_box">
+                    <a href="bloodseeker.php" class="category_box bg-dark">
                         <img src="fonts/bloodsecer.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bloodseker</h1>
                     </a>
-                    <a href="bounty_hunter.php" class="category_box">
+                    <a href="bounty_hunter.php" class="category_box bg-dark">
                         <img src="fonts/Bounty_hunter.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bounty Hunter</h1>
                     </a>
-                    <a href="clinkz.php" class="category_box">
+                    <a href="clinkz.php" class="category_box bg-dark">
                         <img src="fonts/clinz.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Clinkz</h1>
                     </a>
-                    <a href="drow_ranger.php" class="category_box">
+                    <a href="drow_ranger.php" class="category_box bg-dark">
                         <img src="fonts/drow ranger.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Drow Ranger</h1>
                     </a>
             </div>
             <div class="category_box_row">
-                    <a href = "earthshaker.php"class="category_box">
+                    <a href = "earthshaker.php"class="category_box bg-dark">
                         <img src="fonts/earth.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Earthshaker</h1>
                     </a>
-                    <a href = "juggernaut.php"class="category_box">
+                    <a href = "juggernaut.php"class="category_box bg-dark">
                         <img src="fonts/juger.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Juggernaut</h1>
                     </a>
-                    <a href = "mirana.php" class="category_box">
+                    <a href = "mirana.php" class="category_box bg-dark">
                         <img src="fonts/mirana.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Mirana</h1>
                     </a>
-                    <a href = "morphling.php" class="category_box">
+                    <a href = "morphling.php" class="category_box bg-dark">
                         <img src="fonts/morph.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Morphling</h1>
                     </a>
-                    <a  href = "shadow_fiend.php" class="category_box">
+                    <a  href = "shadow_fiend.php" class="category_box bg-dark">
                         <img src="fonts/sf.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Shadow Fiend</h1>
                     </a>
-                    <a href = "phantom_lancer.php" class="category_box">
+                    <a href = "phantom_lancer.php" class="category_box bg-dark">
                         <img src="fonts/pl.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Phantom Lancer</h1>
                     </a>
             </div>
             <div class="category_box_row">
-                <a href = "puck.php" class="category_box">
+                <a href = "puck.php" class="category_box bg-dark">
                     <img src="fonts/Puck.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Puck</h1>
                 </a>
-                <a href = "pudge.php" class="category_box">
+                <a href = "pudge.php" class="category_box bg-dark">
                     <img src="fonts/pudge.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Pudge</h1>
                 </a>
-                <a href = "razor.php" class="category_box">
+                <a href = "razor.php" class="category_box bg-dark">
                     <img src="fonts/raz.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Razor</h1>
                 </a>
-                <a href = "sand_king.php" class="category_box">
+                <a href = "sand_king.php" class="category_box bg-dark">
                     <img src="fonts/Sand king.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Sand King</h1>
                 </a>
-                <a href = "storm_spirit.php" class="category_box">
+                <a href = "storm_spirit.php" class="category_box bg-dark">
                     <img src="fonts/Storm Spirit.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Storm Spirit</h1>
                 </a>
-                <a href = "sven.php" class="category_box">
+                <a href = "sven.php" class="category_box bg-dark">
                     <img src="fonts/Sven.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Sven</h1>
                 </a>
             </div>
             <div class="category_box_row">
-                <a href = "tiny.php"class="category_box">
+                <a href = "tiny.php"class="category_box bg-dark">
                     <img src="fonts/Tiny.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Tiny</h1>
                 </a>
-                <a href = "venga.php" class="category_box">
+                <a href = "venga.php" class="category_box bg-dark">
                     <img src="fonts/venga.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Vengeful Spirit</h1>
                 </a>
-                <a href = "windranger.php" class="category_box">
+                <a href = "windranger.php" class="category_box bg-dark">
                     <img src="fonts/windranger.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Windranger</h1>
                 </a>
-                <a href = "zeus.php" class="category_box">
+                <a href = "zeus.php" class="category_box bg-dark">
                     <img src="fonts/Zeus.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Zeus</h1>
                 </a>
-                <a href = "Kunka.php" class="category_box">
+                <a href = "Kunka.php" class="category_box bg-dark">
                     <img src="fonts/Kunka.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Kunkka</h1>
                 </a>
-                <a href = "lina.php" class="category_box">
+                <a href = "lina.php" class="category_box bg-dark">
                     <img src="fonts/Lina.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Lina</h1>
                 </a>

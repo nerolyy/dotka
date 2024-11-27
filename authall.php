@@ -1,5 +1,5 @@
 <?php
-    $login = trim(filter_var($_POST['username'], FILTER_SANITIZE_SPECIAL_CHARS));
+    $login = trim(filter_var($_POST['login'], FILTER_SANITIZE_SPECIAL_CHARS));
     $password = trim(filter_var($_POST['password'], FILTER_SANITIZE_SPECIAL_CHARS));
 
 
@@ -12,10 +12,10 @@ if(strlen($password) < 8) {
     exit;
 }
 
-$pdo=new PDO('mysql:host=localhost;dbname=dota;port=3306', 'root', 'root');
+$pdo=new PDO('mysql:host=localhost;dbname=users;port=8889', 'root', 'root');
 
 
-$sql = 'SELECT id FROM dota WHERE login = ? AND password = ?';
+$sql = 'SELECT id FROM users WHERE login = ? AND password = ?';
 $query = $pdo->prepare($sql);
 $query -> execute([$login, $password]);
 

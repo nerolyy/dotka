@@ -44,11 +44,11 @@ z-index:10">
     <h1 class="h3 mb-3 fw-normal text-center text-white">Please Sign-up</h1>
 
     <div class="form-floating text-white">
-      <input type="login" class="form-control bg-dark" id="floatingInput" placeholder="login">
+      <input type="login" name="login" class="form-control bg-dark color-white" id="floatingInput" placeholder="login">
       <label for="floatingInput">Login</label>
     </div>
     <div class="form-floating text-white">
-      <input type="password" class="form-control bg-dark" id="floatingPassword" placeholder="Password">
+      <input type="password" name="password" class="form-control bg-dark color-white" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
 

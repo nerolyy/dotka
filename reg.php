@@ -19,4 +19,4 @@ $query=$pdo->prepare($sql);
 $query->execute([$login, $password]);
 
 
-header('Location: auth.php');
+header('Location: login.php');

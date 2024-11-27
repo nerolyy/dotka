@@ -26,7 +26,7 @@
 background-repeat: no-repeat;
 background-size: cover;
 background-color: #212121;">
-        <header>
+    <header>
             <div class="top_row">
                 <div class="container">
                     <div class="col-50">
@@ -107,7 +107,7 @@ background-color: #212121;">
                     </div>
                 </div>
             </div>
-        </header>
+    </header>
     <promo class="herous">
         <div class="herous_contauner">
             <div class="atribut_search">

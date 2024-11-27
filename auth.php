@@ -29,8 +29,9 @@ z-index:10">
                     <li><a href="best_players.php" class="nav-link px-2 text-white tmsk">лучшие игроки</a></li>
                 </ul>
 
+                
                 <div class="text-end">
-                    <a type="button" href="login.php" class="btn btn-outline-light me-2">Login</a>
+                    <a type="button" href="auth.php" class="btn btn-warning">Sign-up</a>
                 </div>
 
                     </div>

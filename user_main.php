@@ -42,7 +42,7 @@ z-index:10">
                                 else
                                     echo '<div class="text-end">
                                     <a type="button" href="login.php" class="btn btn-outline-light me-2">Login</a>
-                                    <a type="button" href="#" class="btn btn-warning">Sign-up</a>
+                                    <a type="button" href="auth.php" class="btn btn-warning">Sign-up</a>
                                     </div>'
                             ?> 
                     </div>

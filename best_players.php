@@ -1,8 +1,4 @@
 <html lang="en">
-<?php
- ini_set("session.cookie_secure", 1);
- session_start();
-?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,8 +37,8 @@ z-index:10">
                                     </div>';
                                 else
                                     echo '<div class="text-end">
-                                    <a type="button" href="auth.php" class="btn btn-outline-light me-2">Login</a>
-                                    <a type="button" href="login.php" class="btn btn-warning">Sign-up</a>
+                                    <a type="button" href="login.php" class="btn btn-outline-light me-2">Login</a>
+                                    <a type="button" href="auth.php" class="btn btn-warning">Sign-up</a>
                                     </div>'
                             ?> 
                     </div>

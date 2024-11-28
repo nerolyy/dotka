@@ -1,8 +1,4 @@
 <html lang="en">
-<?php
- ini_set("session.cookie_secure", 1);
- session_start();
-?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,25 +24,6 @@ z-index:10">
                     <li><a href="meta_herous.php" class="nav-link px-2 text-white tmsk">meta herous</a></li>
                     <li><a href="best_players.php" class="nav-link px-2 text-white tmsk">лучшие игроки</a></li>
                 </ul>
-
-                <div class="text-end">
-                    <a href="#" class="lk">
-                        <p><?php isset($_COOKIE['login'])?></p>
-                    </a>
-                </div>
-                    <?php
-                                if(isset($_COOKIE['login']))
-                                    echo '<div class="text-end">
-                                    <a href="user_main.php" class="btn btn-outline-light me-2 lk">Личный кабинет</a>
-                                    </div>';
-                                else
-                                    echo '<div class="text-end">
-                                    <a type="button" href="login.php" class="btn btn-outline-light me-2">Login</a>
-                                    <a type="button" href="auth.php" class="btn btn-warning">Sign-up</a>
-                                    </div>'
-                            ?> 
-                    </div>
-                </div>
             </div>
         </div>
 </header>

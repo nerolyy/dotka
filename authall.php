@@ -25,7 +25,7 @@ if ($query->rowCount() == 0)
     echo"data entered incorrectly";
 else 
     setcookie('login', $login, time() + 3600 * 24, "/");
-    header("Location: index.php");
+    header("Location: user_main.php");
 
 
 

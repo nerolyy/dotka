@@ -29,7 +29,6 @@ z-index:10">
                     <li><a href="best_players.php" class="nav-link px-2 text-white tmsk">лучшие игроки</a></li>
                 </ul>
 
-                
                 <div class="text-end">
                     <a type="button" href="login.php" class="btn btn-outline-light me-2">Login</a>
                 </div>
@@ -41,8 +40,8 @@ z-index:10">
 </header>
     
 <main class="form-signin w-100 m-auto pt-15">
-  <form>
-    <h1 class="h3 mb-3 fw-normal text-center text-white">Please Sign-up</h1>
+  <form method="post" action="reg.php">
+    <h1 class="h3 mb-3 fw-normal text-center text-white">Please sign in</h1>
 
     <div class="form-floating text-white">
       <input type="login" name="login" class="form-control bg-dark color-white" id="floatingInput" placeholder="login">
@@ -54,8 +53,12 @@ z-index:10">
     </div>
 
     <div class="form-check text-start  my-3">
+      <input class="form-check-input text-white" type="checkbox" value="remember-me" id="flexCheckDefault">
+      <label class="form-check-label text-white" for="flexCheckDefault">
+        Remember me
+      </label>
     </div>
-    <button class="btn btn-primary w-100 py-2 bg-dark" type="submit">Sign up</button>
+    <button class="btn btn-primary w-100 py-2 bg-dark" type="submit">Sign in</button>
   </form>
 </main>
 

@@ -12,11 +12,11 @@ if(strlen($password) < 8) {
     exit;
 }
 
-$pdo=new PDO('mysql:host=localhost;dbname=user;port=8889', 'root', 'root');
+$pdo=new PDO('mysql:host=localhost;dbname=users;port=8889', 'root', 'root');
 
-$sql='INSERT INTO user(login, password) VALUES(?, ?)';
+$sql='INSERT INTO users(login, password) VALUES(?, ?)';
 $query=$pdo->prepare($sql);
 $query->execute([$login, $password]);
 
 
-header('Location: login.php');
+header('Location: auth.php');

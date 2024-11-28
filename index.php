@@ -29,7 +29,7 @@ z-index:10">
                     <li><a href="best_players.php" class="nav-link px-2 text-white tmsk">лучшие игроки</a></li>
                 </ul>
 
-                <div class="text-end">
+                <div class="text-end menu_item">
                     <a href="#" class="lk">
                         <p><?php isset($_COOKIE['login'])?></p>
                     </a>
@@ -37,16 +37,14 @@ z-index:10">
                     <?php
                                 if(isset($_COOKIE['login']))
                                     echo '<div class="text-end">
-                                    <a href="user_main.php" class="btn btn-outline-light me-2 lk">Личный кабинет</a>
+                                        <a href="user_main.php" type="button" class="btn btn-outline-light me-2 lk">Личный кабинет</a>
                                     </div>';
                                 else
                                     echo '<div class="text-end">
-                                    <a type="button" href="auth.php" class="btn btn-outline-light me-2">Login</a>
-                                    <a type="button" href="login.php" class="btn btn-warning">Sign-up</a>
+                                    <a type="button" href="login.php" class="btn btn-outline-light me-2">Login</a>
+                                    <a type="button" href="auth.php" class="btn btn-warning">Sign-up</a>
                                     </div>'
-                            ?> 
-                    </div>
-                </div>
+                    ?>
             </div>
         </div>
 </header>
@@ -200,6 +198,15 @@ z-index:10">
                     </a>
             </div>
         </div>
-    </promo>
+</promo>
+<footer class="py-3 my-4">
+    <div class="container">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="your_stats.php" class="nav-link px-2 text-body-secondary text-white">личная статистика</a></li>
+          <li class="nav-item"><a href="meta_herous.php" class="nav-link px-2 text-body-secondary text-white">meta herous</a></li>
+          <li class="nav-item"><a href="best_players.php" class="nav-link px-2 text-body-secondary text-white">лучшие игроки</a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>

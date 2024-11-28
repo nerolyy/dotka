@@ -182,3 +182,6 @@
     animation-delay: 0s;
     animation-iteration-count: 1;
 }
+.bs {
+    height: 130% !important;
+}

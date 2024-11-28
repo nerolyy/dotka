@@ -172,9 +172,9 @@ z-index:10">
                 </a>
             </div>
             <div class="category_box_row">
-                    <a href="antimage.php" class="category_box bg-dark">
-                        <img src="fonts/Anti-mage.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Anti-mage</h1>
+                    <a href="alchemist.php" class="category_box bg-dark">
+                        <img src="fonts/Alhimik.svg" stile="width=115px; height=115px;">
+                        <h1 class="hero_name">Alchemist</h1>
                     </a>
                     <a href="arc_warden.php" class="category_box bg-dark">
                         <img src="fonts/Arc.svg" stile="width=115px; height=115px;">

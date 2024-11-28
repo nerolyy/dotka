@@ -77,16 +77,16 @@ z-index:10">
                         <img src="fonts/Bristle.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bristleback</h1>
                     </a>
-                    <a href="#" class="category_box">
+                    <a href="centaur.php" class="category_box">
                         <img src="fonts/centaur.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Centaur Warrunner</h1>
                     </a>
-                    <a href="#" class="category_box">
+                    <a href="chaos_knight.php" class="category_box">
                         <img src="fonts/chaos knight.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Chaos Knight</h1>
                     </a>
-                    <a href="#" class="category_box">
-                        <img src="fonts/Dawnbreaker.svg" stile="width=115px; height=115px;">
+                    <a href="dawnbreaker.php" class="category_box">
+                        <img src="fonts\Doom.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Dawnbreaker</h1>
                     </a>
             </div>

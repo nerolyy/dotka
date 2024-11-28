@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="imgskills\bounty_hunter.gif" alt="">
+            <img src="img\heroavatar\bounty_hunter.webp" alt="">
             <h2>Bounty Hunter</h2>
         </div>
         <div class="info">

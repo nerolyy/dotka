@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\lina.gif" alt="">
+            <img src="img\heroavatar\lina.webp" alt="">
             <h2>Lina</h2>
         </div>
         <div class="info">

@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\arcwarden.jpg" alt="">
+            <img src="img\heroavatar\arcwarden.webp" alt="">
             <h2>Arc Warden</h2>
         </div>
         <div class="info">

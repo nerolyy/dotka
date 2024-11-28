@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\venga.jpg" alt="">
+            <img src="img\heroavatar\venga.webp" alt="">
             <h2>Vengeful Spirit</h2>
         </div>
         <div class="info">

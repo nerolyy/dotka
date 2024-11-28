@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\mirana.gif" alt="">
+            <img src="img\heroavatar\mirana.webp" alt="">
             <h2>Mirana</h2>
         </div>
         <div class="info">

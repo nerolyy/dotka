@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\clinkz.png" alt="">
+            <img src="img\heroavatar\clinkz.webp" alt="">
             <h2>Clinkz</h2>
         </div>
         <div class="info">

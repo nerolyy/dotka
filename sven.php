@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\sven.jpg" alt="">
+            <img src="img\heroavatar\sven.webp" alt="">
             <h2>Sven</h2>
         </div>
         <div class="info">

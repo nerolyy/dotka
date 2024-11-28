@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\razor.jpg" alt="">
+            <img src="img\heroavatar\razor.webp" alt="">
             <h2>Razor</h2>
         </div>
         <div class="info">

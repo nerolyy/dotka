@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\kunka.jpg" alt="">
+            <img src="img\heroavatar\kunkka.webp" alt="">
             <h2>Kunkka</h2>
         </div>
         <div class="info">

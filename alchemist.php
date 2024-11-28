@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\alchemist.png" alt="">
+            <img src="img\heroavatar\Alchemist_Large.png" alt="">
             <h2>Alchemist</h2>
         </div>
         <div class="info">

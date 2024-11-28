@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\storm_spirit.png" alt="">
+            <img src="img\heroavatar\storm_spirit.webp" alt="">
             <h2>Storm Spirit</h2>
         </div>
         <div class="info">

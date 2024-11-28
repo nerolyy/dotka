@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\pudge.gif" alt="">
+            <img src="img\heroavatar\pudgero.webp" alt="">
             <h2>Pudge</h2>
         </div>
         <div class="info">

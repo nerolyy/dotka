@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\bloodseeker.gif" alt="">
+            <img src="img\heroavatar\Bloodseeker_profilpic.webp" alt="">
             <h2>Bloodseker</h2>
         </div>
         <div class="info">

@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\drow_ranger.gif" alt="">
+            <img src="img\heroavatar\drow-ranger.jpg" alt="">
             <h2>Drow Ranger</h2>
         </div>
         <div class="info">

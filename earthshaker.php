@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\earthshaker.gif" alt="">
+            <img src="img\heroavatar\earthshaker.webp" alt="">
             <h2>Earthshaker</h2>
         </div>
         <div class="info">

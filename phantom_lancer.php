@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\pl.jpg" alt="">
+            <img src="img\heroavatar\pl.webp" alt="">
             <h2>Phantom Lancer</h2>
         </div>
         <div class="info">

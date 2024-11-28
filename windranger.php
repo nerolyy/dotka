@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\windranger.gif" alt="">
+            <img src="img\heroavatar\windranger.webp" alt="">
             <h2>Windranger</h2>
         </div>
         <div class="info">

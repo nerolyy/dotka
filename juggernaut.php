@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\juggernaut.gif" alt="">
+            <img src="img\heroavatar\juggernaut.webp" alt="">
             <h2>Juggernaut</h2>
         </div>
         <div class="info">

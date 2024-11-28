@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\sand_king.jpg" alt="">
+            <img src="img\heroavatar\sand_king.webp" alt="">
             <h2>Sand King</h2>
         </div>
         <div class="info">

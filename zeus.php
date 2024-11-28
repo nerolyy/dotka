@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\zeus.gif" alt="">
+            <img src="img\heroavatar\zeus.webp" alt="">
             <h2>Zeus</h2>
         </div>
         <div class="info">

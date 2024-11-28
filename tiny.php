@@ -91,7 +91,7 @@ background-color: #212121;">
         </header>
         <main>
         <div class="name">
-            <img src="img\heroavatar\tiny.gif" alt="">
+            <img src="img\heroavatar\tiny.webp" alt="">
             <h2>Tiny</h2>
         </div>
         <div class="info">

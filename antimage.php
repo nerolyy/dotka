@@ -91,7 +91,6 @@ background-color: #212121;">
                         <div class="romb"></div>
                         <div class="romb"></div>
                     </div>
-                </div>  
-        </div>
+                </div> 
     </div>
 </main>

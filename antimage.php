@@ -88,9 +88,9 @@ background-color: #212121;">
                     <div class="complexity">Сложность</div>
                     <div class="complexity-row">
                         <div class="romb w-r"></div>
-                        <div class="romb"></div>
+                        <div class="romb "></div>
                         <div class="romb"></div>
                     </div>
                 </div> 
     </div>
-</main>
+</main> 

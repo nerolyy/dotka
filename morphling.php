@@ -61,7 +61,7 @@ background-color: #212121;">
                 <div class="antimage video">
                 <video class="_22nJ5nsfHDS2jEscPEne0- " poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/morphling.png" autoplay preload="auto" loop playsinline>
                         <source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/morphling.mov">
-                        <source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/morphling.webm?undefined"><img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/morphling.png">
+                        <source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/morphling.webm?undefined"><img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/morphling     .png">
                     </video>
                 </div>
             </div>

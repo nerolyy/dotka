@@ -46,3 +46,8 @@ z-index:10">
             </div>
         </div>
 </header>
+<main> 
+    <audio controls class="music_player">
+    <source src="music/ЕГОР КРИД, 9mice, Kai Angel - HELL.mp3">
+    </audio>
+</main>

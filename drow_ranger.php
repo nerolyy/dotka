@@ -59,9 +59,9 @@ background-color: #212121;">
         <div class="hero-continer">
             <div class="hero-vido_container">
                 <div class="antimage video">
-                    <video class="_22nJ5nsfHDS2jEscPEne0-" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.mov" autoplay preload="auto" loop playsinline>
-                        <source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.webm?undefined">
-                        <img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.png">
+                    <video class="_22nJ5nsfHDS2jEscPEne0-" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/drow_ranger.mov" autoplay preload="auto" loop playsinline>
+                        <source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/drow_ranger.mov">
+                        <source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/drow_ranger.webm?undefined"><img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/drow_ranger.png">
                     </video>
                 </div>
             </div>

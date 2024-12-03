@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b8991598b2.js"></script>
-    <link rel="stylesheet" href="css/reset.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="css/promo.css">
-    <link rel="stylesheet" href="css/last.css">
-    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/herous.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:" rel="stylesheet">
 
@@ -20,96 +19,78 @@
     </style>
     <title></title>
 </head>
-<body style="background-image: url('fonts/mainfont.svg');
+<header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="index.php" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <img class="bi me-2 tmsk" src="img/dotalogo.svg" width="109" height="22" role="img" aria-label="Bootstrap">
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="your_stats.php" class="nav-link px-2 text-white tmsk">личная статистика</a></li>
+                    <li><a href="meta_herous.php" class="nav-link px-2 text-white tmsk">meta herous</a></li>
+                    <li><a href="best_players.php" class="nav-link px-2 text-white tmsk">лучшие игроки</a></li>
+                </ul>
+
+                <div class="text-end menu_item">
+                    <a href="#" class="lk">
+                        <p><?php isset($_COOKIE['login'])?></p>
+                    </a>
+                </div>
+                    <?php
+                                if(isset($_COOKIE['login']))
+                                    echo '<div class="text-end">
+                                        <a href="user_main.php" type="button" class="btn btn-outline-light me-2 lk">Личный кабинет</a>
+                                    </div>';
+                                else
+                                    echo '<div class="text-end">
+                                    <a type="button" href="login.php" class="btn btn-outline-light me-2">Login</a>
+                                    <a type="button" href="auth.php" class="btn btn-warning">Sign-up</a>
+                                    </div>'
+                    ?>
+            </div>
+        </div>
+</header>
+<main style="background-image: url('fonts/greyfade.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-color: #212121;">
-        <header>
-            <div class="top_row">
-                <div class="container">
-                    <div class="col-50">
-                        <ul class="left_side">
-                            <div class="menu_item">
-                                <div class="dota_logo_menu">
-                                    <a href="index.php" class="dota_logo">
-                                        <img src="img/dotalogo.svg" alt="" class="dota_logo_img">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="menu_item">
-                                <details class="menu_menu_more">
-                                <summary>
-                                    <img src="img/more.svg" alt="" class="menu_menu_img">
-                                </summary>
-                                <div class="more_line">
-                                    <ul class="menu_more">
-                                        <div class="item">
-                                            <a href="#" class="your_stats">
-                                                <span class="vibor">личная статистика</span> 
-                                            </a>
-                                        </div>
-                                        <div class="item">
-                                            <a href="#" class="meta_herous">
-                                                <span class="vibor">meta herous</span>
-                                            </a>
-                                        </div>
-                                        <div class="item">
-                                            <a href="#" class="top_players">
-                                                <span class="vibor">лучшие игроки</span>
-                                            </a>
-                                        </div>
-                                    </ul>
-                                </div>
-                                </details>
-                            </div>
-                        </ul>
-                    </div>
-                    <div class="col-50">
-                        <ul class="right_side">
-                            <div class="menu_item">
-                                <a href="#" class="mail_href">
-                                    <img src="img/mail.svg" alt="" class="mail_img">
-                                </a>
-                            </div>
-                            <div class="menu_item">
-                                <a href="#" class="kolokol_href">
-                                    <img id="image" src="img/kolokol.svg" onClick="imgsrc();" class="kolokol_img">
-                                </a>
-                            </div>
-                            <div class="menu_item">
-                                <a href="#" class="setings_href">
-                                    <img src="img/Layer 10.svg" alt="" class="setings_img">
-                                </a>
-                            </div>
-                            <div class="menu_item">
-                            <a href="login.php" class="btn">Login</a>
-                            </div>
-                        </ul>
-                    </div>
+    <div class="all-hero-inf">
+        <div class="hero-continer">
+            <div class="hero-vido_container">
+                <div class="antimage video">
+                    <video class="_22nJ5nsfHDS2jEscPEne0-" poster="fonts/antimage.mov" autoplay preload="auto" loop playsinline>
+                        <source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/antimage.mov">
+                        <source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/antimage.webm?undefined"><img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/antimage.png">
+                    </video>
                 </div>
             </div>
-        </header>
-        <main>
-        <div class="name">
-            <img src="img\heroavatar\Dawnbreaker.webp" alt="">
-            <h2>Dawnbreaker</h2>
-        </div>
-        <div class="info">
-            <p>
-               Краткое описание героя<br><br> Dawnbreaker проявляет себя в гуще боя, с радостью круша врагов своим небесным молотом и излечивая союзников вокруг. Она охотно швырнёт свой молот в противников, чтобы воссоединиться с ним в пламенном полёте, и всегда готова обратиться к своей истинной космической мощи, чтобы прилететь на помощь союзникам, где бы они ни были, и разгромить неприятеля.
-            </p> 
-               <br>Способности:<br> <img src="imgskills\dawnbreaker_fire_wreath.png" alt=""><p1>Starbreaker</p1>
-                <br>Герой 3 раза вращает молотом вокруг себя, нанося врагам увеличенный урон от своей атаки. С последним взмахом герой бьёт молотом по земле, оглушая врагов перед собой и нанося им урон.
-                <br>
-                    <img src="imgskills\dawnbreaker_celestial_hammer.png" alt=""><p1>Celestial Hammer</p1>
-               <br>Герой бросает свой молот в цель, нанося урон всем врагам на пути. Молот застывает на месте на 2 сек., а затем возвращается, оставляя за собой замедляющий огненный след. Герой может воззвать к своему молоту и раньше, чтобы полететь ему навстречу и встретиться посередине.
-               <br>
-                    <img src="imgskills\dawnbreaker_luminosity.png" alt=""><p1>Luminosity</p1>
-               <br>Каждая атака по герою наносит урон и атакующему. Помимо базового урона наносится дополнительный, зависящий от силы владельца способности. Наносит башням половину урона.
-               <br>
-                    <img src="imgskills\dawnbreaker_solar_guardian.png" alt=""><p1>Solar Guardian</p1>
-               <br>ПРЕРЫВАЕМАЯ — герой создаёт пульсирующий эффект в радиусе 350 от любого союзного героя. Каждая пульсация наносит урон врагам и излечивает союзников. После небольшой подготовки герой летит в указанную область, при приземлении нанося врагам дополнительный урон и оглушая их. Начав применение этой способности, её нельзя прервать.
-               <br>
-           
-        </div>
-        </main>
+            <div class="text-hero-container">
+                <div class="atribut-row">
+                    <img src="img\hero_strength.png" class="atribut-png">
+                    <div class="atribut_name">Сила</div>
+                </div>
+                <div class="h1-tekst">Dawnbreaker</div>
+                <div class="deskription-hero-text">Прилетает на помощь союзникам, где бы они ни были</div>
+                <div class="b-deskription-hero-text-container">
+                    <div class="hero-story">
+                        <div class="h-s-text f-b">Dawnbreaker проявляет себя в гуще боя, с радостью круша врагов своим небесным молотом и излечивая союзников вокруг.<span class="f-b">Она охотно швырнёт свой молот в противников, чтобы воссоединиться с ним в пламенном полёте, </span>  
+                        <span class="f-b">и всегда готова обратиться к своей истинной космической мощи,</span>чтобы прилететь на помощь союзникам, где бы они ни были, и разгромить неприятеля.
+                    </div>
+                    <div>
+                        <div class="atack-type">Тип атаки</div>
+                        <div class="atack-type-row">
+                            <img class="atack-type-img" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/melee.svg">
+                        <div class="atack-range">Ближний бой</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="complexity">Сложность</div>
+                    <div class="complexity-row">
+                        <div class="romb w-r"></div>
+                        <div class="romb"></div>
+                        <div class="romb"></div>
+                    </div>
+                </div> 
+    </div>
+</main> 

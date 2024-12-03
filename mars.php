@@ -70,12 +70,12 @@ background-color: #212121;">
                     <img src="img\hero_strength.png" class="atribut-png">
                     <div class="atribut_name">Сила</div>
                 </div>
-                <div class="h1-tekst">Chaos Knight </div>
-                <div class="deskription-hero-text">Наносит высокий, но случайный урон</div>
+                <div class="h1-tekst">Mars</div>
+                <div class="deskription-hero-text">Запирает врагов в своей арене</div>
                 <div class="b-deskription-hero-text-container">
                     <div class="hero-story">
-                        <div class="h-s-text f-b">Chaos Knight — сам по себе армия. Он способен призывать кавалерию своих двойников и разрушать постройки врага,<span class="f-b">а когда покажутся защитники, </span>  
-                        <span class="f-b">он расколет реальность и перенесёт себя и свои копии на расстояние, достаточное для рокового взмаха булавы.</span>
+                        <div class="h-s-text f-b">Mars рождён для сражений: он пронзает врагов своим легендарным копьём, а от нападений его защищает смертоносный щит.<span class="f-b">Окружив противника солдатами своего верного легиона,</span>  
+                        <span class="f-b">покровитель воинов не позволяет ему сбежать, и даже самая безнадёжная схватка окажется во власти бога войны — ведь численное преимущество всегда на его стороне.</span>
                     </div>
                     <div>
                         <div class="atack-type">Тип атаки</div>

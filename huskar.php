@@ -70,18 +70,18 @@ background-color: #212121;">
                     <img src="img\hero_strength.png" class="atribut-png">
                     <div class="atribut_name">Сила</div>
                 </div>
-                <div class="h1-tekst">Chaos Knight </div>
-                <div class="deskription-hero-text">Наносит высокий, но случайный урон</div>
+                <div class="h1-tekst">Huskar</div>
+                <div class="deskription-hero-text">Жертвует своим здоровьем, чтобы наносить больше урона</div>
                 <div class="b-deskription-hero-text-container">
                     <div class="hero-story">
-                        <div class="h-s-text f-b">Chaos Knight — сам по себе армия. Он способен призывать кавалерию своих двойников и разрушать постройки врага,<span class="f-b">а когда покажутся защитники, </span>  
-                        <span class="f-b">он расколет реальность и перенесёт себя и свои копии на расстояние, достаточное для рокового взмаха булавы.</span>
+                        <div class="h-s-text f-b">Чем меньше у Huskar здоровья, тем опаснее он становится.<span class="f-b">Своим ультом он мгновенно лишает себя и противника части здоровья, </span>  
+                        <span class="f-b">а на грани смерти может обрушить на своих врагов шквал горящих копий.</span>
                     </div>
                     <div>
                         <div class="atack-type">Тип атаки</div>
                         <div class="atack-type-row">
-                            <img class="atack-type-img" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/melee.svg">
-                        <div class="atack-range">Ближний бой</div>
+                            <img class="atack-type-img" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/ranged.svg">
+                        <div class="atack-range">Дальний бой</div>
                     </div>
                 </div>
                 <div>

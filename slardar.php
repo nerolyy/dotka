@@ -70,12 +70,12 @@ background-color: #212121;">
                     <img src="img\hero_strength.png" class="atribut-png">
                     <div class="atribut_name">Сила</div>
                 </div>
-                <div class="h1-tekst">Chaos Knight </div>
-                <div class="deskription-hero-text">Наносит высокий, но случайный урон</div>
+                <div class="h1-tekst">Slardar</div>
+                <div class="deskription-hero-text">Преследует, ослабляет и оглушает врагов</div>
                 <div class="b-deskription-hero-text-container">
                     <div class="hero-story">
-                        <div class="h-s-text f-b">Chaos Knight — сам по себе армия. Он способен призывать кавалерию своих двойников и разрушать постройки врага,<span class="f-b">а когда покажутся защитники, </span>  
-                        <span class="f-b">он расколет реальность и перенесёт себя и свои копии на расстояние, достаточное для рокового взмаха булавы.</span>
+                        <div class="h-s-text f-b">Всегда готовый найти и сокрушить врагов Slardar шустро вползает в битву.<span class="f-b">Раскрыв расположение противника и разрушив его броню,</span>  
+                        <span class="f-b">он сокращает расстояние до жертвы и держит её на месте сокрушительными водными всплесками и оглушающими ударами своего внушительного трезубца.</span>
                     </div>
                     <div>
                         <div class="atack-type">Тип атаки</div>

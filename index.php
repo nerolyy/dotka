@@ -25,7 +25,7 @@ z-index:10">
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="your_stats.php" class="nav-link px-2 text-white tmsk">личная статистика</a></li>
-                    <li><a href="meta_herous.php" class="nav-link px-2 text-white tmsk">meta herous</a></li>
+                    <li><a href="meta_herous.php" class="nav-link px-2 text-white tmsk">music</a></li>
                     <li><a href="best_players.php" class="nav-link px-2 text-white tmsk">лучшие игроки</a></li>
                 </ul>
 

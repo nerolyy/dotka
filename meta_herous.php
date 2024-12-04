@@ -49,7 +49,7 @@ z-index:10">
     <script>
         let array = [
             ['music/smaller_then_3.jpeg', 'music/god system.jpg', 'music/smaller_then_3.jpeg', 'music/smaller_then_3.jpeg', 'music/smaller_then_3.jpeg'],
-            ['HELL', 'VICTIM', 'трек-3', 'трек-4', 'трек-5', 'трек-6'],
+            ['HELL', 'VICTIM', 'Одиноко', 'Dubsova', 'трек-5', 'трек-6'],
             ['Егор Крид • 9mice • Kai Angel', 'Kai Angel', 'Егор Крид', 'Егор Крид', 'Егор Крид', 'Егор Крид'],
             ['music/track0.mp3', 'music/kai-angel-victim-mp3.mp3', 'music/ЕГОР КРИД - Одиноко.mp3', 'music/ЕГОР КРИД - DUBTSOVA.mp3', 'music/ЕГОР КРИД - RM  PUSSY BOY 2.mp3'],
         ];

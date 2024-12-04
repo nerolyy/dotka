@@ -48,12 +48,12 @@ z-index:10">
 <div class="main_music_container">
     <script>
         let array = [
-            ['music/smaller_then_3.jpeg', 'music/god system.jpg', 'music/smaller_then_3.jpeg', 'music/smaller_then_3.jpeg', 'music/smaller_then_3.jpeg'],
-            ['HELL', 'VICTIM', 'Одиноко', 'Dubsova', 'RM'],
-            ['Егор Крид • 9mice • Kai Angel', 'Kai Angel', 'Егор Крид', 'Егор Крид', 'Егор Крид', 'Егор Крид'],
-            ['music/track0.mp3', 'music/kai-angel-victim-mp3.mp3', 'music/ЕГОР КРИД - Одиноко.mp3', 'music/ЕГОР КРИД - DUBTSOVA.mp3', 'music/ЕГОР КРИД - RM  PUSSY BOY 2.mp3'],
+            ['music/smaller_then_3.jpeg', 'music/god system.jpg', 'music/Моргенштерн_—_12.jpg', 'music/smaller_then_3.jpeg', 'music/smaller_then_3.jpeg'],
+            ['HELL', 'VICTIM', '12', 'Dubsova', 'RM'],
+            ['Егор Крид • 9mice • Kai Angel', 'Kai Angel', 'MORGENSHTERN', 'Егор Крид', 'Егор Крид', 'Егор Крид'],
+            ['music/track0.mp3', 'music/kai-angel-victim-mp3.mp3', 'music/MORGENSHTERN  – 12.mp3', 'music/ЕГОР КРИД - DUBTSOVA.mp3', 'music/ЕГОР КРИД - RM  PUSSY BOY 2.mp3'],
         ];
-
+        let url = '/music'
         let audio = new Audio();
         let song = document.querySelector('.song');
         let index = 0; // трек по умолчанию
@@ -69,16 +69,10 @@ z-index:10">
             image.src = array[0][ind];
             document.querySelector('.track').innerText = array[1][ind];
             document.querySelector('.artist').innerText = array[2][ind];
-            
-
             audio.src = array[3][ind];
-            
-
             audio.onloadedmetadata = function() {
                 duration.innerText = formatingTime(this.duration);
             };
-            
-      
             audio.play();
         }
 
@@ -116,6 +110,7 @@ z-index:10">
     <div class="cards">
         <div class="tracks_list" id="track-play-gruppy">
             <img id=image src="music/smaller_then_3.jpeg" alt="">
+            <audio src="music/track0.mp3"></audio>
             <div class="name_container">
                 <div class="track">HELL</div>
                 <div class="artist">Егор Крид • 9mice • Kai Angel</div>

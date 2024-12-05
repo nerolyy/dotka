@@ -58,24 +58,25 @@ background-color: #212121;">
     <div class="all-hero-inf">
         <div class="hero-continer">
             <div class="hero-vido_container">
-                <div class="antimage video">
-                <video class="_22nJ5nsfHDS2jEscPEne0-" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.png" autoplay="" preload="auto" loop="" playsinline=""><source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.mov"><source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.webm?undefined">
-                <img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.png"></video>
-                </div>
+            <div class="antimage video">
+            <video class="_22nJ5nsfHDS2jEscPEne0-" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/luna.png" autoplay="" preload="auto" loop="" playsinline=""><source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/luna.mov"><source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/luna.webm?undefined">
+            <img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/luna.png"></video>
+            </div>
             </div>
             <div class="text-hero-container">
                 <div class="atribut-row">
-                    <img src="img\hero_agility.png" class="atribut-png">
+                    <img src="img/hero_agility.png" class="atribut-png">
                     <div class="atribut_name">Ловкость</div>
                 </div>
-                <div class="h1-tekst">Shadow Fiend</div>
-                <div class="deskription-hero-text">Наносит урон, выпуская из себя души павших врагов</div>
+                <div class="h1-tekst">Luna</div>
+                <div class="deskription-hero-text">Бросает во врагов отскакивающие снаряды</div>
                 <div class="b-deskription-hero-text-container">
                     <div class="hero-story">
-                        <div class="h-s-text f-b">  <span class="f-b">Shadow Fiend становится сильнее с каждой полученной душой</span> убитого им существа. Каждое убийство,
-                        <span class="f-b">каждое точное попадание опустошающими чарами приближает</span> смертоносный удар энергии выпущенных на волю душ.
+                        <div class="h-s-text f-b">Luna быстро врывается в битву, кромсая противника своими отскакивающими атаками. <span class="f-b">Если враги идут в наступление, она призывает на помощь силу Луны</span> 
+                        <span class="f-b"> и сокрушает их жгучим лучом или лунным градом.</span>
+                    </div>
                     <div>
-                        <div class="atack-type">Тип атаки</div>
+                         <div class="atack-type">Тип атаки</div>
                         <div class="atack-type-row">
                             <img class="atack-type-img" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/ranged.svg">
                         <div class="atack-range">Дальний бой</div>
@@ -85,9 +86,9 @@ background-color: #212121;">
                     <div class="complexity">Сложность</div>
                     <div class="complexity-row">
                         <div class="romb w-r"></div>
-                        <div class="romb w-r"></div>
-                        <div class="romb "></div>
+                        <div class="romb"></div>
+                        <div class="romb"></div>
                     </div>
                 </div> 
     </div>
-</main>
+</main> 

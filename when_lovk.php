@@ -95,49 +95,49 @@ z-index:10">
                         <img src="fonts/ember spirit.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Ember Spirit</h1>
                     </a>
-                    <a class="category_box">
+                    <a href = "faceless_void.php" class="category_box">
                         <img src="fonts/Fac_void.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Faceless Void</h1>
                     </a>
-                    <a class="category_box">
+                    <a href = "gyrocopter.php" class="category_box">
                         <img src="fonts/gyrocopter.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Gyrocopter</h1>
                     </a>
-                    <a class="category_box">
+                    <a href = "hoodwink.php" class="category_box">
                         <img src="fonts/hoodwink.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Hoodwink</h1>
                     </a>
-                    <a class="category_box">
+                    <a href = "juggernaut.php" class="category_box">
                         <img src="fonts/juger.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Juggernaut</h1>
                     </a>
-                    <a class="category_box">
+                    <a href = "luna.php" class="category_box">
                         <img src="fonts/luna.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Luna</h1>
                     </a>
             </div>
             <div class="category_box_row">
-                <a class="category_box">
+                <a href = "razor.php" class="category_box">
                     <img src="fonts/raz.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Razor</h1>
                 </a>
-                <a class="category_box">
+                <a href = "phantom_lancer.php" class="category_box">
                     <img src="fonts/pl.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Phantom Lancer</h1>
                 </a>
-                <a class="category_box">
+                <a href = "shadow_fiend.php" class="category_box">
                     <img src="fonts/sf.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Shadow Fiend</h1>
                 </a>
-                <a class="category_box">
+                <a href = "sniper.php" class="category_box">
                     <img src="fonts/sniper.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Sniper</h1>
                 </a>
-                <a class="category_box">
+                <a href = "spectre.php" class="category_box">
                     <img src="fonts/spectra.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Spectre</h1>
                 </a>
-                <a class="category_box">
+                <a href = "ta.php" class="category_box">
                     <img src="fonts/templat_assasin.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Templar Assassin</h1>
                 </a>

@@ -59,35 +59,36 @@ background-color: #212121;">
         <div class="hero-continer">
             <div class="hero-vido_container">
                 <div class="antimage video">
-                <video class="_22nJ5nsfHDS2jEscPEne0-" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.png" autoplay="" preload="auto" loop="" playsinline=""><source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.mov"><source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.webm?undefined">
-                <img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nevermore.png"></video>
+                <video class="_22nJ5nsfHDS2jEscPEne0-" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/faceless_void.png" autoplay="" preload="auto" loop="" playsinline=""><source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/faceless_void.mov"><source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/faceless_void.webm?undefined">
+                <img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/faceless_void.png"></video>
                 </div>
             </div>
             <div class="text-hero-container">
                 <div class="atribut-row">
-                    <img src="img\hero_agility.png" class="atribut-png">
+                    <img src="img/hero_agility.png" class="atribut-png">
                     <div class="atribut_name">Ловкость</div>
                 </div>
-                <div class="h1-tekst">Shadow Fiend</div>
-                <div class="deskription-hero-text">Наносит урон, выпуская из себя души павших врагов</div>
+                <div class="h1-tekst">Faceless Void</div>
+                <div class="deskription-hero-text">Может остановить время для врагов</div>
                 <div class="b-deskription-hero-text-container">
                     <div class="hero-story">
-                        <div class="h-s-text f-b">  <span class="f-b">Shadow Fiend становится сильнее с каждой полученной душой</span> убитого им существа. Каждое убийство,
-                        <span class="f-b">каждое точное попадание опустошающими чарами приближает</span> смертоносный удар энергии выпущенных на волю душ.
+                        <div class="h-s-text f-b">Для Faceless Void важна каждая секунда. Он стремительно перемещается, <span class="f-b">ускорив ход времени, а затем, манипулируя им, уклоняется от ударов, </span>  
+                        <span class="f-b"> останавливает его на большой территории и уничтожает замерших врагов.</span>  Имея в своём распоряжении достаточно времени, он становится невероятно могучим.
+                    </div>
                     <div>
                         <div class="atack-type">Тип атаки</div>
                         <div class="atack-type-row">
-                            <img class="atack-type-img" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/ranged.svg">
-                        <div class="atack-range">Дальний бой</div>
+                            <img class="atack-type-img" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/melee.svg">
+                        <div class="atack-range">Ближний бой</div>
                     </div>
                 </div>
                 <div>
                     <div class="complexity">Сложность</div>
                     <div class="complexity-row">
                         <div class="romb w-r"></div>
-                        <div class="romb w-r"></div>
-                        <div class="romb "></div>
+                        <div class="romb w-r "></div>
+                        <div class="romb"></div>
                     </div>
                 </div> 
     </div>
-</main>
+</main> 

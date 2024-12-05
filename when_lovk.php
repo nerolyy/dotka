@@ -73,7 +73,7 @@ z-index:10">
                         <img src="fonts/Arc.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Arc Warden</h1>
                     </a>
-                    <a href="antimage.php" class="category_box">
+                    <a href="bloodseeker.php" class="category_box">
                         <img src="fonts/bloodsecer.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bloodseker</h1>
                     </a>
@@ -91,7 +91,7 @@ z-index:10">
                     </a>
             </div>
             <div class="category_box_row">
-                    <a class="category_box">
+                    <a href = "ember.php" class="category_box">
                         <img src="fonts/ember spirit.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Ember Spirit</h1>
                     </a>
@@ -142,32 +142,7 @@ z-index:10">
                     <h1 class="hero_name">Templar Assassin</h1>
                 </a>
             </div>
-            <div class="category_box_row">
-                <a class="category_box">
-                    <img src="fonts/Tiny.svg" stile="width=115px; height=115px;">
-                    <h1 class="hero_name">Terrorblade</h1>
-                </a>
-                <a class="category_box">
-                    <img src="fonts/venga.svg" stile="width=115px; height=115px;">
-                    <h1 class="hero_name">Vengeful Spirit</h1>
-                </a>
-                <a class="category_box">
-                    <img src="fonts/windranger.svg" stile="width=115px; height=115px;">
-                    <h1 class="hero_name">Windranger</h1>
-                </a>
-                <a class="category_box">
-                    <img src="fonts/Zeus.svg" stile="width=115px; height=115px;">
-                    <h1 class="hero_name">Zeus</h1>
-                </a>
-                <a class="category_box">
-                    <img src="fonts/Kunka.svg" stile="width=115px; height=115px;">
-                    <h1 class="hero_name">Kunkka</h1>
-                </a>
-                <a class="category_box">
-                    <img src="fonts/Lina.svg" stile="width=115px; height=115px;">
-                    <h1 class="hero_name">Lina</h1>
-                </a>
-            </div>
+            
         </div>
     </promo>
 </body>

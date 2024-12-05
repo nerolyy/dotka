@@ -59,10 +59,7 @@ background-color: #212121;">
         <div class="hero-continer">
             <div class="hero-vido_container">
                 <div class="antimage video">
-                    <video class="_22nJ5nsfHDS2jEscPEne0-" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.mov" autoplay preload="auto" loop playsinline>
-                        <source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.webm?undefined">
-                        <img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/arc_warden.png">
-                    </video>
+                <div class="_2fhX1TTRFtYguzNm8eFp1t" style="background-image: url(&quot;https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/facets/ripple_texture.png&quot;);"></div>
                 </div>
             </div>
             <div class="text-hero-container">

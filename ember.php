@@ -59,21 +59,21 @@ background-color: #212121;">
         <div class="hero-continer">
             <div class="hero-vido_container">
                 <div class="antimage video">
-                <video class="_22nJ5nsfHDS2jEscPEne0-" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earth_spirit.png" autoplay="" preload="auto" loop="" playsinline=""><source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earth_spirit.mov"><source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earth_spirit.webm?undefined">
-                <img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earth_spirit.png"></video>
+                <video class="_22nJ5nsfHDS2jEscPEne0-" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ember_spirit.png" autoplay="" preload="auto" loop="" playsinline=""><source type="video/mp4; codecs=&quot;hvc1&quot;" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ember_spirit.mov"><source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ember_spirit.webm?undefined">
+                <img src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ember_spirit.png"></video>
                 </div>
             </div>
             <div class="text-hero-container">
                 <div class="atribut-row">
-                    <img src="img\hero_strength.png" class="atribut-png">
-                    <div class="atribut_name">Сила</div>
+                    <img src="img/hero_agility.png" class="atribut-png">
+                    <div class="atribut_name">Ловкость</div>
                 </div>
-                <div class="h1-tekst">Earth Spirit</div>
-                <div class="deskription-hero-text">Выводит врагов из строя и меняет их позицию</div>
+                <div class="h1-tekst">Ember Spirit</div>
+                <div class="deskription-hero-text">Стремительно атакует и связывает врагов</div>
                 <div class="b-deskription-hero-text-container">
                     <div class="hero-story">
-                        <div class="h-s-text f-b">Earth Spirit держит противников в смятении и поддерживает друзей в бою.<span class="f-b">Приспосабливаясь к ходу любой битвы, </span>  
-                        <span class="f-b">он наносит врагам урон своими каменными копиями и спасает товарищей, вырывая их из объятий смерти.</span>
+                        <div class="h-s-text f-b">Ловкий и неуловимый Ember Spirit стремительно атакует всех врагов вокруг и связывает их горящими цепями. <span class="f-b">Он быстро перемещается по полю битвы с помощью своих взрывающихся копий, </span> 
+                        <span class="f-b">и немногие смогут избежать пламени или обуздать его.</span>
                     </div>
                     <div>
                         <div class="atack-type">Тип атаки</div>
@@ -87,7 +87,7 @@ background-color: #212121;">
                     <div class="complexity-row">
                         <div class="romb w-r"></div>
                         <div class="romb w-r"></div>
-                        <div class="romb w-r"></div>
+                        <div class="romb"></div>
                     </div>
                 </div> 
     </div>

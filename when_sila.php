@@ -199,6 +199,7 @@ z-index:10">
                     <img src="fonts/wrath king.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Wraith King</h1>
                 </a>
+                
             </div>
         </div>
     </promo>

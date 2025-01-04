@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="like_button.js"></script>
     <title>Document</title>
+
 </head>
 <body style="background-image: url('fonts/mainfont.svg');
 background-repeat: no-repeat;
@@ -174,93 +178,10 @@ z-index:10">
             
         </div>
 </promo>
-<main>
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
-        <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
-        </div>
-        <div class="carousel-inner">
-        <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <div class="container">
-            <div class="carousel-caption text-start">
-            <promo class="herous">
-        <div class="herous_contauner">
-            <div class="category_box_row">
-                    <a href="antimage.php" class="category_box bg-dark">
-                        <img src="fonts/Anti-mage.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Anti-mage</h1>
-                    </a>
-                    <a href="arc_warden.php" class="category_box bg-dark">
-                        <img src="fonts/Arc.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Arc Warden</h1>
-                    </a>
-                    <a href="bloodseeker.php" class="category_box bg-dark">
-                        <img src="fonts/bloodsecer.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Bloodseker</h1>
-                    </a>
-                    <a href="bounty_hunter.php" class="category_box bg-dark">
-                        <img src="fonts/Bounty_hunter.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Bounty Hunter</h1>
-                    </a>
-                    <a href="clinkz.php" class="category_box bg-dark">
-                        <img src="fonts/clinz.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Clinkz</h1>
-                    </a>
-                    <a href="drow_ranger.php" class="category_box bg-dark">
-                        <img src="fonts/drow ranger.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Drow Ranger</h1>
-                    </a>
-                    <a href = "earthshaker.php"class="category_box bg-dark">
-                        <img src="fonts/earth.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Earthshaker</h1>
-                    </a>
-                    <a href = "juggernaut.php"class="category_box bg-dark">
-                        <img src="fonts/juger.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Juggernaut</h1>
-                    </a>
-            </div>
-        </div>
-</promo>
-                <h1>dexterity</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">whatch more herous</a></p>
-            </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <div class="container">
-            <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-            </div>
-            </div>
-        </div>
-        <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <div class="container">
-            <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-            </div>
-            </div>
-        </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</main>
+
+
+
+
 <footer class="py-3 my-4">
     <div class="container">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">

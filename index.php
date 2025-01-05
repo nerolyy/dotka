@@ -183,64 +183,10 @@ z-index:10">
             
         </div>
 </promo>
-<<<<<<< Updated upstream
 
 
 
 
-=======
-<main>
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light">
-        <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
-        </div>
-        <div class="carousel-inner">
-        <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <div class="container">
-            <div class="carousel-caption text-start">
-            <promo class="herous">
-        <div class="herous_contauner">
-            <div class="category_box_row">
-                    <a href="antimage.php" class="category_box bg-dark">
-                        <img src="fonts/Anti-mage.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Anti-mage</h1>
-                    </a>
-                    <a href="arc_warden.php" class="category_box bg-dark">
-                        <img src="fonts/Arc.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Arc Warden</h1>
-                    </a>
-                    <a href="bloodseeker.php" class="category_box bg-dark">
-                        <img src="fonts/bloodsecer.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Bloodseker</h1>
-                    </a>
-                    <a href="bounty_hunter.php" class="category_box bg-dark">
-                        <img src="fonts/Bounty_hunter.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Bounty Hunter</h1>
-                    </a>
-                    <a href="clinkz.php" class="category_box bg-dark">
-                        <img src="fonts/clinz.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Clinkz</h1>
-                    </a>
-                    <a href="drow_ranger.php" class="category_box bg-dark">
-                        <img src="fonts/drow ranger.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Drow Ranger</h1>
-                    </a>
-                    <a href = "earthshaker.php"class="category_box bg-dark">
-                        <img src="fonts/earth.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Earthshaker</h1>
-                    </a>
-                    <a href = "juggernaut.php"class="category_box bg-dark">
-                        <img src="fonts/juger.svg" stile="width=115px; height=115px;">
-                        <h1 class="hero_name">Juggernaut</h1>
-                    </a>
-            </div>
-        </div>
-</promo>
-</main>
->>>>>>> Stashed changes
 <footer class="py-3 my-4">
     <div class="container">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">

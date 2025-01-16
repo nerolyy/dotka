@@ -77,16 +77,11 @@ z-index:10">
             <img class="atribut_img" src="fonts/uni_atribut.svg">
         </a>
     </div>
-    <div class="atribut_black_row">
-        <div class="romb filter-romb" onclick="filterSelection('1st')"></div>
-        <div class="romb filter-romb" onclick="filterSelection('2nd')"></div>
-        <div class="romb filter-romb" onclick="filterSelection('3rd')"></div>
-    </div>
 </div>
 
 <div class="container_of_herous">
     
-                    <a href="antimage.php" class="category_box filterDiv lovk 1st">
+                    <a href="antimage.php" class="category_box filterDiv lovk">
                         <img src="fonts/Anti-mage.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Anti-mage</h1>
                     </a>

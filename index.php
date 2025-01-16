@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="scripts/filter.js"></script>
     <script src="like_button.js"></script>
     <title>Document</title>
 
@@ -32,7 +33,7 @@ z-index:10">
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="your_stats.php" class="nav-link px-2 text-white tmsk">личная статистика</a></li>
-                    <li><a href="meta_herous.php" class="nav-link px-2 text-white tmsk">music</a></li>
+                    <li><a href="meta_herous.php" class="nav-link px-2 text-white tmsk">meta_herous</a></li>
                     <li><a href="best_players.php" class="nav-link px-2 text-white tmsk">лучшие игроки</a></li>
                 </ul>
 
@@ -57,8 +58,6 @@ z-index:10">
 </header>
 <promo>
 
-
-
 <h1 class="pre_h1">Dota-heroes</h1>
 
 <div id="myBtnContainer" class="button_container">
@@ -81,152 +80,108 @@ z-index:10">
 
 <div class="container_of_herous">
     
-                    <a href="antimage.php" class="category_box filterDiv lovk">
+                    <a href="antimage.php" class="category_box filterDiv lovk show">
                         <img src="fonts/Anti-mage.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Anti-mage</h1>
                     </a>
-                    <a href="arc_warden.php" class="category_box category_box filterDiv lovk">
+                    <a href="arc_warden.php" class="category_box category_box filterDiv lovk show">
                         <img src="fonts/Arc.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Arc Warden</h1>
                     </a>
-                    <a href="bloodseeker.php" class="category_box category_box filterDiv lovk">
+                    <a href="bloodseeker.php" class="category_box category_box filterDiv lovk show">
                         <img src="fonts/bloodsecer.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bloodseker</h1>
                     </a>
-                    <a href="bounty_hunter.php" class="category_box category_box filterDiv lovk">
+                    <a href="bounty_hunter.php" class="category_box category_box filterDiv lovk show">
                         <img src="fonts/Bounty_hunter.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bounty Hunter</h1>
                     </a>
-                    <a href="clinkz.php" class="category_box category_box filterDiv lovk">
+                    <a href="clinkz.php" class="category_box category_box filterDiv lovk show">
                         <img src="fonts/clinz.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Clinkz</h1>
                     </a>
-                    <a href="drow_ranger.php" class="category_box category_box filterDiv lovk">
+                    <a href="drow_ranger.php" class="category_box category_box filterDiv lovk show">
                         <img src="fonts/drow ranger.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Drow Ranger</h1>
                     </a>
 
    
-                    <a href = "earthshaker.php" class="category_box filterDiv sila">
+                    <a href = "earthshaker.php" class="category_box filterDiv sila show">
                         <img src="fonts/earth.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Earthshaker</h1>
                     </a>
-                    <a href = "juggernaut.php" class="category_box filterDiv lovk">
+                    <a href = "juggernaut.php" class="category_box filterDiv lovk show">
                         <img src="fonts/juger.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Juggernaut</h1>
                     </a>
-                    <a class="category_box filterDiv uni">
+                    <a class="category_box filterDiv uni show">
                         <img src="fonts/mirana.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Mirana</h1>
                     </a>
-                    <a class="category_box filterDiv lovk">
+                    <a class="category_box filterDiv lovk show">
                         <img src="fonts/morph.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Morphling</h1>
                     </a>
-                    <a class="category_box filterDiv lovk">
+                    <a class="category_box filterDiv lovk show">
                         <img src="fonts/sf.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Shadow Fiend</h1>
                     </a>
-                    <a class="category_box filterDiv lovk">
+                    <a class="category_box filterDiv lovk show">
                         <img src="fonts/pl.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Phantom Lancer</h1>
                     </a>
 
-                <a class="category_box filterDiv int">
+                <a class="category_box filterDiv int show">
                     <img src="fonts/Puck.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Puck</h1>
                 </a>
-                <a class="category_box filterDiv sila">
+                <a class="category_box filterDiv sila show">
                     <img src="fonts/pudge.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Pudge</h1>
                 </a>
-                <a class="category_box filterDiv lovk">
+                <a class="category_box filterDiv lovk show">
                     <img src="fonts/raz.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Razor</h1>
                 </a>
-                <a class="category_box filterDiv uni">
+                <a class="category_box filterDiv uni show">
                     <img src="fonts/Sand king.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Sand King</h1>
                 </a>
-                <a class="category_box filterDiv int">
+                <a class="category_box filterDiv int show">
                     <img src="fonts/Storm Spirit.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Storm Spirit</h1>
                 </a>
-                <a class="category_box filterDiv sila">
+                <a class="category_box filterDiv sila show">
                     <img src="fonts/Sven.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Sven</h1>
                 </a>
 
-                <a class="category_box filterDiv sila">
+                <a class="category_box filterDiv sila show">
                     <img src="fonts/Tiny.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Tiny</h1>
                 </a>
-                <a class="category_box filterDiv uni">
+                <a class="category_box filterDiv uni show">
                     <img src="fonts/venga.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Vengeful Spirit</h1>
                 </a>
-                <a class="category_box filterDiv uni">
+                <a class="category_box filterDiv uni show">
                     <img src="fonts/windranger.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Windranger</h1>
                 </a>
-                <a class="category_box filterDiv int">
+                <a class="category_box filterDiv int show">
                     <img src="fonts/Zeus.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Zeus</h1>
                 </a>
-                <a class="category_box filterDiv sila">
+                <a class="category_box filterDiv sila show">
                     <img src="fonts/Kunka.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Kunkka</h1>
                 </a>
-                <a class="category_box filterDiv int">
+                <a class="category_box filterDiv int show">
                     <img src="fonts/Lina.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Lina</h1>
                 </a>
 </div>
 
-<script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-// Добавьте активный класс к текущей кнопке (выделите его)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
 </promo>
 
 

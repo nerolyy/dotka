@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/promo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
@@ -52,138 +53,176 @@ z-index:10">
             </div>
         </div>
 </header>
-<promo class="herous">
-        <div class="herous_contauner">
-            <div class="atribut_search">
-                <h1 class="heroous_search">Dota-heroes</h1>
-                <div class="atribut_grey_row">
-                    <a href="when_sila.php" class="sila">
-                        <img class="atribut_img" src="fonts/sila_atribut.svg">
-                    </a>
-                    <a href="when_lovk.php" class="lovkost">
-                        <img class="atribut_img" src="fonts/lovkost_atribut.svg">
-                    </a>
-                    <a href="when_int.php" class="int">
-                        <img class="atribut_img" src="fonts/int_atribut.svg">
-                    </a>
-                    <a href="when_uni.php" class="universal">
-                        <img class="atribut_img" src="fonts/uni_atribut.svg">
-                    </a>
-                    <div class="complexity-row">
-                        <div class="romb"></div>
-                        <div class="romb"></div>
-                        <div class="romb"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="category_box_row">
-                    <a href="antimage.php" class="category_box bg-dark">
+<promo>
+
+
+
+<h1>Dota-heroes</h1>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Показать все</button>
+  <button class="btn" onclick="filterSelection('sila')">
+    <img class="atribut_img" src="fonts/sila_atribut.svg">
+  </button>
+  <button class="btn" onclick="filterSelection('lovk')">
+    <img class="atribut_img" src="fonts/lovkost_atribut.svg">
+  </button>
+  <button class="btn" onclick="filterSelection('int')">
+    <img class="atribut_img" src="fonts/int_atribut.svg">
+  </button>
+  <button class="btn" onclick="filterSelection('uni')">
+    <img class="atribut_img" src="fonts/uni_atribut.svg">
+  </button>
+</div>
+
+<div class="container_of_herous">
+    
+                    <a href="antimage.php" class="category_box filterDiv lovk">
                         <img src="fonts/Anti-mage.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Anti-mage</h1>
                     </a>
-                    <a href="arc_warden.php" class="category_box bg-dark">
+                    <a href="arc_warden.php" class="category_box category_box filterDiv lovk">
                         <img src="fonts/Arc.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Arc Warden</h1>
                     </a>
-                    <a href="bloodseeker.php" class="category_box bg-dark">
+                    <a href="bloodseeker.php" class="category_box category_box filterDiv lovk">
                         <img src="fonts/bloodsecer.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bloodseker</h1>
                     </a>
-                    <a href="bounty_hunter.php" class="category_box bg-dark">
+                    <a href="Bloodseker.html" class="category_box category_box filterDiv lovk">
                         <img src="fonts/Bounty_hunter.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bounty Hunter</h1>
                     </a>
-                    <a href="clinkz.php" class="category_box bg-dark">
+                    <a href="cm.html" class="category_box category_box filterDiv lovk">
                         <img src="fonts/clinz.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Clinkz</h1>
                     </a>
-                    <a href="drow_ranger.php" class="category_box bg-dark">
+                    <a href="dr.html" class="category_box category_box filterDiv lovk">
                         <img src="fonts/drow ranger.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Drow Ranger</h1>
                     </a>
-            </div>
-            <div class="category_box_row">
-                    <a href = "earthshaker.php"class="category_box bg-dark">
+
+   
+                    <a class="category_box filterDiv sila">
                         <img src="fonts/earth.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Earthshaker</h1>
                     </a>
-                    <a href = "juggernaut.php"class="category_box bg-dark">
+                    <a class="category_box filterDiv lovk">
                         <img src="fonts/juger.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Juggernaut</h1>
                     </a>
-                    <a href = "mirana.php" class="category_box bg-dark">
+                    <a class="category_box filterDiv uni">
                         <img src="fonts/mirana.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Mirana</h1>
                     </a>
-                    <a href = "morphling.php" class="category_box bg-dark">
+                    <a class="category_box filterDiv lovk">
                         <img src="fonts/morph.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Morphling</h1>
                     </a>
-                    <a  href = "shadow_fiend.php" class="category_box bg-dark">
+                    <a class="category_box filterDiv lovk">
                         <img src="fonts/sf.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Shadow Fiend</h1>
                     </a>
-                    <a href = "phantom_lancer.php" class="category_box bg-dark">
+                    <a class="category_box filterDiv lovk">
                         <img src="fonts/pl.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Phantom Lancer</h1>
                     </a>
-            </div>
-            <div class="category_box_row">
-                <a href = "puck.php" class="category_box bg-dark">
+
+                <a class="category_box filterDiv int">
                     <img src="fonts/Puck.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Puck</h1>
                 </a>
-                <a href = "pudge.php" class="category_box bg-dark">
+                <a class="category_box filterDiv sila">
                     <img src="fonts/pudge.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Pudge</h1>
                 </a>
-                <a href = "razor.php" class="category_box bg-dark">
+                <a class="category_box filterDiv lovk">
                     <img src="fonts/raz.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Razor</h1>
                 </a>
-                <a href = "sand_king.php" class="category_box bg-dark">
+                <a class="category_box filterDiv uni">
                     <img src="fonts/Sand king.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Sand King</h1>
                 </a>
-                <a href = "storm_spirit.php" class="category_box bg-dark">
+                <a class="category_box filterDiv int">
                     <img src="fonts/Storm Spirit.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Storm Spirit</h1>
                 </a>
-                <a href = "sven.php" class="category_box bg-dark">
+                <a class="category_box filterDiv sila">
                     <img src="fonts/Sven.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Sven</h1>
                 </a>
-            </div>
-            <div class="category_box_row">
-                <a href = "tiny.php"class="category_box bg-dark">
+
+                <a class="category_box filterDiv sila">
                     <img src="fonts/Tiny.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Tiny</h1>
                 </a>
-                <a href = "venga.php" class="category_box bg-dark">
+                <a class="category_box filterDiv uni">
                     <img src="fonts/venga.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Vengeful Spirit</h1>
                 </a>
-                <a href = "windranger.php" class="category_box bg-dark">
+                <a class="category_box filterDiv uni">
                     <img src="fonts/windranger.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Windranger</h1>
                 </a>
-                <a href = "zeus.php" class="category_box bg-dark">
+                <a class="category_box filterDiv int">
                     <img src="fonts/Zeus.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Zeus</h1>
                 </a>
-                <a href = "Kunka.php" class="category_box bg-dark">
+                <a class="category_box filterDiv sila">
                     <img src="fonts/Kunka.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Kunkka</h1>
                 </a>
-                <a href = "lina.php" class="category_box bg-dark">
+                <a class="category_box filterDiv int">
                     <img src="fonts/Lina.svg" stile="width=115px; height=115px;">
                     <h1 class="hero_name">Lina</h1>
                 </a>
-            </div>
-            
-        </div>
-</promo>
+</div>
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
 
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Добавьте активный класс к текущей кнопке (выделите его)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+</promo>
 
 
 

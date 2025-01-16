@@ -84,3 +84,21 @@
 .atribut_img:hover {
     color: #FF6046;
 }
+.filterDiv {
+    display: none;
+  }
+  
+.show {
+    display: block;
+}
+  
+.container_of_herous {
+    display: flex;
+    margin-top: 50px;
+    overflow: hidden;
+    margin: 0 20%;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-direction: row;
+}

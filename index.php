@@ -98,15 +98,15 @@ z-index:10">
                         <img src="fonts/bloodsecer.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bloodseker</h1>
                     </a>
-                    <a href="Bloodseker.html" class="category_box category_box filterDiv lovk">
+                    <a href="Bloodseker.php" class="category_box category_box filterDiv lovk">
                         <img src="fonts/Bounty_hunter.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bounty Hunter</h1>
                     </a>
-                    <a href="cm.html" class="category_box category_box filterDiv lovk">
+                    <a href="cm.php" class="category_box category_box filterDiv lovk">
                         <img src="fonts/clinz.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Clinkz</h1>
                     </a>
-                    <a href="dr.html" class="category_box category_box filterDiv lovk">
+                    <a href="dr.php" class="category_box category_box filterDiv lovk">
                         <img src="fonts/drow ranger.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Drow Ranger</h1>
                     </a>

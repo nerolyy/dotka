@@ -102,3 +102,7 @@
     list-style: none;
     flex-direction: row;
 }
+.button_container, .pre_h1 {
+    margin-top: 50px;
+    margin: 0 16%;
+}

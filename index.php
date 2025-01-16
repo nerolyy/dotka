@@ -57,22 +57,24 @@ z-index:10">
 
 
 
-<h1>Dota-heroes</h1>
+<h1 class="pre_h1">Dota-heroes</h1>
 
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Показать все</button>
-  <button class="btn" onclick="filterSelection('sila')">
-    <img class="atribut_img" src="fonts/sila_atribut.svg">
-  </button>
-  <button class="btn" onclick="filterSelection('lovk')">
-    <img class="atribut_img" src="fonts/lovkost_atribut.svg">
-  </button>
-  <button class="btn" onclick="filterSelection('int')">
-    <img class="atribut_img" src="fonts/int_atribut.svg">
-  </button>
-  <button class="btn" onclick="filterSelection('uni')">
-    <img class="atribut_img" src="fonts/uni_atribut.svg">
-  </button>
+<div id="myBtnContainer" class="button_container">
+    <a class="atribut_btn lk" type="button" onclick="filterSelection('all')"> show all</a>
+    <div class="atribut_grey_row">
+        <a class="atribut_btn" onclick="filterSelection('sila')">
+            <img class="atribut_img" src="fonts/sila_atribut.svg">
+        </a>
+        <a class="atribut_btn" onclick="filterSelection('lovk')">
+            <img class="atribut_img" src="fonts/lovkost_atribut.svg">
+        </a>
+        <a class="atribut_btn" onclick="filterSelection('int')">
+            <img class="atribut_img" src="fonts/int_atribut.svg">
+        </a>
+        <a class="atribut_btn" onclick="filterSelection('uni')">
+            <img class="atribut_img" src="fonts/uni_atribut.svg">
+        </a>
+    </div>
 </div>
 
 <div class="container_of_herous">

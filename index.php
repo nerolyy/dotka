@@ -86,7 +86,7 @@ z-index:10">
 
 <div class="container_of_herous">
     
-                    <a href="antimage.php" class="category_box filterDiv lovk">
+                    <a href="antimage.php" class="category_box filterDiv lovk 1st">
                         <img src="fonts/Anti-mage.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Anti-mage</h1>
                     </a>

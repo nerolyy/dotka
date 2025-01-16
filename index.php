@@ -21,6 +21,7 @@
 background-repeat: no-repeat;
 background-color: #212121;
 z-index:10">
+
 <header class="p-3 bg-dark text-white">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -60,7 +61,7 @@ z-index:10">
 <h1 class="pre_h1">Dota-heroes</h1>
 
 <div id="myBtnContainer" class="button_container">
-    <a class="atribut_btn lk" type="button" onclick="filterSelection('all')"> show all</a>
+    <a class="atribut_btn_first btn btn-outline-light me-2 lk" type="button" onclick="filterSelection('all')"> all</a>
     <div class="atribut_grey_row">
         <a class="atribut_btn" onclick="filterSelection('sila')">
             <img class="atribut_img" src="fonts/sila_atribut.svg">
@@ -237,5 +238,5 @@ for (var i = 0; i < btns.length; i++) {
         </ul>
     </div>
 </footer>
-</body>
+
 </html>

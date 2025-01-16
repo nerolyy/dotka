@@ -98,25 +98,25 @@ z-index:10">
                         <img src="fonts/bloodsecer.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bloodseker</h1>
                     </a>
-                    <a href="Bloodseker.php" class="category_box category_box filterDiv lovk">
+                    <a href="bounty_hunter.php" class="category_box category_box filterDiv lovk">
                         <img src="fonts/Bounty_hunter.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Bounty Hunter</h1>
                     </a>
-                    <a href="cm.php" class="category_box category_box filterDiv lovk">
+                    <a href="clinkz.php" class="category_box category_box filterDiv lovk">
                         <img src="fonts/clinz.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Clinkz</h1>
                     </a>
-                    <a href="dr.php" class="category_box category_box filterDiv lovk">
+                    <a href="drow_ranger.php" class="category_box category_box filterDiv lovk">
                         <img src="fonts/drow ranger.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Drow Ranger</h1>
                     </a>
 
    
-                    <a class="category_box filterDiv sila">
+                    <a href = "earthshaker.php" class="category_box filterDiv sila">
                         <img src="fonts/earth.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Earthshaker</h1>
                     </a>
-                    <a class="category_box filterDiv lovk">
+                    <a href = "juggernaut.php" class="category_box filterDiv lovk">
                         <img src="fonts/juger.svg" stile="width=115px; height=115px;">
                         <h1 class="hero_name">Juggernaut</h1>
                     </a>
@@ -187,6 +187,7 @@ z-index:10">
                     <h1 class="hero_name">Lina</h1>
                 </a>
 </div>
+
 <script>
 filterSelection("all")
 function filterSelection(c) {

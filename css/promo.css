@@ -58,13 +58,15 @@
     background-color: #525252;
     width: 136px;
     height: 26px;
+    margin-top: 5px;
     margin-left: 20px;
 }
 .atribut_black_row {
-    background-color: black;
-    width: 136px;
+    background-color: #525252;
+    width: 75px;
     height: 26px;
-    margin-top: 53px;
+    padding-top: 5px;
+    margin-top: 5px;
     margin-left: 20px;
 }
 .sila {
@@ -114,4 +116,16 @@
 .atribut_btn_first {
     width: 40px;
     height: 35px;
+}
+.pre_h1 {
+    color: white;
+    margin-top: 50px;
+}
+.filter-romb:first-child {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.filter-romb:last-child {
+    margin-left: 10px;
+    margin-right: 5px;
 }

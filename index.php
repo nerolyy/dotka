@@ -20,6 +20,7 @@
 <body style="background-image: url('fonts/mainfont.svg');
 background-repeat: no-repeat;
 background-color: #212121;
+display: block;
 z-index:10">
 
 <header class="p-3 bg-dark text-white">
@@ -75,6 +76,11 @@ z-index:10">
         <a class="atribut_btn" onclick="filterSelection('uni')">
             <img class="atribut_img" src="fonts/uni_atribut.svg">
         </a>
+    </div>
+    <div class="atribut_black_row">
+        <div class="romb filter-romb" onclick="filterSelection('1st')"></div>
+        <div class="romb filter-romb" onclick="filterSelection('2nd')"></div>
+        <div class="romb filter-romb" onclick="filterSelection('3rd')"></div>
     </div>
 </div>
 

@@ -71,3 +71,6 @@
     width: 460px;
     height: 724px;
 }
+.main_menu_card_container {
+    background-color: #000 30% #fff 20% #797979 50% linear 15%;
+}

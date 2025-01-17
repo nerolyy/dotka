@@ -1,0 +1,28 @@
+.body {
+    cursor: url("cursor/cursor_default_vsz3 copy.bmp"), auto;
+}
+.header_container {
+    width: 1820px;
+    height: 60px;
+    align-content: center;
+    padding: 30px;
+}
+.header_items {
+    display: flex;
+    flex-direction: row;
+}
+.header_items a:hover, .header_items label:hover {
+    outline-offset: 3px;
+    transition: all 0.3s;
+}
+.header_items a:hover img, .header_items a:hover, .header_items label:hover, .header_items label:hover img {
+    transition: all 0.3s;
+}
+.header_items a:hover img, .header_items a:hover, .header_items label:hover, .header_items label:hover img{
+    transform: scale(1.15);
+}
+.menu_header_item {
+    margin-inline: 40px;
+    color: #FFF 70%;
+    font-size: 30px;
+}

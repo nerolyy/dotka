@@ -4,7 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main_manu.css">
     <link rel="stylesheet" href="css/reset.css">
-    <title>Document</title>
+    <link rel="icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
+    <title>Main Page</title>
 </head>
 <body style="background-image: url('fonts/Dota 2 - redesign - main.svg');
 background-repeat: no-repeat;
@@ -19,21 +21,33 @@ z-index:10">
                     <img src="img/icons8-dota-2 1.svg" class="dota_logo_header_img">
                 </a>
             </div>
-            <div class="menu_header_item">Home</div>
-            <div class="menu_header_item">Herous</div>
-            <div class="menu_header_item">Store</div>
-            <div class="menu_header_item">Watch</div>
-            <div class="menu_header_item">Learn</div>
-            <div class="menu_header_item">Arcade</div>
-            <div class="menu_header_item">
+            <a class="menu_header_item text_item active">Home</a>
+            <a class="menu_header_item text_item">Herous</a>
+            <a class="menu_header_item text_item">Store</a>
+            <a class="menu_header_item text_item">Watch</a>
+            <a class="menu_header_item text_item">Learn</a>
+            <a class="menu_header_item text_item">Arcade</a>
+            <a class="menu_header_item mrg-l-669">
+                <ul class="lk_header">
+                    <div class="lk_img_profile">
+                        <img src="" alt="" class="">
+                    </div>
+                    <div class="lk_name_profile">Maximilmoan_xx</div>
+                </ul>
+            </a>
+            <div class="menu_header_item small_img">
                 <a class="setting_header">
                     <img src="img/bi_gear-fill.svg" class="settings_header_img">
                 </a>
             </div>
-            <div class="menu_header_item">Learn</div>
-            <div class="menu_header_item">Arcade</div>
+            <a class="menu_header_item small_img">
+                <img src="img/heroicons-solid_logout.svg" class="logoout_header_img">
+            </a>
         </ul>
     </div>
 </header>
+<promo>
+    <div class="promo_container"></div>
+</promo>
 </body>
 </html>

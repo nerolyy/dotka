@@ -47,7 +47,11 @@ z-index:10">
     </div>
 </header>
 <promo>
-    <div class="promo_container"></div>
+    <div class="promo_container">
+        <div class="main_menu_card">
+            
+        </div>
+    </div>
 </promo>
 </body>
 </html>

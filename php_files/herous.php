@@ -23,8 +23,8 @@ z-index:10">
                     <img src="img/icons8-dota-2 1.svg" class="dota_logo_header_img">
                 </a>
             </div>
-            <a class="menu_header_item text_item active">Home</a>
-            <a href="php_files/herous.php" class="menu_header_item text_item">Herous</a>
+            <a href="index.php" class="menu_header_item text_item">Home</a>
+            <a class="menu_header_item text_item active">Herous</a>
             <a class="menu_header_item text_item">Store</a>
             <a class="menu_header_item text_item">Watch</a>
             <a class="menu_header_item text_item">Learn</a>
@@ -60,12 +60,6 @@ z-index:10">
         </ul>
     </div>
 </header>
-<promo>
-    <div class="promo_container">
-        <div class="main_menu_card">
-            <div class="main_menu_card_container"></div>
-        </div>
-    </div>
-</promo>
+
 </body>
 </html>

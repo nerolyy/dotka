@@ -75,11 +75,11 @@ z-index:10">
                         <img src="img/Hero card (1).svg" class="hero_prev_img">
                         <div class="hero_card_name">Abaddon</div>
                     </a>
-                    <a href="#" class="hero_card">
+                    <a href="alchemist.php" class="hero_card">
                         <img src="img/Hero card (2).svg" class="hero_prev_img">
                         <div class="hero_card_name">Alchemist</div>
                     </a>
-                    <a href="#" class="hero_card">
+                    <a href="axe.php" class="hero_card">
                         <img src="img/Hero card (3).svg" class="hero_prev_img">
                         <div class="hero_card_name">Axe</div>
                     </a>
@@ -91,7 +91,7 @@ z-index:10">
                         <img src="img/Hero card (5).svg" class="hero_prev_img">
                         <div class="hero_card_name">Brewmaster</div>
                     </a>
-                    <a href="#" class="hero_card">
+                    <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Bristleback</div>
                     </a>

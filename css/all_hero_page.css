@@ -1,0 +1,58 @@
+.col-33 {
+    width: 600px;
+}
+.herous_agility_all {
+    display: flex;
+    flex-direction: row;
+}
+.name_of_atribut{
+    display: flex;
+    flex-direction: row;
+}
+.create-line {
+    width: 200px;
+    border-top: 3px solid #3c3c3c;
+    margin-top: 14px;
+}
+.atribut_name_img {
+    margin-inline: 10px;
+}
+.text_name_atribut {
+    margin-top: 7.5px;
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+    font-size: solid 16px;
+    margin-right: 10px;
+}
+.container_of_herous {
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    flex-direction: row;
+}
+.hero_card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 65px;
+    height: 95px;
+    border-radius: 10%;
+}
+.hero_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    outline-offset: 3px;
+    transition: all 0.3s;
+    transform: scale(1.02);
+}
+.hero_prev_img {
+    z-index: -10;
+    position: relative;
+}
+.hero_card_name {
+    position: absolute;
+    color: #fff;
+    margin-top: -20px;
+    margin-left: 5px;
+}

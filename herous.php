@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/main_manu.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="css/all_hero_page.css">
     <link rel="icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <title>Main Page</title>
@@ -60,6 +60,27 @@ z-index:10">
         </ul>
     </div>
 </header>
-
+<promo>
+    <div class="promo_container">
+        <ul class="herous_agility_all">
+            <div class="col-33">
+                <ul class="name_of_atribut">
+                    <div class="create-line"></div>
+                    <img src="img/Level dot.svg" class="atribut_name_img">
+                    <div class="text_name_atribut">STRENGTH</div>
+                    <div class="create-line"></div>
+                </ul>
+                <div class="container_of_herous">
+                    <a href="#" class="hero_card">
+                        <img src="img/Hero card (1).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Abaddon</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-33"></div>
+            <div class="col-33"></div>
+        </ul>
+    </div>
+</promo>
 </body>
 </html>

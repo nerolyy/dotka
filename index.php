@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main_manu.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <link rel="icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <title>Main Page</title>
@@ -27,22 +29,34 @@ z-index:10">
             <a class="menu_header_item text_item">Watch</a>
             <a class="menu_header_item text_item">Learn</a>
             <a class="menu_header_item text_item">Arcade</a>
-            <a class="menu_header_item mrg-l-669">
-                <ul class="lk_header">
-                    <div class="lk_img_profile">
-                        <img src="" alt="" class="">
-                    </div>
-                    <div class="lk_name_profile">Maximilmoan_xx</div>
-                </ul>
-            </a>
-            <div class="menu_header_item small_img">
-                <a class="setting_header">
-                    <img src="img/bi_gear-fill.svg" class="settings_header_img">
-                </a>
-            </div>
-            <a class="menu_header_item small_img">
-                <img src="img/heroicons-solid_logout.svg" class="logoout_header_img">
-            </a>
+            <div class="menu_header_item mrg-l-669">
+                    <a href="#" class="lk">
+                        <p><?php isset($_COOKIE['login'])?></p>
+                    </a>
+                </div>
+                    <?php
+                                if(isset($_COOKIE['login']))
+                                    echo '
+                                <ul class="lk_header">
+                                    <div class="lk_img_profile">
+                                        <img src="" alt="" class="">
+                                    </div>
+                                    <div class="lk_name_profile"></div>
+                                </ul>
+                                <div class="menu_header_item small_img">
+                                    <a class="setting_header">
+                                        <img src="img/bi_gear-fill.svg" class="settings_header_img">
+                                    </a>
+                                </div>
+                                <a class="menu_header_item small_img">
+                                    <img src="img/heroicons-solid_logout.svg" class="logoout_header_img">
+                                </a>';
+                                else
+                                    echo '<div class="menu_header_item text_item">
+                                    <a href="login.php" class="login_btn">Login</a>
+                                    <a href="auth.php" class="">Sign-up</a>
+                                    </div>'
+                    ?>
         </ul>
     </div>
 </header>

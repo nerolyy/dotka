@@ -28,7 +28,6 @@
     display: flex;
     margin-top: 20px;
     overflow: hidden;
-    justify-content: center;
     flex-wrap: wrap;
     list-style: none;
     flex-direction: row;
@@ -36,15 +35,19 @@
 .hero_card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 65px;
+    width: 75px;
     height: 95px;
     border-radius: 10%;
+    margin-right: 20px;
 }
 .hero_card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     outline-offset: 3px;
     transition: all 0.3s;
     transform: scale(1.02);
+}
+.hero_card:last-child {
+    margin-right: 0px;
 }
 .hero_prev_img {
     z-index: -10;

@@ -95,6 +95,174 @@ z-index:10">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Bristleback</div>
                     </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
+                    <a href="bristleback.php" class="hero_card">
+                        <img src="img/Hero card (6).svg" class="hero_prev_img">
+                        <div class="hero_card_name">Bristleback</div>
+                    </a>
                 </div>
             </div>
             <div class="col-33"></div>

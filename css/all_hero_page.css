@@ -26,7 +26,6 @@
 }
 .container_of_herous {
     display: flex;
-    margin-top: 20px;
     overflow: hidden;
     flex-wrap: wrap;
     list-style: none;

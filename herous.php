@@ -73,27 +73,27 @@ z-index:10">
                 <div class="container_of_herous">
                     <a href="#" class="hero_card">
                         <img src="img/Hero card (1).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Abaddon</div>
+                        <div class="hero_card_name medium_name">Abaddon</div>
                     </a>
                     <a href="alchemist.php" class="hero_card">
                         <img src="img/Hero card (2).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Alchemist</div>
+                        <div class="hero_card_name medium_name">Alchemist</div>
                     </a>
                     <a href="axe.php" class="hero_card">
                         <img src="img/Hero card (3).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Axe</div>
+                        <div class="hero_card_name small_name">Axe</div>
                     </a>
                     <a href="#" class="hero_card">
                         <img src="img/Hero card (4).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Beastmaster</div>
+                        <div class="hero_card_name bg_name">Beastmaster</div>
                     </a>
                     <a href="#" class="hero_card">
                         <img src="img/Hero card (5).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Brewmaster</div>
+                        <div class="hero_card_name bg_name">Brewmaster</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name mbg_name">Bristleback</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">

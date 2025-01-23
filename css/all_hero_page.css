@@ -58,5 +58,17 @@
     position: absolute;
     color: #fff;
     margin-top: -20px;
+    font-size: 13px;
+}
+.small_name {
+    margin-left: 23px;
+}
+.medium_name {
+    margin-left: 8px;
+}
+.bg_name {
+    margin-left: 3px;
+}
+.mbg_name {
     margin-left: 5px;
 }

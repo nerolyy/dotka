@@ -88,12 +88,6 @@ z-index:10">
                                 <div class="text_name_atribut_filter">Intelligence</div>
                             </ul>
                         </a>
-                        <a class="atribut_btn" onclick="filterSelection('uni')">
-                            <ul class="filter_con">
-                                <img src="img/Level dot.svg" class="atribut_name_img">
-                                <div class="text_name_atribut_filter">STRENGTH</div>
-                            </ul>
-                        </a>
                     </div>
                 </div>
                 <script src="scripts/drop_down.js"></script>

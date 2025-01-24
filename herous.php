@@ -93,6 +93,39 @@ z-index:10">
                 </div>
                 <script src="scripts/drop_down.js"></script>
             </div>
+            <div class="type_of_herous">
+                <div class="dropdown_type dropdown">
+                    <button class="dropdown-button" id="dropdownButton_type">Sort by<br>Attributes<span class="arrow">&#9660;</span></button>
+                    <div class="dropdown-content" id="dropdownContent_type">
+                        <a class="atribut_btn" onclick="filterSelection('CARRY')">
+                            <ul class="filter_con">
+                                <div class="text_name_atribut_filter">Carry</div>
+                            </ul>
+                        </a>
+                        <a class="atribut_btn" onclick="filterSelection('MID')">
+                            <ul class="filter_con">
+                                <div class="text_name_atribut_filter">Mid</div>
+                            </ul>
+                        </a>
+                        <a class="atribut_btn" onclick="filterSelection('HC')">
+                            <ul class="filter_con">
+                                <div class="text_name_atribut_filter">Hard Carry</div>
+                            </ul>
+                        </a>
+                        <a class="atribut_btn" onclick="filterSelection('HS')">
+                            <ul class="filter_con">
+                                <div class="text_name_atribut_filter">Hard Support</div>
+                            </ul>
+                        </a>
+                        <a class="atribut_btn" onclick="filterSelection('FS')">
+                            <ul class="filter_con">
+                                <div class="text_name_atribut_filter">Full Support</div>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+                <script src="scripts/drop_down_type.js"></script>
+            </div>
         </ul>
         <ul class="herous_agility_all">
             <div class="col-33 filterDiv sila show">

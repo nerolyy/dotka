@@ -120,3 +120,14 @@
 .dropdown.active .dropdown-content {
   display: block;
 }
+.filter_con {
+    display: flex;
+    flex-direction: row;
+}
+.text_name_atribut_filter {
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(177, 172, 172);
+    font-size: solid 16px;
+    margin-right: 10px;
+}

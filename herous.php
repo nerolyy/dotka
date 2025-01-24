@@ -70,11 +70,30 @@ z-index:10">
                 <div class="dropdown">
                     <button class="dropdown-button" id="dropdownButton">Sort by<br>Attributes<span class="arrow">&#9660;</span></button>
                     <div class="dropdown-content" id="dropdownContent">
-                        <a href="#">Option 1</a>
-                        <a href="#">Option 2</a>
-                        <a href="#">Option 3</a>
-                        <a href="#">Option 4</a>
-                        <a href="#">Option 5</a>
+                        <a class="atribut_btn" onclick="filterSelection('sila')">
+                            <ul class="filter_con">
+                                <img src="img/Level dot.svg" class="atribut_name_img">
+                                <div class="text_name_atribut_filter">STRENGTH</div>
+                            </ul>
+                        </a>
+                        <a class="atribut_btn" onclick="filterSelection('lovk')">
+                            <ul class="filter_con">
+                                <img src="img/Level dot (1).svg" class="atribut_name_img">
+                                <div class="text_name_atribut_filter">AGILITY</div>
+                            </ul>
+                        </a>
+                        <a class="atribut_btn" onclick="filterSelection('int')">
+                            <ul class="filter_con">
+                                <img src="img/Level dot (2).svg" class="atribut_name_img">
+                                <div class="text_name_atribut_filter">Intelligence</div>
+                            </ul>
+                        </a>
+                        <a class="atribut_btn" onclick="filterSelection('uni')">
+                            <ul class="filter_con">
+                                <img src="img/Level dot.svg" class="atribut_name_img">
+                                <div class="text_name_atribut_filter">STRENGTH</div>
+                            </ul>
+                        </a>
                     </div>
                 </div>
                 <script src="scripts/drop_down.js"></script>

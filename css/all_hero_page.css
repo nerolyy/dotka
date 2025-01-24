@@ -131,3 +131,9 @@
     font-size: solid 16px;
     margin-right: 10px;
 }
+.filterDiv {
+    display: none;
+  }
+.show {
+    display: block;
+}

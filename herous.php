@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/main_manu.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/filter.js"></script>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -102,15 +103,15 @@ z-index:10">
                     <div class="create-line"></div>
                 </ul>
                 <div class="container_of_herous">
-                    <a href="#" class="hero_card">
+                    <a href="#" class="hero_card filterDiv lovk show">
                         <img src="img/Hero card (1).svg" class="hero_prev_img">
                         <div class="hero_card_name medium_name">Abaddon</div>
                     </a>
-                    <a href="alchemist.php" class="hero_card">
+                    <a href="alchemist.php" class="hero_card filterDiv int show">
                         <img src="img/Hero card (2).svg" class="hero_prev_img">
                         <div class="hero_card_name medium_name">Alchemist</div>
                     </a>
-                    <a href="axe.php" class="hero_card">
+                    <a href="axe.php" class="hero_card filterDiv sila show">
                         <img src="img/Hero card (3).svg" class="hero_prev_img">
                         <div class="hero_card_name small_name">Axe</div>
                     </a>

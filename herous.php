@@ -130,7 +130,7 @@ z-index:10">
             </div>
         </ul>
         <ul class="herous_agility_all">
-            <div class="col-33 sila filterDiv show">
+            <div class="col-33 sila pokaz typedif CARRY MID HC HS FS">
                 <ul class="name_of_atribut">
                     <div class="create-line"></div>
                     <img src="img/Level dot.svg" class="atribut_name_img">
@@ -138,173 +138,173 @@ z-index:10">
                     <div class="create-line"></div>
                 </ul>
                 <div class="container_of_herous">
-                    <a href="#" class="hero_card FS HS HC pokaz typedif">
+                    <a href="#" class="hero_card FS HS HC pokaz typedif sila">
                         <img src="img/Hero card (1).svg" class="hero_prev_img">
                         <div class="hero_card_name medium_name">Abaddon</div>
                     </a>
-                    <a href="alchemist.php" class="hero_card CARRY HS pokaz typedif">
+                    <a href="alchemist.php" class="hero_card CARRY HS pokaz typedif sila">
                         <img src="img/Hero card (2).svg" class="hero_prev_img">
                         <div class="hero_card_name medium_name">Alchemist</div>
                     </a>
-                    <a href="axe.php" class="hero_card HC typedif pokaz">
+                    <a href="axe.php" class="hero_card HC typedif sila pokaz">
                         <img src="img/Hero card (3).svg" class="hero_prev_img">
                         <div class="hero_card_name small_name">Axe</div>
                     </a>
-                    <a href="#" class="hero_card HC typedif pokaz">
+                    <a href="#" class="hero_card HC typedif sila pokaz">
                         <img src="img/Hero card (4).svg" class="hero_prev_img">
                         <div class="hero_card_name bg_name">Beastmaster</div>
                     </a>
-                    <a href="#" class="hero_card HC MID typedif pokaz">
+                    <a href="#" class="hero_card HC MID typedif sila pokaz">
                         <img src="img/Hero card (5).svg" class="hero_prev_img">
                         <div class="hero_card_name bg_name">Brewmaster</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HC FS typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HC FS typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name mbg_name">Bristleback</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HC typedif sila pokaz">
                         <img src="img/Hero card (7).svg" class="hero_prev_img">
                         <div class="hero_card_name">Centaur<br>Warrunner</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HC CARRY typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HC CARRY typedif sila pokaz">
                         <img src="img/Hero card (8).svg" class="hero_prev_img">
                         <div class="hero_card_name">Chaos<br>Knight</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HS MID typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HS MID typedif sila pokaz">
                         <img src="img/Hero card (9).svg" class="hero_prev_img">
                         <div class="hero_card_name">Clockwerk</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HC typedif sila pokaz">
                         <img src="img/Hero card (10).svg" class="hero_prev_img">
                         <div class="hero_card_name">Dawnbreaker</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HC typedif sila pokaz">
                         <img src="img/Hero card (11).svg" class="hero_prev_img">
                         <div class="hero_card_name small_name">Doom</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HC CARRY typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HC CARRY typedif sila pokaz">
                         <img src="img/Hero card (12).svg" class="hero_prev_img">
                         <div class="hero_card_name">Dragon<br>Knight</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card MID HS typedif pokaz">
+                    <a href="bristleback.php" class="hero_card MID HS typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Earth Spirit</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card MID HS typedif pokaz">
+                    <a href="bristleback.php" class="hero_card MID HS typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Earthshaker</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HS HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HS HC typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Elder Titan</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card MID HS typedif pokaz">
+                    <a href="bristleback.php" class="hero_card MID HS typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Huskar</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card FS HS typedif pokaz">
+                    <a href="bristleback.php" class="hero_card FS HS typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Io</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card MID HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card MID HC typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Kunkka</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HC MID typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HC MID typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Legion<br>Commander</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card CARRY typedif pokaz">
+                    <a href="bristleback.php" class="hero_card CARRY typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Lifestealer</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card MID HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card MID HC typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Lycan</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card MID CARRY HC HS typedif pokaz">
+                    <a href="bristleback.php" class="hero_card MID CARRY HC HS typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Magnus</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HS CARRY typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HS CARRY typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Marci</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HC typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Mars</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HC MID typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HC MID typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Night Stalker</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HS HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HS HC typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Omniknight</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card MID HS typedif pokaz">
+                    <a href="bristleback.php" class="hero_card MID HS typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Phoenix</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HS MID typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HS MID typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Pudge</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card MID HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card MID HC typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Sand King</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HC typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Slardar</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HS MID typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HS MID typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Snapfire</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HS HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HS HC typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Spirit<br>Breaker</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card CARRY FS typedif pokaz">
+                    <a href="bristleback.php" class="hero_card CARRY FS typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Sven</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card HS HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card HS HC typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Tidehunter</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card MID HC typedif pokaz">
+                    <a href="bristleback.php" class="hero_card MID HC typedif sila pokaz">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Timbersaw</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card typedif">
+                    <a href="bristleback.php" class="hero_card typedif sila">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Tiny</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card typedif">
+                    <a href="bristleback.php" class="hero_card typedif sila">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Treant<br>Protector</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card typedif">
+                    <a href="bristleback.php" class="hero_card typedif sila">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Tusk</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card typedif">
+                    <a href="bristleback.php" class="hero_card typedif sila">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Underlord</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card typedif">
+                    <a href="bristleback.php" class="hero_card typedif sila">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Undying</div>
                     </a>
-                    <a href="bristleback.php" class="hero_card typedif">
+                    <a href="bristleback.php" class="hero_card typedif sila">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
                         <div class="hero_card_name">Wraith King</div>
                     </a>
                 </div>
             </div>
-            <div class="col-33 filterDiv lovk show">
+            <div class="col-33 pokaz typedif lovk CARRY MID HC HS FS">
                 <ul class="name_of_atribut">
                     <div class="create-line"></div>
                     <img src="img/Level dot (1).svg" class="atribut_name_img">
@@ -312,7 +312,7 @@ z-index:10">
                     <div class="create-line"></div>
                 </ul>
             </div>
-            <div class="col-33 filterDiv int show">
+            <div class="col-33 pokaz typedif int CARRY MID HC HS FS">
                 <ul class="name_of_atribut">
                     <div class="create-line"></div>
                     <img src="img/Level dot (2).svg" class="atribut_name_img">

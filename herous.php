@@ -95,7 +95,7 @@ z-index:10">
             </div>
         </ul>
         <ul class="herous_agility_all">
-            <div class="col-33">
+            <div class="col-33 filterDiv sila show">
                 <ul class="name_of_atribut">
                     <div class="create-line"></div>
                     <img src="img/Level dot.svg" class="atribut_name_img">
@@ -103,15 +103,15 @@ z-index:10">
                     <div class="create-line"></div>
                 </ul>
                 <div class="container_of_herous">
-                    <a href="#" class="hero_card filterDiv lovk show">
+                    <a href="#" class="hero_card">
                         <img src="img/Hero card (1).svg" class="hero_prev_img">
                         <div class="hero_card_name medium_name">Abaddon</div>
                     </a>
-                    <a href="alchemist.php" class="hero_card filterDiv int show">
+                    <a href="alchemist.php" class="hero_card">
                         <img src="img/Hero card (2).svg" class="hero_prev_img">
                         <div class="hero_card_name medium_name">Alchemist</div>
                     </a>
-                    <a href="axe.php" class="hero_card filterDiv sila show">
+                    <a href="axe.php" class="hero_card">
                         <img src="img/Hero card (3).svg" class="hero_prev_img">
                         <div class="hero_card_name small_name">Axe</div>
                     </a>
@@ -269,7 +269,7 @@ z-index:10">
                     </a>
                 </div>
             </div>
-            <div class="col-33">
+            <div class="col-33 filterDiv lovk show">
                 <ul class="name_of_atribut">
                     <div class="create-line"></div>
                     <img src="img/Level dot (1).svg" class="atribut_name_img">
@@ -277,7 +277,7 @@ z-index:10">
                     <div class="create-line"></div>
                 </ul>
             </div>
-            <div class="col-33">
+            <div class="col-33 filterDiv int show">
                 <ul class="name_of_atribut">
                     <div class="create-line"></div>
                     <img src="img/Level dot (2).svg" class="atribut_name_img">

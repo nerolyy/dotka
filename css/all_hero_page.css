@@ -134,10 +134,19 @@
 .filterDiv {
     display: none;
   }
-.show {
-    display: block;
-}
 .filter_container {
     display: flex;
     flex-direction: row;
+}
+.typedif {
+    display: none;
+}
+.typedif.show {
+    display: block;
+}
+.filterDiv {
+    display: none; /* Скрываем все элементы по умолчанию */
+}
+.filterDiv.show {
+    display: block; /* Показываем только те элементы, которые должны отображаться */
 }

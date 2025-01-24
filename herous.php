@@ -269,8 +269,22 @@ z-index:10">
                     </a>
                 </div>
             </div>
-            <div class="col-33"></div>
-            <div class="col-33"></div>
+            <div class="col-33">
+                <ul class="name_of_atribut">
+                    <div class="create-line"></div>
+                    <img src="img/Level dot (1).svg" class="atribut_name_img">
+                    <div class="text_name_atribut">AGILITY</div>
+                    <div class="create-line"></div>
+                </ul>
+            </div>
+            <div class="col-33">
+                <ul class="name_of_atribut">
+                    <div class="create-line"></div>
+                    <img src="img/Level dot (2).svg" class="atribut_name_img">
+                    <div class="text_name_atribut">Intelligence</div>
+                    <div class="create-line"></div>
+                </ul>
+            </div>
         </ul>
     </div>
 </promo>

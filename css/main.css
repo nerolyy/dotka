@@ -21,9 +21,6 @@
     margin-top: 58px;
     margin-left: 20px;
 }
-.sila {
-    margin-left: 13px;
-}
 .atribut_grey_row a:hover, .atribut_grey_row label:hover {
     outline-offset: 3px;
     transition: all 0.3s;
@@ -581,4 +578,21 @@ video::-webkit-media-text-track-container i {
 }
 .cards {
     padding-left: 35%;
+}
+.w-r {
+    background-color: #fff;
+}
+.romb {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    transform: rotateZ(45deg);
+}
+.complexity-row {
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-left: 4px;
 }

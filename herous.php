@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <link rel="stylesheet" href="css/all_hero_page.css">
     <link rel="icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
@@ -21,7 +22,7 @@ z-index:10">
     <div class="header_container">
         <ul class="header_items">
             <div class="menu_header_item">
-                <a class="dota_logo_header">
+                <a href="index.php" class="dota_logo_header">
                     <img src="img/icons8-dota-2 1.svg" class="dota_logo_header_img">
                 </a>
             </div>
@@ -64,6 +65,21 @@ z-index:10">
 </header>
 <promo>
     <div class="promo_container">
+        <ul class="filter_container">
+            <div class="attribut_sort">
+                <div class="dropdown">
+                    <button class="dropdown-button" id="dropdownButton">Sort by<br>Attributes<span class="arrow">&#9660;</span></button>
+                    <div class="dropdown-content" id="dropdownContent">
+                        <a href="#">Option 1</a>
+                        <a href="#">Option 2</a>
+                        <a href="#">Option 3</a>
+                        <a href="#">Option 4</a>
+                        <a href="#">Option 5</a>
+                    </div>
+                </div>
+                <script src="scripts/drop_down.js"></script>
+            </div>
+        </ul>
         <ul class="herous_agility_all">
             <div class="col-33">
                 <ul class="name_of_atribut">
@@ -123,147 +139,119 @@ z-index:10">
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Earth Spirit</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Earthshaker</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Elder Titan</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Huskar</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Io</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Kunkka</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Legion<br>Commander</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Lifestealer</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Lycan</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Magnus</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Marci</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Mars</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Night Stalker</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Omniknight</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Phoenix</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Pudge</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Sand King</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Slardar</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Snapfire</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Spirit<br>Breaker</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Sven</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Tidehunter</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Timbersaw</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Tiny</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Treant<br>Protector</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Tusk</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Underlord</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Undying</div>
                     </a>
                     <a href="bristleback.php" class="hero_card">
                         <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Bristleback</div>
+                        <div class="hero_card_name">Wraith King</div>
                     </a>
                 </div>
             </div>

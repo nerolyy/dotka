@@ -71,3 +71,52 @@
 .mbg_name {
     margin-left: 5px;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 14px;
+    min-width: 100px; /* или нужный размер */
+    white-space: nowrap; /* предотвращаем перенос строк */
+    display: flex; /* используем flexbox */
+    align-items: center; /* вертикальное выравнивание по центру */
+    justify-content: space-between; /* разносим текст и стрелочку по краям */
+}
+.arrow {
+  font-size: 16px; /* размер стрелочки */
+  margin-left: 5px; /* отступ от текста */
+}
+.dropdown-button:hover {
+    background-color: #555;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px; /* или нужный размер */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.dropdown-content a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+.dropdown-content a:hover {
+    background-color: #555;
+}
+.dropdown.active .dropdown-content {
+  display: block;
+}

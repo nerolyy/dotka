@@ -104,47 +104,7 @@ background-color: #212121;">
                         <div class="romb"></div>
                     </div>
                 </div>
-                <div class="sposobnost_container">
-                    <div class="sposobnost_zagolovok">Способности</div>
-                    <div class="sposobosti_geroev_row">
-                        <div class="drevo_of_talent">
-                            <img class="drevo_of_talent_img" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/talents.svg">
-                            <div class="logika1 logika2">
-                                <div class="w-500 bks">
-                                    <div class="tip_settings">
-                                        <div class="drevo_name">Древо талантов</div>
-                                        <div class="sposobnost_cont_edin">
-                                            <div class="left_talent_s">Безмолвие от Flux, если рядом с жертвой никого нет</div>
-                                            <div class="lvl_cont">
-                                            <div class="lvl_const">25</div>
-                                        </div>
-                                        <div class="left_talent_s">Урон по копии от Tempest Double не увеличивается</div>
-                                    </div>
-                                    <div class="posobnost_cont_edin">
-                                        <div class="left_talent_s">–7 сек. перезарядки Magnetic Field</div>
-                                        <div class="lvl_cont">
-                                            <div class="lvl_const">20</div>
-                                        </div>
-                                        <div class="left_talent_s">+40% к урону от Spark Wraith</div>
-                                    </div>
-                                    <div class="posobnost_cont_edin">
-                                        <div class="left_talent_s">+16 к скорости атаки и урону от Magnetic Field</div>
-                                        <div class="lvl_cont">
-                                            <div class="lvl_const">15</div>
-                                        </div>
-                                        <div class="left_talent_s">+2 сек. действия Flux</div>
-                                    </div>
-                                    <div class="posobnost_cont_edin">
-                                        <div class="left_talent_s">+200 к здоровью</div>
-                                        <div class="lvl_cont">
-                                            <div class="lvl_const">10</div>
-                                        </div>
-                                        <div class="left_talent_s">+200 к дальности применения Flux</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
     </div>
 </main> 
 </body>

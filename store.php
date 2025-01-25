@@ -72,31 +72,10 @@ z-index:10">
     <div class="collection-sidebar">
         <div class="sidebar-header">RECENT</div>
         <div class="sidebar-item active">ALL</div>
-      <div class="sidebar-group">
-        THE INTERNATIONAL 2016
-      </div>
-      <div class="sidebar-group">
-        TREASURES & CHARMS
-      </div>
-      <div class="sidebar-group">
-        HEROES
-      </div>
-        <div class="sidebar-group">
-        COURIERS & WARDS
-      </div>
-      <div class="sidebar-group">
-        AUDIO
-      </div>
-        <div class="sidebar-group">
-          INTERFACE
-        </div>
-          <div class="sidebar-group">
-        WORLD
-      </div>
-        <div class="sidebar-group">
-        OTHER
-      </div>
-      <div class="sidebar-header">COLLECTION</div>
+        <div class="sidebar-group">THE INTERNATIONAL 2016</div>
+        <div class="sidebar-group">WORLD</div>
+        <div class="sidebar-group">OTHER</div>
+        <div class="sidebar-header">COLLECTION</div>
     </div>
 
     <div class="collection-main">
@@ -105,9 +84,77 @@ z-index:10">
             <div class="filter-label">FILTER:</div>
             <select class="filter-select">
               <option>None</option>
-              <option>Heroes</option>
+              <option>Audio</option>
               <option>Weapons</option>
               <option>Cosmetics</option>
+              <option>Interface</option>
+              <option>COURIERS & WARDS</option>
+              <option>TREASURES & CHARMS</option>
+            </select>
+            <select class="hero-filter-select">
+            <option value="All">All Heroes</option>
+            <option value="Abaddon">Abaddon</option>
+            <option value="Alchemist">Alchemist</option>
+            <option value="Ancient Apparition">Ancient Apparition</option>
+            <option value="Arc Warden">Arc Warden</option>
+            <option value="Axe">Axe</option>
+            <option value="Bane">Bane</option>
+            <option value="Batrider">Batrider</option>
+            <option value="Beastmaster">Beastmaster</option>
+            <option value="Bloodseeker">Bloodseeker</option>
+            <option value="Bounty Hunter">Bounty Hunter</option>
+            <option value="Brewmaster">Brewmaster</option>
+            <option value="Bristleback">Bristleback</option>
+            <option value="Broodmother">Broodmother</option>
+            <option value="Centaur Warrunner">Centaur Warrunner</option>
+            <option value="Chaos Knight">Chaos Knight</option>
+            <option value="Chen">Chen</option>
+            <option value="Clinkz">Clinkz</option>
+            <option value="Clockwerk">Clockwerk</option>
+            <option value="Crystal Maiden">Crystal Maiden</option>
+            <option value="Dark Seer">Dark Seer</option>
+            <option value="Dark Willow">Dark Willow</option>
+            <option value="Dawnbreaker">Dawnbreaker</option>
+            <option value="Dazzle">Dazzle</option>
+            <option value="Death Prophet">Death Prophet</option>
+            <option value="Disruptor">Disruptor</option>
+            <option value="Doom">Doom</option>
+            <option value="Dragon Knight">Dragon Knight</option>
+            <option value="Drow Ranger">Drow Ranger</option>
+            <option value="Earth Spirit">Earth Spirit</option>
+            <option value="Earthshaker">Earthshaker</option>
+            <option value="Elder Titan">Elder Titan</option>
+            <option value="Ember Spirit">Ember Spirit</option>
+            <option value="Enchantress">Enchantress</option>
+            <option value="Enigma">Enigma</option>
+            <option value="Faceless Void">Faceless Void</option>
+            <option value="Grimstroke">Grimstroke</option>
+            <option value="Gyrocopter">Gyrocopter</option>
+            <option value="Hoodwink">Hoodwink</option>
+            <option value="Huskar">Huskar</option>
+            <option value="Invoker">Invoker</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
+            <option value="Io">Io</option>
             </select>
         </div>
         <div class="collection-sort">

@@ -204,3 +204,63 @@
 .legendary .rarity-corner { background-color: #d32ce6; }
 .immortal .rarity-corner { background-color: #b28a33; }
 .arcana .rarity-corner { background-color: #ade55c; }
+
+
+.filter-select,
+.sort-select,
+.hero-filter-select{
+    background-color: #25323c;
+    color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+    appearance: none; /* Убираем стандартную стрелочку селекта */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+
+.hero-filter-select {
+    max-width: 200px; /* или нужное вам значение */
+}
+
+
+.hero-filter-select option {
+     padding: 5px;
+    font-size: 14px;
+}
+
+
+.hero-filter-select::-ms-expand {
+  display: none;
+}
+
+.hero-filter-select + div{
+  max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    position: absolute;
+    background-color: #25323c;
+    border: 1px solid #333;
+    z-index: 2; /* Чтобы список был над контентом */
+    border-radius: 3px;
+    min-width: 100%; /* минимальная ширина */
+}
+
+
+.hero-filter-select:focus + div,
+.hero-filter-select:active + div,
+.hero-filter-select:hover + div {
+    display: block;
+}
+
+.hero-filter-select option:hover{
+    background-color: #333; /* цвет при наведении */
+}
+

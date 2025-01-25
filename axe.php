@@ -104,58 +104,47 @@ background-color: #212121;">
                         <div class="romb"></div>
                     </div>
                 </div>
-            <div class="sposobnost_container">
-                <div class="sposobnost_zagolovok">Способности</div>
-                <div class="sposobosti_geroev_row">
-                    <div class="_3ty-o0Vg7AspURxYD_vDO0">
-                        <img class="_9eyi-y0N7HQeAgY_e4IX3" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/talents.svg">
-                        <div class="_1ALRldYHhqQh2p5Ro4yV7C _2abeJ8EsTgK_96G-pPJAbb">
-                            <div class="_3AsciWX0cGyLvTIulgX51j _2abeJ8EsTgK_96G-pPJAbb">
-                                <div class="m_wahwAk1radLNEPsCGxG">
-                                    <div class="_2j-WC-5NVatiZi_hbF71s8">Древо талантов</div>
-                                    <div class="_3BgAvspn7pMCJOv-WcfmYl">
-                                        <div class="_1SJ4JZrp7rwc6FG-vINkFn _1F43S3W5UlahR4a_gKyc-U">Безмолвие от Flux, если рядом с жертвой никого нет</div>
-                                        <div class="_1OBdYLyWHp3adekYGqp1o1">
-                                            <div class="_1kzauCe7gxPg42R3fzXscY">25</div>
+                <div class="sposobnost_container">
+                    <div class="sposobnost_zagolovok">Способности</div>
+                    <div class="sposobosti_geroev_row">
+                        <div class="drevo_of_talent">
+                            <img class="drevo_of_talent_img" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/talents.svg">
+                            <div class="logika1 logika2">
+                                <div class="w-500 bks">
+                                    <div class="tip_settings">
+                                        <div class="drevo_name">Древо талантов</div>
+                                        <div class="sposobnost_cont_edin">
+                                            <div class="left_talent_s">Безмолвие от Flux, если рядом с жертвой никого нет</div>
+                                            <div class="lvl_cont">
+                                            <div class="lvl_const">25</div>
                                         </div>
-                                        <div class="_1SJ4JZrp7rwc6FG-vINkFn vNURB3XfbUorYbvwEZCgl">Урон по копии от Tempest Double не увеличивается</div>
+                                        <div class="left_talent_s">Урон по копии от Tempest Double не увеличивается</div>
                                     </div>
-                                    <div class="_3BgAvspn7pMCJOv-WcfmYl">
-                                        <div class="_1SJ4JZrp7rwc6FG-vINkFn _1F43S3W5UlahR4a_gKyc-U">–7 сек. перезарядки Magnetic Field</div>
-                                        <div class="_1OBdYLyWHp3adekYGqp1o1">
-                                            <div class="_1kzauCe7gxPg42R3fzXscY">20</div>
+                                    <div class="posobnost_cont_edin">
+                                        <div class="left_talent_s">–7 сек. перезарядки Magnetic Field</div>
+                                        <div class="lvl_cont">
+                                            <div class="lvl_const">20</div>
                                         </div>
-                                        <div class="_1SJ4JZrp7rwc6FG-vINkFn vNURB3XfbUorYbvwEZCgl">+40% к урону от Spark Wraith</div>
+                                        <div class="left_talent_s">+40% к урону от Spark Wraith</div>
                                     </div>
-                                    <div class="_3BgAvspn7pMCJOv-WcfmYl">
-                                        <div class="_1SJ4JZrp7rwc6FG-vINkFn _1F43S3W5UlahR4a_gKyc-U">+16 к скорости атаки и урону от Magnetic Field</div>
-                                        <div class="_1OBdYLyWHp3adekYGqp1o1">
-                                            <div class="_1kzauCe7gxPg42R3fzXscY">15</div>
+                                    <div class="posobnost_cont_edin">
+                                        <div class="left_talent_s">+16 к скорости атаки и урону от Magnetic Field</div>
+                                        <div class="lvl_cont">
+                                            <div class="lvl_const">15</div>
                                         </div>
-                                        <div class="_1SJ4JZrp7rwc6FG-vINkFn vNURB3XfbUorYbvwEZCgl">+2 сек. действия Flux</div>
-                                    </div><div class="_3BgAvspn7pMCJOv-WcfmYl">
-                                        <div class="_1SJ4JZrp7rwc6FG-vINkFn _1F43S3W5UlahR4a_gKyc-U">+200 к здоровью</div>
-                                        <div class="_1OBdYLyWHp3adekYGqp1o1">
-                                            <div class="_1kzauCe7gxPg42R3fzXscY">10</div>
+                                        <div class="left_talent_s">+2 сек. действия Flux</div>
+                                    </div>
+                                    <div class="posobnost_cont_edin">
+                                        <div class="left_talent_s">+200 к здоровью</div>
+                                        <div class="lvl_cont">
+                                            <div class="lvl_const">10</div>
                                         </div>
-                                        <div class="_1SJ4JZrp7rwc6FG-vINkFn vNURB3XfbUorYbvwEZCgl">+200 к дальности применения Flux</div>
+                                        <div class="left_talent_s">+200 к дальности применения Flux</div>
                                     </div>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    <div class="_3ty-o0Vg7AspURxYD_vDO0"><img class="sdE5vlhCr1gzvziS9-dIh" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/icons/innate_icon.png">
-                                    <div class="_1ALRldYHhqQh2p5Ro4yV7C">
-                                        <div class="_3AsciWX0cGyLvTIulgX51j">
-                                            <div class="_10lc5aoHOP5BafKhDC_AuD">
-                                                <div class="oRzqVIPO5vD9aPxv582G9">Runic Infusion </div>
-                                                <div class="_1GUxaKU8ts0aIJaMfIfMS_">Активируя любую руну, герой также получает эффект руны регенерации на 4 сек. </div>
-                                            </div>
-                                            </div></div></div>
-                                            <div class="_3ty-o0Vg7AspURxYD_vDO0"><img class="_3Chop4A9yz7Af_BwR1r_NW" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_flux.png">
-                                            <div class="_1ALRldYHhqQh2p5Ro4yV7C">
-                                                <div class="_3AsciWX0cGyLvTIulgX51j">
-                                                    <div class="_1fH3AuG8zzGoLyzou3ZHkL"><video class="_22nJ5nsfHDS2jEscPEne0-" autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_flux.jpg"><source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_flux.webm"><source type="video/mp4" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_flux.mp4"></video></div><div class="_10lc5aoHOP5BafKhDC_AuD"><div class="oRzqVIPO5vD9aPxv582G9">Flux </div><div class="_1GUxaKU8ts0aIJaMfIfMS_">Охватывает одинокого врага нестабильной энергией, замедляя его передвижение и нанося урон. Урон блокируется, если рядом с целью есть её союзники. </div></div></div></div></div><div class="_3ty-o0Vg7AspURxYD_vDO0"><img class="_3Chop4A9yz7Af_BwR1r_NW" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_magnetic_field.png"><div class="_1ALRldYHhqQh2p5Ro4yV7C"><div class="_3AsciWX0cGyLvTIulgX51j"><div class="_1fH3AuG8zzGoLyzou3ZHkL"><video class="_22nJ5nsfHDS2jEscPEne0-" autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_magnetic_field.jpg"><source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_magnetic_field.webm"><source type="video/mp4" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_magnetic_field.mp4"></video></div><div class="_10lc5aoHOP5BafKhDC_AuD"><div class="oRzqVIPO5vD9aPxv582G9">Magnetic Field </div><div class="_1GUxaKU8ts0aIJaMfIfMS_">Герой создаёт вокруг себя круглое магнитное поле. </div></div></div></div></div><div class="_3ty-o0Vg7AspURxYD_vDO0"><img class="_3Chop4A9yz7Af_BwR1r_NW" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_spark_wraith.png"><div class="_1ALRldYHhqQh2p5Ro4yV7C"><div class="_3AsciWX0cGyLvTIulgX51j"><div class="_1fH3AuG8zzGoLyzou3ZHkL"><video class="_22nJ5nsfHDS2jEscPEne0-" autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.jpg"><source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.webm"><source type="video/mp4" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_spark_wraith.mp4"></video></div><div class="_10lc5aoHOP5BafKhDC_AuD"><div class="oRzqVIPO5vD9aPxv582G9">Spark Wraith </div><div class="_1GUxaKU8ts0aIJaMfIfMS_">Призывает призрачную искру, которая медленно материализуется и сторожит выделенную область. При появлении врага искра бросается на него и взрывается, нанося жертве магический урон и замедляя её. Наносит существам, не являющимся героями, на 40% больше урона. </div></div></div></div></div><div class="_3ty-o0Vg7AspURxYD_vDO0"><img class="_3Chop4A9yz7Af_BwR1r_NW" src="https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/abilities/arc_warden_tempest_double.png"><div class="_1ALRldYHhqQh2p5Ro4yV7C"><div class="_3AsciWX0cGyLvTIulgX51j"><div class="_1fH3AuG8zzGoLyzou3ZHkL"><video class="_22nJ5nsfHDS2jEscPEne0-" autoplay="" preload="auto" loop="" playsinline="" poster="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.jpg"><source type="video/webm" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.webm"><source type="video/mp4" src="https://cdn.akamai.steamstatic.com/apps/dota2/videos/dota_react/abilities/arc_warden/arc_warden_tempest_double.mp4"></video></div><div class="_10lc5aoHOP5BafKhDC_AuD"><div class="oRzqVIPO5vD9aPxv582G9">Tempest Double </div><div class="_1GUxaKU8ts0aIJaMfIfMS_">Сконцентрировав свои осколки в единую сущность, герой создаёт свою идеальную электрическую копию, способности которой имеют эффекты противоположной команды. Копия может использовать все предметы оригинала, кроме многих расходуемых и тех, что теряются при смерти, и имеет отдельное время перезарядки для них.<br><br>Убийство копии принесёт противнику золото и начнёт перезарядку способности.<br><br>Копия теряет себя, если находится на слишком большом расстоянии от своего создателя, отчего ей наносят больше урона. </div></div></div></div></div></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
     </div>
 </main> 
 </body>

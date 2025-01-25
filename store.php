@@ -71,10 +71,9 @@ z-index:10">
 <div class="collection-container">
     <div class="collection-sidebar">
         <div class="sidebar-header">RECENT</div>
-        <div class="sidebar-item active">ALL</div>
-        <div class="sidebar-group">THE INTERNATIONAL 2016</div>
-        <div class="sidebar-group">WORLD</div>
-        <div class="sidebar-group">OTHER</div>
+        <div class="sidebar-item active" data-filter="all">ALL</div>
+        <div class="sidebar-group" data-filter="international_2016">THE INTERNATIONAL 2016</div>
+        <div class="sidebar-group" data-filter="international_2016">OTHER</div>
         <div class="sidebar-header">COLLECTION</div>
     </div>
 

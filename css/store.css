@@ -46,16 +46,6 @@
   }
   
   
-  .collection-main {
-      flex-grow: 1;
-      padding: 20px;
-      box-sizing: border-box;
-      display: flex;
-    flex-direction: column; 
-      overflow: hidden;
-  
-  }
-  
   .collection-header {
     display: flex; 
     justify-content: space-between; 
@@ -264,3 +254,46 @@
     background-color: #333; /* цвет при наведении */
 }
 
+.collection-container {
+    display: flex;
+      width: 1200px;
+      margin: 20px 0;
+  }
+  
+  .collection-sidebar {
+    width: 220px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+      overflow: hidden;
+  }
+   .collection-main {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+      overflow: hidden;
+  }
+  
+  .collection-header {
+    display: flex; /*  фильтры и сортировку в одну строку */
+    justify-content: space-between; /* разносим по краям */
+    align-items: flex-start;
+      margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .collection-filters,
+  .collection-sort {
+    display: flex;
+    align-items: center;
+  }
+  
+  .collection-filters {
+    gap: 10px;
+      margin-bottom: 10px;
+  }
+  

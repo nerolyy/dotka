@@ -4,15 +4,16 @@ const filterSelect = document.querySelector('.filter-select');
 const sortSelect = document.querySelector('.sort-select');
 const groupByCheckbox = document.querySelector('#groupByType');
 const heroFilterSelect = document.querySelector('.hero-filter-select');
+const sidebarItems = document.querySelectorAll('.sidebar-item, .sidebar-group');
 
 let collectionItems = [
-    { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Weapons', rarity: 'Immortal', hero: 'Anti-Mage'},
-    { image: 'skins/Blade of the Demonic Vessel.png', name: 'Blade of the Demonic Vessel', type: 'Weapons', rarity: 'Legendary', hero: 'Anti-Mage' },
-    { image: 'skins/Blightfall - Weapon.png', name: 'Blightfall - Weapon', type: 'Weapons', rarity: 'Mythical', hero: 'Anti-Mage' },
-    { image: 'skins/Trenchknight - Weapon.png', name: 'Trenchknight - Weapon', type: 'Weapons', rarity: 'Mythical', hero: 'Anti-Mage' },
-    { image: 'skins/Scythe of the Everblack.png', name: 'Scythe of the Everblack', type: 'Weapons', rarity: 'Mythical', hero: 'Anti-Mage' },
-    { image: 'skins/Endless Night Sword.png', name: 'Endless Night Sword', type: 'Weapons', rarity: 'Mythical', hero: 'Anti-Mage' },
-    { image: 'item7.png', name: 'item 7', type: 'Cosmetics', rarity: 'Common', hero: 'Anti-Mage' },
+    { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Weapons', rarity: 'Immortal', hero: 'Abaddon', category: 'all', category: 'international'},
+    { image: 'skins/Blade of the Demonic Vessel.png', name: 'Blade of the Demonic Vessel', type: 'Weapons', rarity: 'Legendary', hero: 'Abaddon' },
+    { image: 'skins/Blightfall - Weapon.png', name: 'Blightfall - Weapon', type: 'Weapons', rarity: 'Mythical', hero: 'Abaddon' },
+    { image: 'skins/Trenchknight - Weapon.png', name: 'Trenchknight - Weapon', type: 'Weapons', rarity: 'Mythical', hero: 'Abaddon' },
+    { image: 'skins/Scythe of the Everblack.png', name: 'Scythe of the Everblack', type: 'Weapons', rarity: 'Mythical', hero: 'Abaddon' },
+    { image: 'skins/Endless Night Sword.png', name: 'Endless Night Sword', type: 'Weapons', rarity: 'Mythical', hero: 'Abaddon' },
+    { image: 'item7.png', name: "Phantom's Reaper", type: 'Cosmetics', rarity: 'Mythical', hero: 'Abaddon' },
     { image: 'item8.png', name: 'item 8', type: 'Weapons', rarity: 'Rare', hero: 'Anti-Mage' },
     { image: 'item9.png', name: 'item 9', type: 'Cosmetics', rarity: 'Arcana', hero: 'Anti-Mage' },
     { image: 'item10.png', name: 'item 10', type: 'Heroes', rarity: 'Uncommon', hero: 'Anti-Mage' },

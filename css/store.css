@@ -1,0 +1,108 @@
+.promo {
+    color: #ddd;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex; /*  делаем flexible container */
+    justify-content: center; /* центрируем по горизонтали */
+  }
+  
+  .collection-container {
+    display: flex; /*  делаем flexible container */
+      width: 1200px; /* или нужная ширина */
+      margin: 20px 0; /* внешние отступы */
+  }
+  
+  .collection-sidebar {
+    width: 220px; /* Ширина сайдбара */
+    padding: 20px; /*  внутренние отступы */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+      overflow: hidden;
+  }
+  
+  .sidebar-header {
+      font-size: 16px;
+      font-weight: bold;
+    padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #25323c;
+  }
+  
+  .sidebar-item,
+  .sidebar-group {
+    padding: 10px 5px;
+    cursor: pointer;
+      transition: background-color 0.2s; /* анимация при наведении */
+  }
+  
+  .sidebar-item.active, .sidebar-group:hover{
+    background-color: #1d2c36; /* выделяем активный элемент */
+  }
+  
+  .sidebar-group{
+      font-size: 14px;
+  }
+  
+  
+  .collection-main {
+      flex-grow: 1; /*  занимаем всю оставшуюся ширину */
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+    flex-direction: column; /* располагаем элементы друг под другом */
+      overflow: hidden;
+  
+  }
+  
+  .collection-header {
+    display: flex; /*  фильтры и сортировку в одну строку */
+    justify-content: space-between; /* разносим по краям */
+    align-items: center; /*  вертикальное выравнивание */
+      margin-bottom: 20px; /* отступ снизу */
+  }
+  
+  .collection-filters,
+  .collection-sort {
+    display: flex; /*  элементы фильтрации и сортировки в одну строку */
+    align-items: center;
+  }
+  
+  .collection-filters {
+    gap: 10px; /* отступ между фильтром и селектором */
+  }
+  
+  
+  .filter-label,
+  .sort-by {
+      font-size: 14px;
+  }
+  .filter-select,
+  .sort-select{
+      background-color: #25323c;
+      color: #ddd;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      outline: none; /* убираем обводку при клике */
+      font-size: 14px;
+  }
+  
+  .sort-type{
+      margin-right: 20px;
+      font-size: 14px;
+  }
+  
+  
+  .sort-type input[type="checkbox"] {
+    margin-right: 5px; /*  отступ от галочки до текста */
+    cursor: pointer;
+  }
+  
+  .collection-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* создаем сетку */
+      gap: 5px; /*  отступы между предметами */
+      overflow: hidden;
+  }
+  

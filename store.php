@@ -68,7 +68,67 @@ z-index:10">
     </div>
 </header>
 <promo>
+<div class="collection-container">
+    <div class="collection-sidebar">
+        <div class="sidebar-header">RECENT</div>
+        <div class="sidebar-item active">ALL</div>
+      <div class="sidebar-group">
+        THE INTERNATIONAL 2016
+      </div>
+      <div class="sidebar-group">
+        TREASURES & CHARMS
+      </div>
+      <div class="sidebar-group">
+        HEROES
+      </div>
+        <div class="sidebar-group">
+        COURIERS & WARDS
+      </div>
+      <div class="sidebar-group">
+        AUDIO
+      </div>
+        <div class="sidebar-group">
+          INTERFACE
+        </div>
+          <div class="sidebar-group">
+        WORLD
+      </div>
+        <div class="sidebar-group">
+        OTHER
+      </div>
+      <div class="sidebar-header">COLLECTION</div>
+    </div>
 
+    <div class="collection-main">
+      <div class="collection-header">
+        <div class="collection-filters">
+            <div class="filter-label">FILTER:</div>
+            <select class="filter-select">
+              <option>None</option>
+              <option>Heroes</option>
+              <option>Weapons</option>
+              <option>Cosmetics</option>
+            </select>
+        </div>
+        <div class="collection-sort">
+            <div class="sort-type">
+                <input type="checkbox" id="groupByType" class="group-checkbox"><label for="groupByType">GROUP BY TYPE</label>
+            </div>
+            <div class="sort-by">
+                SORT BY:
+                <select class="sort-select">
+                  <option>Rarity</option>
+                  <option>Name</option>
+                  <option>Date Added</option>
+                </select>
+            </div>
+        </div>
+      </div>
+      <div class="collection-grid">
+          </div>
+    </div>
+  </div>
+  <script src="scripts/store_filter.js"></script>
 </promo>
 </body>
 </html>

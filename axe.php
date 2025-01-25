@@ -104,7 +104,52 @@ background-color: #212121;">
                         <div class="romb"></div>
                     </div>
                 </div>
-                
+                <div class="some_of_tree">
+                    <div class="talent-tree-container">
+                        <div class="talent-tree">
+                            <div class="talent-header">Древо талантов</div>
+                            <div class="talent-levels">
+                                <div class="talent-row level-25">
+                                    <div class="talent-option">
+                                        <div class="talent-desc">Безмолвие от Flux, если рядом с жертвой никого нет</div>
+                                    </div>
+                                    <div class="talent-level">25</div>
+                                    <div class="talent-option">
+                                        <div class="talent-desc">Урон по копии от Tempest Double не увеличивается</div>
+                                    </div>
+                                </div>
+                            <div class="talent-row level-20">
+                                <div class="talent-option">
+                                    <div class="talent-desc">-7 сек. перезарядки Magnetic Field</div>
+                                </div>
+                                <div class="talent-level">20</div>
+                                <div class="talent-option">
+                                    <div class="talent-desc">+40% к урону от Spark Wraith</div>
+                                </div>
+                            </div>
+                            <div class="talent-row level-15">
+                                <div class="talent-option">
+                                    <div class="talent-desc">+16 к скорости атаки и урону от Magnetic Field</div>
+                                </div>
+                                <div class="talent-level">15</div>
+                                <div class="talent-option">
+                                    <div class="talent-desc">+2 сек. действия Flux</div>
+                                </div>
+                            </div>
+                            <div class="talent-row level-10">
+                                <div class="talent-option">
+                                    <div class="talent-desc">+200 к здоровью</div>
+                                </div>
+                                <div class="talent-level">10</div>
+                                <div class="talent-option">
+                                    <div class="talent-desc">+200 к дальности применения Flux</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
     </div>
 </main> 
 </body>

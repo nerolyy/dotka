@@ -116,55 +116,54 @@ function filterAndSortItems() {
     let filteredItems = collectionItems;
 
     if (selectedFilter !== 'None') {
-        filteredItems = collectionItems.filter(item => item.type === selectedFilter);
+      filteredItems = collectionItems.filter(item => item.type === selectedFilter);
     }
 
     filteredItems.sort((a, b) => {
-        if (selectedSort === 'Rarity') {
-            const rarityOrder = { 'Common': 1, 'Uncommon': 2, 'Rare': 3, 'Mythical': 4, 'Legendary': 5, 'Immortal': 6, 'Arcana': 7};
-            return rarityOrder[a.rarity] - rarityOrder[b.rarity];
-        } else if (selectedSort === 'Name') {
-             return a.name.localeCompare(b.name);
-        }
+      if (selectedSort === 'Rarity') {
+        const rarityOrder = { 'Common': 1, 'Uncommon': 2, 'Rare': 3, 'Mythical': 4, 'Legendary': 5, 'Immortal': 6, 'Arcana': 7 };
+        return rarityOrder[a.rarity] - rarityOrder[b.rarity];
+      } else if (selectedSort === 'Name') {
+        return a.name.localeCompare(b.name);
+      }
     });
 
 
     let gridHTML = '';
 
-
     if (isGroupByType) {
-        const groupedItems = {};
-
-        filteredItems.forEach(item => {
-          if (!groupedItems[item.type]) {
-              groupedItems[item.type] = [];
-            }
-          groupedItems[item.type].push(item);
-        });
-
-        for (const type in groupedItems){
-            gridHTML += `<div class="collection-group">${type}</div>`;
-          groupedItems[type].forEach(item => {
-                gridHTML += `
-        <div class="collection-item">
-            <img src="${item.image}" alt="${item.name}">
-            <div class="item-overlay">
-             </div>
-        </div>
-        `
-            })
-
+      const groupedItems = {};
+      filteredItems.forEach(item => {
+        if (!groupedItems[item.type]) {
+          groupedItems[item.type] = [];
         }
-    }else {
-       filteredItems.forEach(item => {
-           gridHTML += `
-        <div class="collection-item">
-            <img src="${item.image}" alt="${item.name}">
-            <div class="item-overlay">
-             </div>
-        </div>
-        `
-       });
+        groupedItems[item.type].push(item);
+      });
+
+      for (const type in groupedItems){
+        gridHTML += `<div class="collection-group">${type}</div>`;
+        groupedItems[type].forEach(item => {
+          gridHTML += `
+              <div class="collection-item ${item.rarity}">
+                <img src="${item.image}" alt="${item.name}">
+                  <div class="item-overlay">
+                   </div>
+                  <div class="rarity-corner"></div>
+              </div>
+              `;
+            })
+        }
+    } else {
+      filteredItems.forEach(item => {
+          gridHTML += `
+                <div class="collection-item ${item.rarity}">
+                    <img src="${item.image}" alt="${item.name}">
+                      <div class="item-overlay">
+                        </div>
+                     <div class="rarity-corner"></div>
+                </div>
+                `
+        });
     }
 
     collectionGrid.innerHTML = gridHTML;

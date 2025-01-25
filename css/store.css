@@ -156,3 +156,51 @@
 .collection-grid::-webkit-scrollbar-track {
   background-color: #333; 
 }
+.collection-item {
+    width: 100px;
+  height: 100px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.collection-item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+.item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.collection-item:hover .item-overlay{
+   opacity: 1;
+}
+
+.rarity-corner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-top-left-radius: 3px;
+  pointer-events: none;
+    z-index: 1;
+}
+
+
+.uncommon .rarity-corner { background-color: #5e98d9; }
+.rare .rarity-corner { background-color: #4b69ff; }
+.mythical .rarity-corner { background-color: #8847ff; }
+.legendary .rarity-corner { background-color: #d32ce6; }
+.immortal .rarity-corner { background-color: #b28a33; }
+.arcana .rarity-corner { background-color: #ade55c; }

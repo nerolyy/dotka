@@ -188,3 +188,77 @@
 .bh {
     height: 110% !important;
 }
+.abilities-container {
+    display: flex; /*  Чтобы иконки были в ряд */
+    justify-content: flex-start; /* Выравниваем в начале */
+  }
+  
+  .ability-wrapper {
+      position: relative;
+      margin: 10px;
+  }
+  
+  
+  .ability {
+      cursor: pointer;
+      display: inline-block;
+  }
+  
+  .ability img {
+    width: 60px;  /* Размер иконки */
+    height: 60px;
+  }
+  
+  .ability-tooltip {
+    position: absolute;
+    display: none; /*  Скрываем подсказку */
+    background-color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: white;
+    z-index: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    top: -10px;
+    left: 50%; /* Центрируем относительно родителя */
+    transform: translateX(-50%) translateY(-100%); /*  Точная центровка и поднятие над элементом*/
+    width: 300px;
+  }
+  
+  .ability-tooltip.show {
+      display: block; /*  Показываем подсказку при наведении */
+  }
+  
+  
+  .ability-tooltip::before {
+    content: '';
+    position: absolute;
+    left: 50%; /* Центрируем */
+    top: 100%;
+    border-top: 10px solid #333;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    transform: translateX(-50%);
+  }
+  
+  .ability-tooltip img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .ability-tooltip h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .ability-tooltip p {
+      font-size: 14px;
+      line-height: 1.4;
+      margin: 0;
+  }
+
+.flex_dir {
+    display: flex;
+    justify-content: flex-start;
+}

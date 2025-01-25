@@ -7,15 +7,15 @@ const heroFilterSelect = document.querySelector('.hero-filter-select');
 const sidebarItems = document.querySelectorAll('.sidebar-item, .sidebar-group');
 
 let collectionItems = [
-    { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Weapons', rarity: 'Immortal', hero: 'Abaddon', category: 'all', category: 'international'},
+    { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Weapons', rarity: 'Immortal', hero: 'Abaddon', category: 'international'},
     { image: 'skins/Blade of the Demonic Vessel.png', name: 'Blade of the Demonic Vessel', type: 'Weapons', rarity: 'Legendary', hero: 'Abaddon' },
     { image: 'skins/Blightfall - Weapon.png', name: 'Blightfall - Weapon', type: 'Weapons', rarity: 'Mythical', hero: 'Abaddon' },
     { image: 'skins/Trenchknight - Weapon.png', name: 'Trenchknight - Weapon', type: 'Weapons', rarity: 'Mythical', hero: 'Abaddon' },
     { image: 'skins/Scythe of the Everblack.png', name: 'Scythe of the Everblack', type: 'Weapons', rarity: 'Mythical', hero: 'Abaddon' },
     { image: 'skins/Endless Night Sword.png', name: 'Endless Night Sword', type: 'Weapons', rarity: 'Mythical', hero: 'Abaddon' },
-    { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Weapons', rarity: 'Immortal', hero: 'Anti-Mage' },
-    { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Weapons', rarity: 'Immortal', hero: 'Anti-Mage' },
-    { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Weapons', rarity: 'Immortal', hero: 'Anti-Mage' },
+    { image: 'skins/pudge_arcana_back_png.png', name: 'Feast of Abscession', type: 'Cosmetics', rarity: 'Arcana', hero: 'Pudge' },
+    { image: 'skins/juggernaut_arcana_mask_style1_png.png', name: 'Bladeform Legacy', type: 'Cosmetics', rarity: 'Arcana', hero: 'Juggernaut' },
+    { image: 'skins/zeus_arcana_png.png', name: 'Tempest Helm of the Thundergod', type: 'Set', rarity: 'Arcana', hero: 'Zeus' },
     { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Weapons', rarity: 'Immortal', hero: 'Anti-Mage' },
     { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Weapons', rarity: 'Immortal', hero: 'Anti-Mage' },
     { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Weapons', rarity: 'Immortal', hero: 'Anti-Mage' },

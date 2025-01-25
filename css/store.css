@@ -130,7 +130,7 @@
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     gap: 5px;
     overflow-y: auto;
-  max-height: 400px; 
+    max-height: 80vh;
     padding-right: 10px; 
 }
 
@@ -296,7 +296,6 @@
 }
 
 .collection-sidebar {
-  background-color: #162027;
   width: 220px;
   padding: 20px;
   box-sizing: border-box;
@@ -323,7 +322,6 @@
 
  .collection-main {
   flex-grow: 1;
-  background-color: #162027;
   padding: 20px;
   box-sizing: border-box;
   display: flex;

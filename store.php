@@ -105,6 +105,7 @@ z-index:10">
             <div class="filter-label">FILTER:</div>
             <select class="filter-select">
               <option>None</option>
+              <option>Set</option>
               <option>Audio</option>
               <option>Weapons</option>
               <option>Cosmetics</option>

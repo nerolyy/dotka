@@ -2,20 +2,20 @@
     color: #ddd;
     font-family: sans-serif;
     margin: 0;
-    display: flex; /*  делаем flexible container */
-    justify-content: center; /* центрируем по горизонтали */
+    display: flex;
+    justify-content: center;
   }
   
   .collection-container {
-    display: flex; /*  делаем flexible container */
-      width: 100%; /* или нужная ширина */
-      margin: 20px 0; /* внешние отступы */
+    display: flex; 
+      width: 100%;
+      margin: 20px 0;
     margin-left: 30px;
   }
   
   .collection-sidebar {
-    width: 220px; /* Ширина сайдбара */
-    padding: 20px; /*  внутренние отступы */
+    width: 220px; 
+    padding: 20px; 
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -34,11 +34,11 @@
   .sidebar-group {
     padding: 10px 5px;
     cursor: pointer;
-      transition: background-color 0.2s; /* анимация при наведении */
+      transition: background-color 0.2s; 
   }
   
   .sidebar-item.active, .sidebar-group:hover{
-    background-color: #1d2c36; /* выделяем активный элемент */
+    background-color: #1d2c36;
   }
   
   .sidebar-group{
@@ -47,30 +47,30 @@
   
   
   .collection-main {
-      flex-grow: 1; /*  занимаем всю оставшуюся ширину */
+      flex-grow: 1;
       padding: 20px;
       box-sizing: border-box;
       display: flex;
-    flex-direction: column; /* располагаем элементы друг под другом */
+    flex-direction: column; 
       overflow: hidden;
   
   }
   
   .collection-header {
-    display: flex; /*  фильтры и сортировку в одну строку */
-    justify-content: space-between; /* разносим по краям */
-    align-items: center; /*  вертикальное выравнивание */
-      margin-bottom: 20px; /* отступ снизу */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+      margin-bottom: 20px;
   }
   
   .collection-filters,
   .collection-sort {
-    display: flex; /*  элементы фильтрации и сортировки в одну строку */
+    display: flex;
     align-items: center;
   }
   
   .collection-filters {
-    gap: 10px; /* отступ между фильтром и селектором */
+    gap: 10px; 
   }
   
   
@@ -85,7 +85,7 @@
       border: none;
       padding: 5px 10px;
       border-radius: 3px;
-      outline: none; /* убираем обводку при клике */
+      outline: none; 
       font-size: 14px;
   }
   
@@ -96,42 +96,63 @@
   
   
   .sort-type input[type="checkbox"] {
-    margin-right: 5px; /*  отступ от галочки до текста */
+    margin-right: 5px; 
     cursor: pointer;
   }
   
   .collection-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* создаем сетку */
-      gap: 5px; /*  отступы между предметами */
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+      gap: 5px;
       overflow: hidden;
   }
   
   .collection-item {
-    width: 100px; /* Фиксированная ширина элементов */
+    width: 100px;
   height: 100px;
-    position: relative; /* Относительное позиционирование */
-    overflow: hidden; /* Обрезаем выходящие за рамки элементы */
-    box-sizing: border-box; /* чтобы padding и border не влияли на размер */
+    position: relative; 
+    overflow: hidden; 
+    box-sizing: border-box;
 }
 
 .collection-item img {
     max-width: 100%;
     max-height: 100%;
-    display: block; /* убираем отступы снизу у картинок */
-    object-fit: cover; /* масштабируем изображение с сохранением пропорций */
+    display: block;
+    object-fit: cover;
 }
 
 .item-overlay {
-    position: absolute; /* абсолютное позиционирование относительно контейнера */
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* на всю ширину контейнера */
-    height: 100%; /* на всю высоту контейнера */
-  background-color: rgba(0, 0, 0, 0.2); /* полупрозрачный фон для эффекта наведения */
-    opacity: 0; /* изначально делаем невидимым */
-  transition: opacity 0.2s ease; /* плавный переход */
+    width: 100%; 
+    height: 100%; 
+  background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0; 
+  transition: opacity 0.2s ease; 
 }
 .collection-item:hover .item-overlay{
-   opacity: 1; /* делаем видимым при наведении */
+   opacity: 1; 
+}
+.collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 5px;
+    overflow-y: auto;
+  max-height: 400px; 
+    padding-right: 10px; 
+}
+
+.collection-grid::-webkit-scrollbar {
+  width: 6px; 
+}
+
+.collection-grid::-webkit-scrollbar-thumb {
+  background-color: #555; 
+    border-radius: 3px;
+}
+
+.collection-grid::-webkit-scrollbar-track {
+  background-color: #333; 
 }

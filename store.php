@@ -72,7 +72,29 @@ z-index:10">
     <div class="collection-sidebar">
         <div class="sidebar-header">RECENT</div>
         <div class="sidebar-item active" data-filter="all">ALL</div>
-        <div class="sidebar-group" data-filter="international_2016">THE INTERNATIONAL 2016</div>
+        <div class="sidebar-group" data-filter="Frostivus 2023 Treasure Chest">Frostivus 2023 Treasure Chest</div>
+        <div class="sidebar-group" data-filter="August 2023: Collector's Cache">August 2023: Collector's Cache</div>
+        <div class="sidebar-group" data-filter="10th Anniversary: ​​Treasure Trove">10th Anniversary: ​​Treasure Trove</div>
+        <div class="sidebar-group" data-filter="Dead Reckoning Chest">Dead Reckoning Chest</div>
+        <div class="sidebar-group" data-filter="Battle Pass 2022: Collector's Cache II">Battle Pass 2022: Collector's Cache II</div>
+        <div class="sidebar-group" data-filter="Battle Pass 2022: Collector's Cache">Battle Pass 2022: Collector's Cache</div>
+        <div class="sidebar-group" data-filter="Battle Pass 2022: Immortal Treasure II">Battle Pass 2022: Immortal Treasure II</div>
+        <div class="sidebar-group" data-filter="Battle Pass 2022: Ageless Heirlooms">Battle Pass 2022: Ageless Heirlooms</div>
+        <div class="sidebar-group" data-filter="Battle Pass 2022: Immortal Treasure I">Battle Pass 2022: Immortal Treasure I</div>
+        <div class="sidebar-group" data-filter="Aghanim's Labyrinth 2021: Ageless Heirlooms">Aghanim's Labyrinth 2021: Ageless Heirlooms</div>
+        <div class="sidebar-group" data-filter="Aganim's Labyrinth 2021: Continuum Collection">Aganim's Labyrinth 2021: Continuum Collection</div>
+        <div class="sidebar-group" data-filter="Aghanim's Labyrinth 2021: Immortal Treasure">Aghanim's Labyrinth 2021: Immortal Treasure</div>
+        <div class="sidebar-group" data-filter="Labyrinth of Aghanim 2021: Scenes from the Continuum Vault">Labyrinth of Aghanim 2021: Scenes from the Continuum Vault</div>
+        <div class="sidebar-group" data-filter="Labyrinth of Aghanim 2021: Trust of the Benefactor">Labyrinth of Aghanim 2021: Trust of the Benefactor</div>
+        <div class="sidebar-group" data-filter="Treasure of the Wordless Trek">Treasure of the Wordless Trek</div>
+        <div class="sidebar-group" data-filter="Treasure of the Crimson Witness 2021">Treasure of the Crimson Witness 2021</div>
+        <div class="sidebar-group" data-filter="Hostilities 2021: Collector's Cache">Hostilities 2021: Collector's Cache</div>
+        <div class="sidebar-group" data-filter="Feud 2021: Immortal Treasure">Feud 2021: Immortal Treasure</div>
+        <div class="sidebar-group" data-filter="Feud 2021: Rarities of the Benefactor">Feud 2021: Rarities of the Benefactor</div>
+        <div class="sidebar-group" data-filter="Enmity 2021: Trust of the Benefactor">Enmity 2021: Trust of the Benefactor</div>
+        <div class="sidebar-group" data-filter="Feud 2021: Thematic Treasure Trove">Feud 2021: Thematic Treasure Trove</div>
+        <div class="sidebar-group" data-filter="Summer Treasure 2021">Summer Treasure 2021</div>
+        <div class="sidebar-group" data-filter="Spring Treasure 2021">Spring Treasure 2021</div>
         <div class="sidebar-group" data-filter="international_2016">OTHER</div>
         <div class="sidebar-header">COLLECTION</div>
     </div>

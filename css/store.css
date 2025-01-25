@@ -8,8 +8,9 @@
   
   .collection-container {
     display: flex; /*  делаем flexible container */
-      width: 1200px; /* или нужная ширина */
+      width: 100%; /* или нужная ширина */
       margin: 20px 0; /* внешние отступы */
+    margin-left: 30px;
   }
   
   .collection-sidebar {
@@ -106,3 +107,31 @@
       overflow: hidden;
   }
   
+  .collection-item {
+    width: 100px; /* Фиксированная ширина элементов */
+  height: 100px;
+    position: relative; /* Относительное позиционирование */
+    overflow: hidden; /* Обрезаем выходящие за рамки элементы */
+    box-sizing: border-box; /* чтобы padding и border не влияли на размер */
+}
+
+.collection-item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* убираем отступы снизу у картинок */
+    object-fit: cover; /* масштабируем изображение с сохранением пропорций */
+}
+
+.item-overlay {
+    position: absolute; /* абсолютное позиционирование относительно контейнера */
+    top: 0;
+    left: 0;
+    width: 100%; /* на всю ширину контейнера */
+    height: 100%; /* на всю высоту контейнера */
+  background-color: rgba(0, 0, 0, 0.2); /* полупрозрачный фон для эффекта наведения */
+    opacity: 0; /* изначально делаем невидимым */
+  transition: opacity 0.2s ease; /* плавный переход */
+}
+.collection-item:hover .item-overlay{
+   opacity: 1; /* делаем видимым при наведении */
+}

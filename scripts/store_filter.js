@@ -5,7 +5,7 @@ const sortSelect = document.querySelector('.sort-select');
 const groupByCheckbox = document.querySelector('#groupByType');
 
 let collectionItems = [
-    { image: 'item1.png', name: 'Arcana Item', type: 'Cosmetics', rarity: 'Arcana' },
+    { image: 'skins/Mace_of_the_chossen.png', name: 'Mace of the Chosen', type: 'Cosmetics', rarity: 'Immortal' },
     { image: 'item2.png', name: 'Rare Weapon', type: 'Weapons', rarity: 'Rare' },
     { image: 'item3.png', name: 'Common Cos', type: 'Cosmetics', rarity: 'Common' },
     { image: 'item4.png', name: 'Hero Item 1', type: 'Heroes', rarity: 'Uncommon' },
@@ -67,7 +67,7 @@ function filterAndSortItems() {
 
     filteredItems.sort((a, b) => {
         if (selectedSort === 'Rarity') {
-            const rarityOrder = { 'Common': 1, 'Uncommon': 2, 'Rare': 3, 'Arcana': 4 };
+            const rarityOrder = { 'Common': 1, 'Uncommon': 2, 'Rare': 3, 'Mythical': 4, 'Legendaty': 5, 'Immortal': 6, 'Arcana': 7};
             return rarityOrder[a.rarity] - rarityOrder[b.rarity];
         } else if (selectedSort === 'Name') {
              return a.name.localeCompare(b.name);

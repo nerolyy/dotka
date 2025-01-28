@@ -135,9 +135,15 @@
     display: none;
   }
 .show {
-    display: block;
+    display: block !important;
 }
 .filter_container {
     display: flex;
     flex-direction: row;
+}
+.pokaz {
+    display: block !important;
+}
+.typedif {
+    display: none;
 }

@@ -1,0 +1,350 @@
+.promo {
+    color: #ddd;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .collection-container {
+    display: flex; 
+      width: 100%;
+      margin: 20px 0;
+    margin-left: 30px;
+  }
+  
+  .collection-sidebar {
+    width: 220px; 
+    padding: 20px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+      overflow: hidden;
+  }
+  
+  .sidebar-header {
+      font-size: 16px;
+      font-weight: bold;
+    padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #25323c;
+  }
+  
+  .sidebar-item,
+  .sidebar-group {
+    padding: 10px 5px;
+    cursor: pointer;
+      transition: background-color 0.2s; 
+  }
+  
+  .sidebar-item.active, .sidebar-group:hover{
+    background-color: #1d2c36;
+  }
+  
+  .sidebar-group{
+      font-size: 14px;
+  }
+  
+  
+  .collection-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+      margin-bottom: 20px;
+  }
+  
+  .collection-filters,
+  .collection-sort {
+    display: flex;
+    align-items: center;
+  }
+  
+  .collection-filters {
+    gap: 10px; 
+  }
+  
+  
+  .filter-label,
+  .sort-by {
+      font-size: 14px;
+  }
+  .filter-select,
+  .sort-select{
+      background-color: #25323c;
+      color: #ddd;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      outline: none; 
+      font-size: 14px;
+  }
+  
+  .sort-type{
+      margin-right: 20px;
+      font-size: 14px;
+  }
+  
+  
+  .sort-type input[type="checkbox"] {
+    margin-right: 5px; 
+    cursor: pointer;
+  }
+  
+  .collection-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); 
+      gap: 5px;
+      overflow: hidden;
+  }
+  
+  .collection-item {
+    width: 100px;
+  height: 100px;
+    position: relative; 
+    overflow: hidden; 
+    box-sizing: border-box;
+}
+
+.collection-item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+  background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0; 
+  transition: opacity 0.2s ease; 
+}
+.collection-item:hover .item-overlay{
+   opacity: 1; 
+}
+.collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 5px;
+    overflow-y: auto;
+    max-height: 80vh;
+    padding-right: 10px; 
+}
+
+.collection-grid::-webkit-scrollbar {
+  width: 6px; 
+}
+
+.collection-grid::-webkit-scrollbar-thumb {
+  background-color: #555; 
+    border-radius: 3px;
+}
+
+.collection-grid::-webkit-scrollbar-track {
+  background-color: #333; 
+}
+.collection-item {
+    width: 100px;
+  height: 100px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.collection-item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+.item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.collection-item:hover .item-overlay{
+   opacity: 1;
+}
+
+.rarity-corner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-top-left-radius: 3px;
+  pointer-events: none;
+    z-index: 1;
+}
+
+
+.uncommon .rarity-corner { background-color: #5e98d9; }
+.rare .rarity-corner { background-color: #4b69ff; }
+.mythical .rarity-corner { background-color: #8847ff; }
+.legendary .rarity-corner { background-color: #d32ce6; }
+.immortal .rarity-corner { background-color: #b28a33; }
+.arcana .rarity-corner { background-color: #ade55c; }
+
+
+.filter-select,
+.sort-select,
+.hero-filter-select{
+    background-color: #25323c;
+    color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+    appearance: none; /* Убираем стандартную стрелочку селекта */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+
+.hero-filter-select {
+    max-width: 200px; /* или нужное вам значение */
+}
+
+
+.hero-filter-select option {
+     padding: 5px;
+    font-size: 14px;
+}
+
+
+.hero-filter-select::-ms-expand {
+  display: none;
+}
+
+.hero-filter-select + div{
+  max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    position: absolute;
+    background-color: #25323c;
+    border: 1px solid #333;
+    z-index: 2; /* Чтобы список был над контентом */
+    border-radius: 3px;
+    min-width: 100%; /* минимальная ширина */
+}
+
+
+.hero-filter-select:focus + div,
+.hero-filter-select:active + div,
+.hero-filter-select:hover + div {
+    display: block;
+}
+
+.hero-filter-select option:hover{
+    background-color: #333; /* цвет при наведении */
+}
+
+.collection-container {
+    display: flex;
+      width: 1200px;
+      margin: 20px 0;
+  }
+  
+   .collection-main {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+      overflow: hidden;
+  }
+  
+  .collection-header {
+    display: flex; /*  фильтры и сортировку в одну строку */
+    justify-content: space-between; /* разносим по краям */
+    align-items: flex-start;
+      margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .collection-filters,
+  .collection-sort {
+    display: flex;
+    align-items: center;
+  }
+  
+  .collection-filters {
+    gap: 10px;
+      margin-bottom: 10px;
+  }
+  
+.collection-container {
+  display: flex;
+    width: 1200px;
+    margin: 20px 0;
+}
+
+.collection-sidebar {
+  width: 220px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+    overflow-y: auto; /* добавляем вертикальную прокрутку */
+    max-height: 80vh; /* устанавливаем максимальную высоту */
+  padding-right: 10px;
+}
+
+
+.collection-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.collection-sidebar::-webkit-scrollbar-thumb {
+  background-color: #555;
+    border-radius: 3px;
+}
+
+.collection-sidebar::-webkit-scrollbar-track {
+  background-color: #333;
+}
+
+ .collection-main {
+  flex-grow: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+    overflow: hidden;
+}
+
+.collection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+    margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.collection-filters,
+.collection-sort {
+  display: flex;
+  align-items: center;
+}
+
+.collection-filters {
+  gap: 10px;
+    margin-bottom: 10px;
+}

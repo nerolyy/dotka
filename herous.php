@@ -5,7 +5,9 @@
     <link rel="stylesheet" href="css/main_manu.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/promo_herous.css">
     <script src="scripts/filter.js"></script>
+    <script src="scripts/type_filter.js"></script>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -18,6 +20,7 @@
 background-repeat: no-repeat;
 background-color: #212121;
 display: block;
+position: sticky;
 z-index:10">
 <header>
     <div class="header_container">
@@ -29,7 +32,7 @@ z-index:10">
             </div>
             <a href="index.php" class="menu_header_item text_item">Home</a>
             <a class="menu_header_item text_item active">Herous</a>
-            <a class="menu_header_item text_item">Store</a>
+            <a href="store.php" class="menu_header_item text_item">Store</a>
             <a class="menu_header_item text_item">Watch</a>
             <a class="menu_header_item text_item">Learn</a>
             <a class="menu_header_item text_item">Arcade</a>
@@ -65,261 +68,45 @@ z-index:10">
     </div>
 </header>
 <promo>
-    <div class="promo_container">
-        <ul class="filter_container">
-            <div class="attribut_sort">
-                <div class="dropdown">
-                    <button class="dropdown-button" id="dropdownButton">Sort by<br>Attributes<span class="arrow">&#9660;</span></button>
-                    <div class="dropdown-content" id="dropdownContent">
-                        <a class="atribut_btn" onclick="filterSelection('sila')">
-                            <ul class="filter_con">
-                                <img src="img/Level dot.svg" class="atribut_name_img">
-                                <div class="text_name_atribut_filter">STRENGTH</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" onclick="filterSelection('lovk')">
-                            <ul class="filter_con">
-                                <img src="img/Level dot (1).svg" class="atribut_name_img">
-                                <div class="text_name_atribut_filter">AGILITY</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" onclick="filterSelection('int')">
-                            <ul class="filter_con">
-                                <img src="img/Level dot (2).svg" class="atribut_name_img">
-                                <div class="text_name_atribut_filter">Intelligence</div>
-                            </ul>
-                        </a>
-                    </div>
-                </div>
-                <script src="scripts/drop_down.js"></script>
+    <div class="heroes-container">
+        <div class="heroes-top">
+            <div class="sort-block">
+              Sort by
+                <select class="attribute-filter-select">
+                    <option value="All">Attributes</option>
+                    <option value="STRENGTH">STRENGTH</option>
+                    <option value="AGILITY">AGILITY</option>
+                    <option value="INTELIGENCE">INTELIGENCE</option>
+                </select>
+             </div>
+            <div class="type-block">
+                Type
+               <select class="type-filter-select">
+                    <option value="All">All</option>
+                    <option value="CARRY">Carry</option>
+                    <option value="MID">Mid</option>
+                    <option value="HARD_CARRY">Hard Carry</option>
+                   <option value="HARD_SUPPORT">Hard Support</option>
+                    <option value="FULL_SUPPORT">Full Support</option>
+                </select>
             </div>
-            <div class="type_of_herous">
-                <div class="dropdown_type dropdown">
-                    <button class="dropdown-button" id="dropdownButton_type">Sort by<br>Attributes<span class="arrow">&#9660;</span></button>
-                    <div class="dropdown-content" id="dropdownContent_type">
-                        <a class="atribut_btn" onclick="filterSelection('CARRY')">
-                            <ul class="filter_con">
-                                <div class="text_name_atribut_filter">Carry</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" onclick="filterSelection('MID')">
-                            <ul class="filter_con">
-                                <div class="text_name_atribut_filter">Mid</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" onclick="filterSelection('HC')">
-                            <ul class="filter_con">
-                                <div class="text_name_atribut_filter">Hard Carry</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" onclick="filterSelection('HS')">
-                            <ul class="filter_con">
-                                <div class="text_name_atribut_filter">Hard Support</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" onclick="filterSelection('FS')">
-                            <ul class="filter_con">
-                                <div class="text_name_atribut_filter">Full Support</div>
-                            </ul>
-                        </a>
-                    </div>
-                </div>
-                <script src="scripts/drop_down_type.js"></script>
+            <div class="complexity-block">
+                Complexity
+               <select class="complexity-filter-select">
+                    <option value="All">All</option>
+                    <option value="1">1</option>
+                   <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
             </div>
-        </ul>
-        <ul class="herous_agility_all">
-            <div class="col-33 filterDiv sila show">
-                <ul class="name_of_atribut">
-                    <div class="create-line"></div>
-                    <img src="img/Level dot.svg" class="atribut_name_img">
-                    <div class="text_name_atribut">STRENGTH</div>
-                    <div class="create-line"></div>
-                </ul>
-                <div class="container_of_herous">
-                    <a href="#" class="hero_card">
-                        <img src="img/Hero card (1).svg" class="hero_prev_img">
-                        <div class="hero_card_name medium_name">Abaddon</div>
-                    </a>
-                    <a href="alchemist.php" class="hero_card">
-                        <img src="img/Hero card (2).svg" class="hero_prev_img">
-                        <div class="hero_card_name medium_name">Alchemist</div>
-                    </a>
-                    <a href="axe.php" class="hero_card">
-                        <img src="img/Hero card (3).svg" class="hero_prev_img">
-                        <div class="hero_card_name small_name">Axe</div>
-                    </a>
-                    <a href="#" class="hero_card">
-                        <img src="img/Hero card (4).svg" class="hero_prev_img">
-                        <div class="hero_card_name bg_name">Beastmaster</div>
-                    </a>
-                    <a href="#" class="hero_card">
-                        <img src="img/Hero card (5).svg" class="hero_prev_img">
-                        <div class="hero_card_name bg_name">Brewmaster</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name mbg_name">Bristleback</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (7).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Centaur<br>Warrunner</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (8).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Chaos<br>Knight</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (9).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Clockwerk</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (10).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Dawnbreaker</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (11).svg" class="hero_prev_img">
-                        <div class="hero_card_name small_name">Doom</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (12).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Dragon<br>Knight</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Earth Spirit</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Earthshaker</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Elder Titan</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Huskar</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Io</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Kunkka</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Legion<br>Commander</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Lifestealer</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Lycan</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Magnus</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Marci</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Mars</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Night Stalker</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Omniknight</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Phoenix</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Pudge</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Sand King</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Slardar</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Snapfire</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Spirit<br>Breaker</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Sven</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Tidehunter</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Timbersaw</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Tiny</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Treant<br>Protector</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Tusk</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Underlord</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Undying</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Wraith King</div>
-                    </a>
-                </div>
+            <div class="search-block">
+               <input type="text" placeholder="Search hero" class="search-input">
+                <img src="img/search.svg" alt="Search" class="search-icon">
             </div>
-            <div class="col-33 filterDiv lovk show">
-                <ul class="name_of_atribut">
-                    <div class="create-line"></div>
-                    <img src="img/Level dot (1).svg" class="atribut_name_img">
-                    <div class="text_name_atribut">AGILITY</div>
-                    <div class="create-line"></div>
-                </ul>
-            </div>
-            <div class="col-33 filterDiv int show">
-                <ul class="name_of_atribut">
-                    <div class="create-line"></div>
-                    <img src="img/Level dot (2).svg" class="atribut_name_img">
-                    <div class="text_name_atribut">Intelligence</div>
-                    <div class="create-line"></div>
-                </ul>
-            </div>
-        </ul>
+        </div>
+        <div class="heroes-grid"></div>
     </div>
+    <script src="scripts/hero_filter.js"></script>
 </promo>
 </body>
 </html>

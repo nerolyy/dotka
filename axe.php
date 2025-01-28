@@ -4,57 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b8991598b2.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/herous.css">
+    <link rel="stylesheet" href="css/main_manu.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:" rel="stylesheet">
+    <link rel="icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
 
-    <style>
-    body {
-        font-family: 'Montserrat';font-size: 22px;
-    }
-    </style>
-    <title></title>
+    <title></title> 
 </head>
-<header class="p-3 bg-dark text-white">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="index.php" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                    <img class="bi me-2 tmsk" src="img/dotalogo.svg" width="109" height="22" role="img" aria-label="Bootstrap">
+<body  style="background-image: url('fonts/greyfade.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #212121;">
+<header style="font-family: 'inherit'">
+    <div class="header_container">
+        <ul class="header_items">
+            <div class="menu_header_item">
+                <a href="index.php" class="dota_logo_header">
+                    <img src="img/icons8-dota-2 1.svg" class="dota_logo_header_img">
                 </a>
-
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="your_stats.php" class="nav-link px-2 text-white tmsk">личная статистика</a></li>
-                    <li><a href="meta_herous.php" class="nav-link px-2 text-white tmsk">meta herous</a></li>
-                    <li><a href="best_players.php" class="nav-link px-2 text-white tmsk">лучшие игроки</a></li>
-                </ul>
-
-                <div class="text-end menu_item">
+            </div>
+            <a href="index.php" class="menu_header_item text_item">Home</a>
+            <a class="menu_header_item text_item active">Herous</a>
+            <a class="menu_header_item text_item">Store</a>
+            <a class="menu_header_item text_item">Watch</a>
+            <a class="menu_header_item text_item">Learn</a>
+            <a class="menu_header_item text_item">Arcade</a>
+            <div class="menu_header_item mrg-l-669">
                     <a href="#" class="lk">
                         <p><?php isset($_COOKIE['login'])?></p>
                     </a>
                 </div>
                     <?php
                                 if(isset($_COOKIE['login']))
-                                    echo '<div class="text-end">
-                                        <a href="user_main.php" type="button" class="btn btn-outline-light me-2 lk">Личный кабинет</a>
-                                    </div>';
+                                    echo '
+                                <ul class="lk_header">
+                                    <div class="lk_img_profile">
+                                        <img src="" alt="" class="">
+                                    </div>
+                                    <div class="lk_name_profile"></div>
+                                </ul>
+                                <div class="menu_header_item small_img">
+                                    <a class="setting_header">
+                                        <img src="img/bi_gear-fill.svg" class="settings_header_img">
+                                    </a>
+                                </div>
+                                <a class="menu_header_item small_img">
+                                    <img src="img/heroicons-solid_logout.svg" class="logoout_header_img">
+                                </a>';
                                 else
-                                    echo '<div class="text-end">
-                                    <a type="button" href="login.php" class="btn btn-outline-light me-2">Login</a>
-                                    <a type="button" href="auth.php" class="btn btn-warning">Sign-up</a>
+                                    echo '<div class="menu_header_item text_item">
+                                    <a href="login.php" class="login_btn">Login</a>
+                                    <a href="auth.php" class="">Sign-up</a>
                                     </div>'
                     ?>
-            </div>
-        </div>
+        </ul>
+    </div>
 </header>
-<main style="background-image: url('fonts/greyfade.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-color: #212121;">
+<main style="font-family: 'Montserrat';font-size: 22px;
+    }">
+    
     <div class="all-hero-inf">
         <div class="hero-continer">
             <div class="hero-vido_container">
@@ -89,6 +103,53 @@ background-color: #212121;">
                         <div class="romb"></div>
                         <div class="romb"></div>
                     </div>
-                </div> 
+                </div>
+                <div class="some_of_tree">
+                    <div class="talent-tree-container">
+                        <div class="talent-tree">
+                            <div class="talent-header">Древо талантов</div>
+                            <div class="talent-levels">
+                                <div class="talent-row level-25">
+                                    <div class="talent-option">
+                                        <div class="talent-desc">Безмолвие от Flux, если рядом с жертвой никого нет</div>
+                                    </div>
+                                    <div class="talent-level">25</div>
+                                    <div class="talent-option">
+                                        <div class="talent-desc">Урон по копии от Tempest Double не увеличивается</div>
+                                    </div>
+                                </div>
+                            <div class="talent-row level-20">
+                                <div class="talent-option">
+                                    <div class="talent-desc">-7 сек. перезарядки Magnetic Field</div>
+                                </div>
+                                <div class="talent-level">20</div>
+                                <div class="talent-option">
+                                    <div class="talent-desc">+40% к урону от Spark Wraith</div>
+                                </div>
+                            </div>
+                            <div class="talent-row level-15">
+                                <div class="talent-option">
+                                    <div class="talent-desc">+16 к скорости атаки и урону от Magnetic Field</div>
+                                </div>
+                                <div class="talent-level">15</div>
+                                <div class="talent-option">
+                                    <div class="talent-desc">+2 сек. действия Flux</div>
+                                </div>
+                            </div>
+                            <div class="talent-row level-10">
+                                <div class="talent-option">
+                                    <div class="talent-desc">+200 к здоровью</div>
+                                </div>
+                                <div class="talent-level">10</div>
+                                <div class="talent-option">
+                                    <div class="talent-desc">+200 к дальности применения Flux</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
     </div>
 </main> 
+</body>

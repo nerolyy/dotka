@@ -68,8 +68,7 @@ z-index:10">
     </div>
 </header>
 <promo>
-    <div class="container">
-        <div class="header">Your team's turn to pick</div>
+<div class="container">
         <div class="filters-bar">
             <div class="sort-by">
                 Sort by

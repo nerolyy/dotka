@@ -68,45 +68,46 @@ z-index:10">
     </div>
 </header>
 <promo>
-    <div class="heroes-container">
-        <div class="heroes-top">
-            <div class="sort-block">
-              Sort by
+    <div class="container">
+        <div class="header">Your team's turn to pick</div>
+        <div class="filters-bar">
+            <div class="sort-by">
+                Sort by
                 <select class="attribute-filter-select">
-                    <option value="All">Attributes</option>
-                    <option value="STRENGTH">STRENGTH</option>
-                    <option value="AGILITY">AGILITY</option>
-                    <option value="INTELIGENCE">INTELIGENCE</option>
+                  <option value="All">Attributes</option>
+                  <option value="STRENGTH">STRENGTH</option>
+                  <option value="AGILITY">AGILITY</option>
+                  <option value="INTELIGENCE">INTELIGENCE</option>
                 </select>
-             </div>
-            <div class="type-block">
+            </div>
+            <div class="type-filter">
                 Type
-               <select class="type-filter-select">
+                <select class="type-filter-select">
                     <option value="All">All</option>
                     <option value="CARRY">Carry</option>
                     <option value="MID">Mid</option>
                     <option value="HARD_CARRY">Hard Carry</option>
-                   <option value="HARD_SUPPORT">Hard Support</option>
+                    <option value="HARD_SUPPORT">Hard Support</option>
                     <option value="FULL_SUPPORT">Full Support</option>
                 </select>
             </div>
-            <div class="complexity-block">
+            <div class="complexity-filter">
                 Complexity
-               <select class="complexity-filter-select">
-                    <option value="All">All</option>
-                    <option value="1">1</option>
-                   <option value="2">2</option>
-                    <option value="3">3</option>
+                <select class="complexity-filter-select">
+                  <option value="All">All</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
                 </select>
             </div>
-            <div class="search-block">
-               <input type="text" placeholder="Search hero" class="search-input">
-                <img src="img/search.svg" alt="Search" class="search-icon">
+            <div class="search-filter">
+              <input type="text" placeholder="Search hero" class="search-input">
+              <img src="img/search.svg" alt="Search" class="search-icon">
             </div>
         </div>
         <div class="heroes-grid"></div>
     </div>
-    <script src="scripts/hero_filter.js"></script>
+    <script src="hero_filter.js"></script>
 </promo>
 </body>
 </html>

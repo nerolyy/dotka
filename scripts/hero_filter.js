@@ -5,13 +5,12 @@ const typeFilterSelect = document.querySelector('.type-filter-select');
 const complexityFilterSelect = document.querySelector('.complexity-filter-select');
 const searchInput = document.querySelector('.search-input');
 
-
 let heroes = [
-    { image: 'img/Hero card (1).svg', name: 'Abaddon', attribute: 'STRENGTH', type: 'FULL_SUPPORT', complexity: 1 },
-    { image: 'img/Hero card (8).svg', name: 'Alchemist', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'img/Hero card (4).svg', name: 'Axe', attribute: 'STRENGTH', type: 'HARD_CARRY', complexity: 1 },
-    { image: 'img/Hero card (3).svg', name: 'Beastmaster', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'img/Hero card (2).svg', name: 'Brewmaster', attribute: 'STRENGTH', type: 'CARRY', complexity: 3 },
+  { image: 'abaddon.png', name: 'Abaddon', attribute: 'STRENGTH', type: 'FULL_SUPPORT', complexity: 1 },
+    { image: 'alchemist.png', name: 'Alchemist', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
+    { image: 'axe.png', name: 'Axe', attribute: 'STRENGTH', type: 'HARD_CARRY', complexity: 1 },
+    { image: 'beastmaster.png', name: 'Beastmaster', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
+    { image: 'brewmaster.png', name: 'Brewmaster', attribute: 'STRENGTH', type: 'CARRY', complexity: 3 },
     { image: 'bristleback.png', name: 'Bristleback', attribute: 'STRENGTH', type: 'MID', complexity: 1 },
     { image: 'centaur.png', name: 'Centaur Warrunner', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
     { image: 'chaos.png', name: 'Chaos Knight', attribute: 'STRENGTH', type: 'CARRY', complexity: 3 },
@@ -61,20 +60,20 @@ let heroes = [
     { image: 'pangolier.png', name: 'Pangolier', attribute: 'AGILITY', type: 'MID', complexity: 2 },
     { image: 'phantomassassin.png', name: 'Phantom Assassin', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
     { image: 'phantomlancer.png', name: 'Phantom Lancer', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 3 },
-    { image: 'razor.png', name: 'Razor', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'riki.png', name: 'Riki', attribute: 'AGILITY', type: 'CARRY', complexity: 1 },
-    { image: 'shadowfiend.png', name: 'Shadow Fiend', attribute: 'AGILITY', type: 'MID', complexity: 2 },
-    { image: 'slark.png', name: 'Slark', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'sniper.png', name: 'Sniper', attribute: 'AGILITY', type: 'CARRY', complexity: 1 },
-    { image: 'spectre.png', name: 'Spectre', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 3 },
-    { image: 'templarassassin.png', name: 'Templar Assassin', attribute: 'AGILITY', type: 'MID', complexity: 2 },
-    { image: 'terrorblade.png', name: 'Terrorblade', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 3 },
-    { image: 'trollwarlord.png', name: 'Troll Warlord', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'ursa.png', name: 'Ursa', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'vengefulspirit.png', name: 'Vengeful Spirit', attribute: 'AGILITY', type: 'FULL_SUPPORT', complexity: 1 },
-    { image: 'venomancer.png', name: 'Venomancer', attribute: 'AGILITY', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'viper.png', name: 'Viper', attribute: 'AGILITY', type: 'MID', complexity: 1 },
-    { image: 'weaver.png', name: 'Weaver', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
+  { image: 'razor.png', name: 'Razor', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
+  { image: 'riki.png', name: 'Riki', attribute: 'AGILITY', type: 'CARRY', complexity: 1 },
+  { image: 'shadowfiend.png', name: 'Shadow Fiend', attribute: 'AGILITY', type: 'MID', complexity: 2 },
+  { image: 'slark.png', name: 'Slark', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
+  { image: 'sniper.png', name: 'Sniper', attribute: 'AGILITY', type: 'CARRY', complexity: 1 },
+  { image: 'spectre.png', name: 'Spectre', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 3 },
+  { image: 'templarassassin.png', name: 'Templar Assassin', attribute: 'AGILITY', type: 'MID', complexity: 2 },
+  { image: 'terrorblade.png', name: 'Terrorblade', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 3 },
+  { image: 'trollwarlord.png', name: 'Troll Warlord', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
+  { image: 'ursa.png', name: 'Ursa', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
+  { image: 'vengefulspirit.png', name: 'Vengeful Spirit', attribute: 'AGILITY', type: 'FULL_SUPPORT', complexity: 1 },
+  { image: 'venomancer.png', name: 'Venomancer', attribute: 'AGILITY', type: 'HARD_SUPPORT', complexity: 2 },
+  { image: 'viper.png', name: 'Viper', attribute: 'AGILITY', type: 'MID', complexity: 1 },
+  { image: 'weaver.png', name: 'Weaver', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
     { image: 'ancientapparition.png', name: 'Ancient Apparition', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
     { image: 'bane.png', name: 'Bane', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
     { image: 'batrider.png', name: 'Batrider', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
@@ -97,45 +96,44 @@ let heroes = [
     { image: 'lion.png', name: 'Lion', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 2 },
     { image: 'naturesprophet.png', name: "Nature's Prophet", attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
     { image: 'necrophos.png', name: 'Necrophos', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'ogremagi.png', name: 'Ogre Magi', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 1 },
-    { image: 'oracle.png', name: 'Oracle', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-    { image: 'outworlddestroyer.png', name: 'Outworld Destroyer', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-    { image: 'puck.png', name: 'Puck', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'pugna.png', name: 'Pugna', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'queenofpain.png', name: 'Queen of Pain', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'rubick.png', name: 'Rubick', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 3 },
-    { image: 'shadowdemon.png', name: 'Shadow Demon', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'shadowshaman.png', name: 'Shadow Shaman', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 1 },
+  { image: 'ogremagi.png', name: 'Ogre Magi', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 1 },
+  { image: 'oracle.png', name: 'Oracle', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
+  { image: 'outworlddestroyer.png', name: 'Outworld Destroyer', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
+  { image: 'puck.png', name: 'Puck', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
+  { image: 'pugna.png', name: 'Pugna', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
+  { image: 'queenofpain.png', name: 'Queen of Pain', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
+  { image: 'rubick.png', name: 'Rubick', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 3 },
+  { image: 'shadowdemon.png', name: 'Shadow Demon', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 2 },
+  { image: 'shadowshaman.png', name: 'Shadow Shaman', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 1 },
     { image: 'silencer.png', name: 'Silencer', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
     { image: 'skywrathmage.png', name: 'Skywrath Mage', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
     { image: 'stormspirit.png', name: 'Storm Spirit', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-    { image: 'techies.png', name: 'Techies', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-    { image: 'tinker.png', name: 'Tinker', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-    { image: 'visage.png', name: 'Visage', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-    { image: 'voidspirit.png', name: 'Void Spirit', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-    { image: 'warlock.png', name: 'Warlock', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-    { image: 'windranger.png', name: 'Windranger', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
+  { image: 'techies.png', name: 'Techies', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
+  { image: 'tinker.png', name: 'Tinker', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
+  { image: 'visage.png', name: 'Visage', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
+  { image: 'voidspirit.png', name: 'Void Spirit', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
+  { image: 'warlock.png', name: 'Warlock', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
+  { image: 'windranger.png', name: 'Windranger', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
     { image: 'winterwyvern.png', name: 'Winter Wyvern', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-    { image: 'witchdoctor.png', name: 'Witch Doctor', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 1 },
-   { image: 'snapfire.png', name: 'Snapfire', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-   { image: 'spiritbreaker.png', name: 'Spirit Breaker', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
+  { image: 'witchdoctor.png', name: 'Witch Doctor', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 1 },
+     { image: 'snapfire.png', name: 'Snapfire', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
+    { image: 'spiritbreaker.png', name: 'Spirit Breaker', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
     { image: 'sven.png', name: 'Sven', attribute: 'STRENGTH', type: 'HARD_CARRY', complexity: 1 },
     { image: 'tidehunter.png', name: 'Tidehunter', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 1 },
     { image: 'timbersaw.png', name: 'Timbersaw', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
     { image: 'tiny.png', name: 'Tiny', attribute: 'STRENGTH', type: 'CARRY', complexity: 2 },
-    { image: 'treant.png', name: 'Treant Protector', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 1 },
-    { image: 'tusk.png', name: 'Tusk', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
+  { image: 'treant.png', name: 'Treant Protector', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 1 },
+  { image: 'tusk.png', name: 'Tusk', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
     { image: 'underlord.png', name: 'Underlord', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
     { image: 'undying.png', name: 'Undying', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
     { image: 'wraithking.png', name: 'Wraith King', attribute: 'STRENGTH', type: 'CARRY', complexity: 1 },
 ];
 
-
 function filterHeroes() {
     const selectedAttribute = attributeFilterSelect.value;
     const selectedType = typeFilterSelect.value;
     const selectedComplexity = complexityFilterSelect.value;
-    const searchTerm = searchInput.value.toLowerCase();
+     const searchTerm = searchInput.value.toLowerCase();
 
     let filteredHeroes = heroes;
 
@@ -148,15 +146,16 @@ function filterHeroes() {
     if (selectedComplexity !== 'All') {
         filteredHeroes = filteredHeroes.filter(hero => hero.complexity == selectedComplexity);
     }
-    if (searchTerm) {
+  if (searchTerm) {
         filteredHeroes = filteredHeroes.filter(hero => hero.name.toLowerCase().includes(searchTerm));
     }
 
     let gridHTML = '';
     filteredHeroes.forEach(hero => {
-        gridHTML += `
+      const imageUrl = new URL(`img/${hero.image}`, import.meta.url).href;
+      gridHTML += `
          <div class="hero-item">
-             <img src="img/${hero.image}" alt="${hero.name}">
+             <img src="${imageUrl}" alt="${hero.name}">
              <div class="hero-name">${hero.name}</div>
          </div>
          `;

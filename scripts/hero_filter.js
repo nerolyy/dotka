@@ -1,12 +1,11 @@
 
-const heroesGrid = document.querySelector('.heroes-grid');
-const attributeFilterSelect = document.querySelector('.attribute-filter-select');
-const typeFilterSelect = document.querySelector('.type-filter-select');
-const complexityFilterSelect = document.querySelector('.complexity-filter-select');
-const searchInput = document.querySelector('.search-input');
+const heroesGrid = document.querySelector('.herous_agility_all');
+const attributeFilterButtons = document.querySelectorAll('#dropdownContent .atribut_btn');
+const typeFilterButtons = document.querySelectorAll('#dropdownContent_type .atribut_btn');
+const heroContainers = document.querySelectorAll('.col-33');
 
 let heroes = [
- { image: 'abaddon.svg', name: 'Abaddon', attribute: 'STRENGTH', type: 'FULL_SUPPORT', complexity: 1 },
+  { image: 'abaddon.svg', name: 'Abaddon', attribute: 'STRENGTH', type: 'FULL_SUPPORT', complexity: 1 },
     { image: 'alchemist.svg', name: 'Alchemist', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
     { image: 'axe.svg', name: 'Axe', attribute: 'STRENGTH', type: 'HARD_CARRY', complexity: 1 },
     { image: 'beastmaster.svg', name: 'Beastmaster', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
@@ -129,44 +128,45 @@ let heroes = [
     { image: 'wraithking.svg', name: 'Wraith King', attribute: 'STRENGTH', type: 'CARRY', complexity: 1 },
 ];
 
-function filterHeroes() {
-    const selectedAttribute = attributeFilterSelect.value;
-    const selectedType = typeFilterSelect.value;
-    const selectedComplexity = complexityFilterSelect.value;
-     const searchTerm = searchInput.value.toLowerCase();
-
-    let filteredHeroes = heroes;
-
-    if (selectedAttribute !== 'All') {
-        filteredHeroes = filteredHeroes.filter(hero => hero.attribute === selectedAttribute);
-    }
-    if (selectedType !== 'All') {
-        filteredHeroes = filteredHeroes.filter(hero => hero.type === selectedType);
-    }
-    if (selectedComplexity !== 'All') {
-        filteredHeroes = filteredHeroes.filter(hero => hero.complexity == selectedComplexity);
-    }
-  if (searchTerm) {
-        filteredHeroes = filteredHeroes.filter(hero => hero.name.toLowerCase().includes(searchTerm));
-    }
-
-    let gridHTML = '';
-    filteredHeroes.forEach(hero => {
-         const imageUrl = new URL(`img/${hero.image}`, import.meta.url).href;
-         gridHTML += `
-            <div class="hero-item">
-                <img src="${imageUrl}" alt="${hero.name}">
-                <div class="hero-name">${hero.name}</div>
-            </div>
-        `;
+function generateHeroes() {
+    heroContainers.forEach(container => {
+        const attribute = container.dataset.attribute;
+       const container_of_herous = container.querySelector('.container_of_herous');
+        let gridHTML = '';
+        heroes.forEach(hero => {
+        if(hero.attribute === attribute){
+          const imageUrl = new URL(`img/${hero.image}`, import.meta.url).href;
+          gridHTML += `
+              <div class="hero-item">
+                  <img src="${imageUrl}" alt="${hero.name}">
+                  <div class="hero-name">${hero.name}</div>
+              </div>
+            `;
+        }
+         })
+        container_of_herous.innerHTML = gridHTML;
     });
-
-    heroesGrid.innerHTML = gridHTML;
 }
 
-attributeFilterSelect.addEventListener('change', filterHeroes);
-typeFilterSelect.addEventListener('change', filterHeroes);
-complexityFilterSelect.addEventListener('change', filterHeroes);
-searchInput.addEventListener('input', filterHeroes);
+function filterSelection(filter){
+  heroContainers.forEach(container => {
+    if(container.dataset.attribute === filter || container.dataset.type === filter || filter === 'all'){
+      container.classList.add('pokaz');
+    } else {
+        container.classList.remove('pokaz');
+    }
+  })
+}
 
-filterHeroes();
+attributeFilterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      filterSelection(button.dataset.filter);
+    });
+});
+
+typeFilterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        filterSelection(button.dataset.filter);
+    });
+});
+generateHeroes();

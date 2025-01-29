@@ -117,7 +117,7 @@ z-index:10">
             <option value="All">All Heroes</option>
             <option value="Abaddon">Abaddon</option>
             <option value="Alchemist">Alchemist</option>
-            <option value="Ancient Apparition">Ancient Apparition</option>
+            
             <option value="Anti-Mage">Anti-Mage</option>
             <option value="Arc Warden">Arc Warden</option>
             <option value="Axe">Axe</option>

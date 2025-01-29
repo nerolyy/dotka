@@ -1,13 +1,12 @@
-const dropdownButton = document.getElementById('dropdownButton');
-const dropdown = document.querySelector('.dropdown');
+const dropdownButtonType = document.getElementById('dropdownButton_type');
+const dropdownContentType = document.getElementById('dropdownContent_type');
 
-dropdownButton.addEventListener('click', () => {
-  dropdown.classList.toggle('active');
+dropdownButtonType.addEventListener('click', () => {
+    dropdownContentType.parentElement.classList.toggle('show');
 });
 
-// Закрывать меню при клике вне его
 document.addEventListener('click', (event) => {
-  if (!dropdown.contains(event.target) && dropdown.classList.contains('active')) {
-    dropdown.classList.remove('active');
-  }
+    if (!dropdownButtonType.contains(event.target) && !dropdownContentType.contains(event.target)) {
+        dropdownContentType.parentElement.classList.remove('show');
+    }
 });

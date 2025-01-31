@@ -18,8 +18,8 @@
     <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <title>Main Page</title>
 </head>
-<!-- background-image: url('fonts/Dota 2 - redesign - main.svg'); -->
 <body style="
+background-image: url('fonts/Dota 2 - redesign - main.svg');
 background-repeat: no-repeat;
 background-color: #212121;
 display: block;

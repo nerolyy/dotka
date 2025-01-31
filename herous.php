@@ -60,7 +60,7 @@ z-index:10">
                                 </a>';
                                 else
                                     echo '<div class="menu_header_item text_item">
-                                    <a href="login.php" class="login_btn glow-on-hover" type="button">Login</a>
+                                    <button onclick="document.location="login.php" class="login_btn glow-on-hover" type="button">Login</button>
                                     <a href="auth.php" class="">Sign-up</a>
                                     </div>'
                     ?>

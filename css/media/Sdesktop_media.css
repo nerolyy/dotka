@@ -1,4 +1,4 @@
-@media (min-width: 922px) {
+@media (max-width: 1200px) and (min-width: 922px) {
         .heroous_search {
             margin-left: 8%;
         }
@@ -6,6 +6,29 @@
             margin-left:0px;
             margin-top: 5px;
         }
-
+        .header_container {
+            padding-inline: 10px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        .menu_header_item {
+            margin-inline: 10px;
+        }
+        .mrg-l-669 {
+            margin-left: 70px;
+        }
+        .collection-container {
+            margin: 20px 5px;
+            width: 925px;
+        }
+        .collection-sidebar {
+            width: 185px;
+        }
+        .collection-sidebar {
+            width: 170px;
+        }
+        body {
+            overflow-x: hidden;
+        }
 }
 

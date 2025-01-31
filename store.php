@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/store.css">
+    <link rel="stylesheet" href="css/media/desktop_media.css">
+    <link rel="stylesheet" href="css/media/Sdesktop_media.css">
     <script src="scripts/filter.js"></script>
     <script src="scripts/type_filter.js"></script>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <link rel="stylesheet" href="css/all_hero_page.css">
     <link rel="icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <title>Main Page</title>

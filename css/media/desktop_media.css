@@ -1,5 +1,4 @@
-@media (min-width: 1200px) {
-
+@media (min-width: 1200px)  {
         .category_box_row {
             margin-left: 0%;
             margin-right: -3%;
@@ -13,6 +12,14 @@
         .mr-l608 {
             margin-left: 428px;
         }
-
+        .mrg-l-669 {
+            margin-left: 410px;
+        } 
+        .collection-container {
+            width: 1420px;
+        }
+        body {
+            overflow-x: hidden;
+        }
 }
 

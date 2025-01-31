@@ -1,172 +1,166 @@
 
-const heroesGrid = document.querySelector('.herous_agility_all');
-const attributeFilterButtons = document.querySelectorAll('#dropdownContent .atribut_btn');
-const typeFilterButtons = document.querySelectorAll('#dropdownContent_type .atribut_btn');
-const heroContainers = document.querySelectorAll('.col-33');
+const heroesContainer = document.querySelector('.heroes-container');
+const typeFilter = document.getElementById('type-filter');
+const complexityFilter = document.getElementById('complexity-filter');
+const searchInput = document.getElementById('search-input');
 
-let heroes = [
-  { image: 'abaddon.svg', name: 'Abaddon', attribute: 'STRENGTH', type: 'FULL_SUPPORT', complexity: 1 },
-    { image: 'alchemist.svg', name: 'Alchemist', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'axe.svg', name: 'Axe', attribute: 'STRENGTH', type: 'HARD_CARRY', complexity: 1 },
-    { image: 'beastmaster.svg', name: 'Beastmaster', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'brewmaster.svg', name: 'Brewmaster', attribute: 'STRENGTH', type: 'CARRY', complexity: 3 },
-    { image: 'bristleback.svg', name: 'Bristleback', attribute: 'STRENGTH', type: 'MID', complexity: 1 },
-    { image: 'centaur.svg', name: 'Centaur Warrunner', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'chaos.svg', name: 'Chaos Knight', attribute: 'STRENGTH', type: 'CARRY', complexity: 3 },
-    { image: 'clockwerk.svg', name: 'Clockwerk', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'dawnbreaker.svg', name: 'Dawnbreaker', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 1 },
-    { image: 'doom.svg', name: 'Doom', attribute: 'STRENGTH', type: 'HARD_CARRY', complexity: 3 },
-    { image: 'dragon.svg', name: 'Dragon Knight', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'earthspirit.svg', name: 'Earth Spirit', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 3 },
-    { image: 'earthshaker.svg', name: 'Earthshaker', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'eldertitan.svg', name: 'Elder Titan', attribute: 'STRENGTH', type: 'FULL_SUPPORT', complexity: 3 },
-    { image: 'huskar.svg', name: 'Huskar', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'io.svg', name: 'Io', attribute: 'STRENGTH', type: 'FULL_SUPPORT', complexity: 3 },
-    { image: 'kunkka.svg', name: 'Kunkka', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'legion.svg', name: 'Legion Commander', attribute: 'STRENGTH', type: 'CARRY', complexity: 2 },
-    { image: 'lifestealer.svg', name: 'Lifestealer', attribute: 'STRENGTH', type: 'HARD_CARRY', complexity: 1 },
-    { image: 'lycan.svg', name: 'Lycan', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'magnus.svg', name: 'Magnus', attribute: 'STRENGTH', type: 'MID', complexity: 3 },
-    { image: 'marci.svg', name: 'Marci', attribute: 'STRENGTH', type: 'CARRY', complexity: 1 },
-    { image: 'mars.svg', name: 'Mars', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'nightstalker.svg', name: 'Night Stalker', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'omniknight.svg', name: 'Omniknight', attribute: 'STRENGTH', type: 'FULL_SUPPORT', complexity: 1 },
-    { image: 'phoenix.svg', name: 'Phoenix', attribute: 'STRENGTH', type: 'FULL_SUPPORT', complexity: 3 },
-    { image: 'pudge.svg', name: 'Pudge', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'sandking.svg', name: 'Sand King', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'slardar.svg', name: 'Slardar', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
-     { image: 'antimage.svg', name: 'Anti-Mage', attribute: 'AGILITY', type: 'CARRY', complexity: 1 },
-    { image: 'arcwarden.svg', name: 'Arc Warden', attribute: 'AGILITY', type: 'MID', complexity: 3 },
-    { image: 'bloodseeker.svg', name: 'Bloodseeker', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'bountyhunter.svg', name: 'Bounty Hunter', attribute: 'AGILITY', type: 'MID', complexity: 1 },
-    { image: 'broodmother.svg', name: 'Broodmother', attribute: 'AGILITY', type: 'MID', complexity: 2 },
-    { image: 'clinkz.svg', name: 'Clinkz', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'drowranger.svg', name: 'Drow Ranger', attribute: 'AGILITY', type: 'CARRY', complexity: 1 },
-    { image: 'emberspirit.svg', name: 'Ember Spirit', attribute: 'AGILITY', type: 'MID', complexity: 3 },
-    { image: 'facelessvoid.svg', name: 'Faceless Void', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 2 },
-    { image: 'gyrocopter.svg', name: 'Gyrocopter', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'hoodwink.svg', name: 'Hoodwink', attribute: 'AGILITY', type: 'CARRY', complexity: 1 },
-    { image: 'juggernaut.svg', name: 'Juggernaut', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'lonedruid.svg', name: 'Lone Druid', attribute: 'AGILITY', type: 'CARRY', complexity: 3 },
-    { image: 'luna.svg', name: 'Luna', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'medusa.svg', name: 'Medusa', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 2 },
-    { image: 'meepo.svg', name: 'Meepo', attribute: 'AGILITY', type: 'MID', complexity: 3 },
-    { image: 'mirana.svg', name: 'Mirana', attribute: 'AGILITY', type: 'HARD_SUPPORT', complexity: 1 },
-    { image: 'monkeyking.svg', name: 'Monkey King', attribute: 'AGILITY', type: 'CARRY', complexity: 3 },
-    { image: 'morphling.svg', name: 'Morphling', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 3 },
-    { image: 'nagasiren.svg', name: 'Naga Siren', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 3 },
-    { image: 'nyxassassin.svg', name: 'Nyx Assassin', attribute: 'AGILITY', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'pangolier.svg', name: 'Pangolier', attribute: 'AGILITY', type: 'MID', complexity: 2 },
-    { image: 'phantomassassin.svg', name: 'Phantom Assassin', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'phantomlancer.svg', name: 'Phantom Lancer', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 3 },
-  { image: 'razor.svg', name: 'Razor', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-  { image: 'riki.svg', name: 'Riki', attribute: 'AGILITY', type: 'CARRY', complexity: 1 },
-  { image: 'shadowfiend.svg', name: 'Shadow Fiend', attribute: 'AGILITY', type: 'MID', complexity: 2 },
-  { image: 'slark.svg', name: 'Slark', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-  { image: 'sniper.svg', name: 'Sniper', attribute: 'AGILITY', type: 'CARRY', complexity: 1 },
-  { image: 'spectre.svg', name: 'Spectre', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 3 },
-  { image: 'templarassassin.svg', name: 'Templar Assassin', attribute: 'AGILITY', type: 'MID', complexity: 2 },
-  { image: 'terrorblade.svg', name: 'Terrorblade', attribute: 'AGILITY', type: 'HARD_CARRY', complexity: 3 },
-  { image: 'trollwarlord.svg', name: 'Troll Warlord', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-  { image: 'ursa.svg', name: 'Ursa', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-  { image: 'vengefulspirit.svg', name: 'Vengeful Spirit', attribute: 'AGILITY', type: 'FULL_SUPPORT', complexity: 1 },
-  { image: 'venomancer.svg', name: 'Venomancer', attribute: 'AGILITY', type: 'HARD_SUPPORT', complexity: 2 },
-  { image: 'viper.svg', name: 'Viper', attribute: 'AGILITY', type: 'MID', complexity: 1 },
-  { image: 'weaver.svg', name: 'Weaver', attribute: 'AGILITY', type: 'CARRY', complexity: 2 },
-    { image: 'ancientapparition.svg', name: 'Ancient Apparition', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-    { image: 'bane.svg', name: 'Bane', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-    { image: 'batrider.svg', name: 'Batrider', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'chen.svg', name: 'Chen', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 3 },
-    { image: 'crystalmaiden.svg', name: 'Crystal Maiden', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 1 },
-    { image: 'darkseer.svg', name: 'Dark Seer', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'darkwillow.svg', name: 'Dark Willow', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-    { image: 'dazzle.svg', name: 'Dazzle', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 1 },
-    { image: 'deathprophet.svg', name: 'Death Prophet', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'disruptor.svg', name: 'Disruptor', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'enchantress.svg', name: 'Enchantress', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'enigma.svg', name: 'Enigma', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 3 },
-    { image: 'grimstroke.svg', name: 'Grimstroke', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'invoker.svg', name: 'Invoker', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-    { image: 'jakiro.svg', name: 'Jakiro', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-    { image: 'keeperofthelight.svg', name: 'Keeper of the Light', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'leshrac.svg', name: 'Leshrac', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'lich.svg', name: 'Lich', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 1 },
-    { image: 'lina.svg', name: 'Lina', attribute: 'INTELIGENCE', type: 'MID', complexity: 1 },
-    { image: 'lion.svg', name: 'Lion', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'naturesprophet.svg', name: "Nature's Prophet", attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'necrophos.svg', name: 'Necrophos', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-  { image: 'ogremagi.svg', name: 'Ogre Magi', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 1 },
-  { image: 'oracle.svg', name: 'Oracle', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-  { image: 'outworlddestroyer.svg', name: 'Outworld Destroyer', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-  { image: 'puck.svg', name: 'Puck', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-  { image: 'pugna.svg', name: 'Pugna', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-  { image: 'queenofpain.svg', name: 'Queen of Pain', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-  { image: 'rubick.svg', name: 'Rubick', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 3 },
-  { image: 'shadowdemon.svg', name: 'Shadow Demon', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 2 },
-  { image: 'shadowshaman.svg', name: 'Shadow Shaman', attribute: 'INTELIGENCE', type: 'HARD_SUPPORT', complexity: 1 },
-    { image: 'silencer.svg', name: 'Silencer', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-    { image: 'skywrathmage.svg', name: 'Skywrath Mage', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'stormspirit.svg', name: 'Storm Spirit', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-  { image: 'techies.svg', name: 'Techies', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-  { image: 'tinker.svg', name: 'Tinker', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-  { image: 'visage.svg', name: 'Visage', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-  { image: 'voidspirit.svg', name: 'Void Spirit', attribute: 'INTELIGENCE', type: 'MID', complexity: 3 },
-  { image: 'warlock.svg', name: 'Warlock', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-  { image: 'windranger.svg', name: 'Windranger', attribute: 'INTELIGENCE', type: 'MID', complexity: 2 },
-    { image: 'winterwyvern.svg', name: 'Winter Wyvern', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 2 },
-  { image: 'witchdoctor.svg', name: 'Witch Doctor', attribute: 'INTELIGENCE', type: 'FULL_SUPPORT', complexity: 1 },
-     { image: 'snapfire.svg', name: 'Snapfire', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'spiritbreaker.svg', name: 'Spirit Breaker', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'sven.svg', name: 'Sven', attribute: 'STRENGTH', type: 'HARD_CARRY', complexity: 1 },
-    { image: 'tidehunter.svg', name: 'Tidehunter', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 1 },
-    { image: 'timbersaw.svg', name: 'Timbersaw', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'tiny.svg', name: 'Tiny', attribute: 'STRENGTH', type: 'CARRY', complexity: 2 },
-  { image: 'treant.svg', name: 'Treant Protector', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 1 },
-  { image: 'tusk.svg', name: 'Tusk', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'underlord.svg', name: 'Underlord', attribute: 'STRENGTH', type: 'MID', complexity: 2 },
-    { image: 'undying.svg', name: 'Undying', attribute: 'STRENGTH', type: 'HARD_SUPPORT', complexity: 2 },
-    { image: 'wraithking.svg', name: 'Wraith King', attribute: 'STRENGTH', type: 'CARRY', complexity: 1 },
+const heroes = [
+    { name: "Abaddon", attribute: "strength", complexity: "medium", image: "img/Hero card (1).svg" },
+    { name: "Alchemist", attribute: "strength", complexity: "medium", image: "img/Hero card (2).svg" },
+    { name: "Axe", attribute: "strength", complexity: "low", image: "img/Hero card (3).svg" },
+    { name: "Beastmaster", attribute: "strength", complexity: "medium", image: "img/Hero card (4).svg" },
+    { name: "Brewmaster", attribute: "strength", complexity: "high", image: "images/brewmaster.png" },
+    { name: "Bristleback", attribute: "strength", complexity: "low", image: "images/bristleback.png" },
+    { name: "Anti-Mage", attribute: "agility", complexity: "medium", image: "images/anti-mage.png" },
+    { name: "Arc Warden", attribute: "agility", complexity: "high", image: "images/arc-warden.png" },
+    { name: "Bloodseeker", attribute: "agility", complexity: "low", image: "images/bloodseeker.png" },
+    { name: "Bounty Hunter", attribute: "agility", complexity: "medium", image: "images/bounty-hunter.png" },
+    { name: "Broodmother", attribute: "agility", complexity: "high", image: "images/broodmother.png" },
+    { name: "Clinkz", attribute: "agility", complexity: "medium", image: "images/clinkz.png" },
+    { name: "Ancient Apparition", attribute: "intelligence", complexity: "medium", image: "images/ancient-apparition.png" },
+    { name: "Bane", attribute: "intelligence", complexity: "medium", image: "images/bane.png" },
+    { name: "Batrider", attribute: "intelligence", complexity: "high", image: "images/batrider.png" },
+    { name: "Chen", attribute: "intelligence", complexity: "high", image: "images/chen.png" },
+    { name: "Crystal Maiden", attribute: "intelligence", complexity: "low", image: "images/crystal-maiden.png" },
+    { name: "Dark Seer", attribute: "intelligence", complexity: "medium", image: "images/dark-seer.png" },
+    { name: "Centaur Warrunner", attribute: "strength", complexity: "low", image: "images/centaur-warrunner.png" },
+    { name: "Chaos Knight", attribute: "strength", complexity: "medium", image: "images/chaos-knight.png" },
+    { name: "Clockwerk", attribute: "strength", complexity: "medium", image: "images/clockwerk.png" },
+    { name: "Dawnbreaker", attribute: "strength", complexity: "medium", image: "images/dawnbreaker.png" },
+    { name: "Doom", attribute: "strength", complexity: "high", image: "images/doom.png" },
+    { name: "Dragon Knight", attribute: "strength", complexity: "low", image: "images/dragon-knight.png" },
+    { name: "Drow Ranger", attribute: "agility", complexity: "low", image: "images/drow-ranger.png" },
+    { name: "Ember Spirit", attribute: "agility", complexity: "high", image: "images/ember-spirit.png" },
+     { name: "Faceless Void", attribute: "agility", complexity: "medium", image: "images/faceless-void.png" },
+       { name: "Gyrocopter", attribute: "agility", complexity: "medium", image: "images/gyrocopter.png" },
+        { name: "Hoodwink", attribute: "agility", complexity: "medium", image: "images/hoodwink.png" },
+    { name: "Juggernaut", attribute: "agility", complexity: "low", image: "images/juggernaut.png" },
+     { name: "Dark Willow", attribute: "intelligence", complexity: "medium", image: "images/dark-willow.png" },
+    { name: "Dazzle", attribute: "intelligence", complexity: "medium", image: "images/dazzle.png" },
+       { name: "Death Prophet", attribute: "intelligence", complexity: "medium", image: "images/death-prophet.png" },
+     { name: "Disruptor", attribute: "intelligence", complexity: "medium", image: "images/disruptor.png" },
+       { name: "Enchantress", attribute: "intelligence", complexity: "medium", image: "images/enchantress.png" },
+    { name: "Enigma", attribute: "intelligence", complexity: "high", image: "images/enigma.png" },
+    { name: "Earth Spirit", attribute: "strength", complexity: "high", image: "images/earth-spirit.png" },
+     { name: "Earthshaker", attribute: "strength", complexity: "medium", image: "images/earthshaker.png" },
+    { name: "Elder Titan", attribute: "strength", complexity: "high", image: "images/elder-titan.png" },
+      { name: "Huskar", attribute: "strength", complexity: "medium", image: "images/huskar.png" },
+      { name: "Io", attribute: "strength", complexity: "high", image: "images/io.png" },
+    { name: "Kunkka", attribute: "strength", complexity: "medium", image: "images/kunkka.png" },
+  { name: "Lone Druid", attribute: "agility", complexity: "high", image: "images/lone-druid.png" },
+    { name: "Luna", attribute: "agility", complexity: "low", image: "images/luna.png" },
+       { name: "Medusa", attribute: "agility", complexity: "medium", image: "images/medusa.png" },
+    { name: "Meepo", attribute: "agility", complexity: "high", image: "images/meepo.png" },
+   { name: "Mirana", attribute: "agility", complexity: "medium", image: "images/mirana.png" },
+       { name: "Monkey King", attribute: "agility", complexity: "medium", image: "images/monkey-king.png" },
+     { name: "Grimstroke", attribute: "intelligence", complexity: "medium", image: "images/grimstroke.png" },
+    { name: "Invoker", attribute: "intelligence", complexity: "high", image: "images/invoker.png" },
+        { name: "Jakiro", attribute: "intelligence", complexity: "medium", image: "images/jakiro.png" },
+     { name: "Keeper of the Light", attribute: "intelligence", complexity: "medium", image: "images/keeper-of-the-light.png" },
+        { name: "Leshrac", attribute: "intelligence", complexity: "medium", image: "images/leshrac.png" },
+   { name: "Lich", attribute: "intelligence", complexity: "low", image: "images/lich.png" },
+    { name: "Legion Commander", attribute: "strength", complexity: "medium", image: "images/legion-commander.png" },
+    { name: "Lifestealer", attribute: "strength", complexity: "medium", image: "images/lifestealer.png" },
+    { name: "Lycan", attribute: "strength", complexity: "medium", image: "images/lycan.png" },
+     { name: "Magnus", attribute: "strength", complexity: "medium", image: "images/magnus.png" },
+    { name: "Marci", attribute: "strength", complexity: "medium", image: "images/marci.png" },
+     { name: "Mars", attribute: "strength", complexity: "medium", image: "images/mars.png" },
+      { name: "Morphling", attribute: "agility", complexity: "medium", image: "images/morphling.png" },
+    { name: "Naga Siren", attribute: "agility", complexity: "high", image: "images/naga-siren.png" },
+        { name: "Nyx Assassin", attribute: "agility", complexity: "medium", image: "images/nyx-assassin.png" },
+    { name: "Pangolier", attribute: "agility", complexity: "medium", image: "images/pangolier.png" },
+       { name: "Phantom Assassin", attribute: "agility", complexity: "medium", image: "images/phantom-assassin.png" },
+    { name: "Phantom Lancer", attribute: "agility", complexity: "medium", image: "images/phantom-lancer.png" },
+       { name: "Lina", attribute: "intelligence", complexity: "low", image: "images/lina.png" },
+    { name: "Lion", attribute: "intelligence", complexity: "medium", image: "images/lion.png" },
+      { name: "Nature's Prophet", attribute: "intelligence", complexity: "medium", image: "images/natures-prophet.png" },
+       { name: "Necrophos", attribute: "intelligence", complexity: "medium", image: "images/necrophos.png" },
+     { name: "Ogre Magi", attribute: "intelligence", complexity: "low", image: "images/ogre-magi.png" },
+     { name: "Oracle", attribute: "intelligence", complexity: "high", image: "images/oracle.png" },
+     { name: "Night Stalker", attribute: "strength", complexity: "medium", image: "images/night-stalker.png" },
+    { name: "Omniknight", attribute: "strength", complexity: "low", image: "images/omniknight.png" },
+    { name: "Phoenix", attribute: "strength", complexity: "medium", image: "images/phoenix.png" },
+     { name: "Pudge", attribute: "strength", complexity: "medium", image: "images/pudge.png" },
+    { name: "Sand King", attribute: "strength", complexity: "medium", image: "images/sand-king.png" },
+   { name: "Slardar", attribute: "strength", complexity: "low", image: "images/slardar.png" },
+  { name: "Razor", attribute: "agility", complexity: "medium", image: "images/razor.png" },
+    { name: "Riki", attribute: "agility", complexity: "low", image: "images/riki.png" },
+    { name: "Shadow Fiend", attribute: "agility", complexity: "medium", image: "images/shadow-fiend.png" },
+     { name: "Slark", attribute: "agility", complexity: "medium", image: "images/slark.png" },
+     { name: "Sniper", attribute: "agility", complexity: "low", image: "images/sniper.png" },
+        { name: "Spectre", attribute: "agility", complexity: "medium", image: "images/spectre.png" },
+     { name: "Outworld Destroyer", attribute: "intelligence", complexity: "medium", image: "images/outworld-destroyer.png" },
+    { name: "Puck", attribute: "intelligence", complexity: "medium", image: "images/puck.png" },
+    { name: "Pugna", attribute: "intelligence", complexity: "medium", image: "images/pugna.png" },
+        { name: "Queen of Pain", attribute: "intelligence", complexity: "medium", image: "images/queen-of-pain.png" },
+     { name: "Rubick", attribute: "intelligence", complexity: "high", image: "images/rubick.png" },
+       { name: "Shadow Demon", attribute: "intelligence", complexity: "medium", image: "images/shadow-demon.png" },
+    { name: "Snapfire", attribute: "strength", complexity: "medium", image: "images/snapfire.png" },
+    { name: "Spirit Breaker", attribute: "strength", complexity: "low", image: "images/spirit-breaker.png" },
+    { name: "Sven", attribute: "strength", complexity: "low", image: "images/sven.png" },
+    { name: "Tidehunter", attribute: "strength", complexity: "medium", image: "images/tidehunter.png" },
+     { name: "Timbersaw", attribute: "strength", complexity: "medium", image: "images/timbersaw.png" },
+    { name: "Tiny", attribute: "strength", complexity: "medium", image: "images/tiny.png" },
+      { name: "Templar Assassin", attribute: "agility", complexity: "medium", image: "images/templar-assassin.png" },
+    { name: "Terrorblade", attribute: "agility", complexity: "medium", image: "images/terrorblade.png" },
+      { name: "Troll Warlord", attribute: "agility", complexity: "medium", image: "images/troll-warlord.png" },
+   { name: "Ursa", attribute: "agility", complexity: "low", image: "images/ursa.png" },
+     { name: "Vengeful Spirit", attribute: "agility", complexity: "medium", image: "images/vengeful-spirit.png" },
+        { name: "Venomancer", attribute: "agility", complexity: "medium", image: "images/venomancer.png" },
+  { name: "Shadow Shaman", attribute: "intelligence", complexity: "low", image: "images/shadow-shaman.png" },
+    { name: "Silencer", attribute: "intelligence", complexity: "medium", image: "images/silencer.png" },
+  { name: "Skywrath Mage", attribute: "intelligence", complexity: "medium", image: "images/skywrath-mage.png" },
+     { name: "Storm Spirit", attribute: "intelligence", complexity: "medium", image: "images/storm-spirit.png" },
+     { name: "Techies", attribute: "intelligence", complexity: "high", image: "images/techies.png" },
+       { name: "Tinker", attribute: "intelligence", complexity: "medium", image: "images/tinker.png" },
+    { name: "Treant Protector", attribute: "strength", complexity: "medium", image: "images/treant-protector.png" },
+    { name: "Tusk", attribute: "strength", complexity: "medium", image: "images/tusk.png" },
+    { name: "Underlord", attribute: "strength", complexity: "medium", image: "images/underlord.png" },
+     { name: "Undying", attribute: "strength", complexity: "medium", image: "images/undying.png" },
+     { name: "Wraith King", attribute: "strength", complexity: "low", image: "images/wraith-king.png" },
+    { name: "Viper", attribute: "agility", complexity: "medium", image: "images/viper.png" },
+    { name: "Weaver", attribute: "agility", complexity: "medium", image: "images/weaver.png" },
+  { name: "Visage", attribute: "intelligence", complexity: "high", image: "images/visage.png" },
+    { name: "Void Spirit", attribute: "intelligence", complexity: "medium", image: "images/void-spirit.png" },
+      { name: "Warlock", attribute: "intelligence", complexity: "medium", image: "images/warlock.png" },
+      { name: "Windranger", attribute: "intelligence", complexity: "medium", image: "images/windranger.png" },
+      { name: "Winter Wyvern", attribute: "intelligence", complexity: "medium", image: "images/winter-wyvern.png" },
+    { name: "Witch Doctor", attribute: "intelligence", complexity: "medium", image: "images/witch-doctor.png" },
+
 ];
 
-function generateHeroes() {
-    heroContainers.forEach(container => {
-        const attribute = container.dataset.attribute;
-       const container_of_herous = container.querySelector('.container_of_herous');
-        let gridHTML = '';
-        heroes.forEach(hero => {
-        if(hero.attribute === attribute){
-          const imageUrl = new URL(`img/${hero.image}`, import.meta.url).href;
-          gridHTML += `
-              <div class="hero-item">
-                  <img src="${imageUrl}" alt="${hero.name}">
-                  <div class="hero-name">${hero.name}</div>
-              </div>
-            `;
-        }
-         })
-        container_of_herous.innerHTML = gridHTML;
+
+function generateHeroCards(filteredHeroes) {
+    heroesContainer.innerHTML = '';
+    filteredHeroes.forEach(hero => {
+        const card = document.createElement('div');
+        card.classList.add('hero-card', hero.attribute);
+        card.innerHTML = `
+            <img src="${hero.image}" alt="${hero.name}">
+            <h3>${hero.name}</h3>
+        `;
+        heroesContainer.appendChild(card);
     });
 }
 
-function filterSelection(filter){
-  heroContainers.forEach(container => {
-    if(container.dataset.attribute === filter || container.dataset.type === filter || filter === 'all'){
-      container.classList.add('pokaz');
-    } else {
-        container.classList.remove('pokaz');
-    }
-  })
+function filterHeroes() {
+    const selectedType = typeFilter.value;
+    const selectedComplexity = complexityFilter.value;
+    const searchTerm = searchInput.value.toLowerCase();
+
+    let filteredHeroes = heroes.filter(hero => {
+      const typeMatch = selectedType === 'all' || hero.attribute === selectedType;
+      const complexityMatch = selectedComplexity === 'all' || hero.complexity === selectedComplexity;
+      const searchMatch = hero.name.toLowerCase().includes(searchTerm);
+
+      return typeMatch && complexityMatch && searchMatch;
+    });
+
+  generateHeroCards(filteredHeroes);
 }
 
-attributeFilterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      filterSelection(button.dataset.filter);
-    });
-});
+typeFilter.addEventListener('change', filterHeroes);
+complexityFilter.addEventListener('change', filterHeroes);
+searchInput.addEventListener('input', filterHeroes);
 
-typeFilterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        filterSelection(button.dataset.filter);
-    });
-});
-generateHeroes();
+generateHeroCards(heroes);

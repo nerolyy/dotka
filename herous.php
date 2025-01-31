@@ -68,259 +68,41 @@ z-index:10">
     </div>
 </header>
 <promo> 
-    <div class="promo_container">
-        <ul class="filter_container">
-            <div class="attribut_sort">
-                <div class="dropdown">
-                    <button class="dropdown-button" id="dropdownButton">Sort by<br>Attributes<span class="arrow">&#9660;</span></button>
-                    <div class="dropdown-content" id="dropdownContent">
-                        <a class="atribut_btn" data-filter="STRENGTH">
-                            <ul class="filter_con">
-                                <img src="img/Level dot.svg" class="atribut_name_img">
-                                <div class="text_name_atribut_filter">STRENGTH</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" data-filter="AGILITY">
-                            <ul class="filter_con">
-                                <img src="img/Level dot (1).svg" class="atribut_name_img">
-                                <div class="text_name_atribut_filter">AGILITY</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" data-filter="INTELIGENCE">
-                            <ul class="filter_con">
-                                <img src="img/Level dot (2).svg" class="atribut_name_img">
-                                <div class="text_name_atribut_filter">Intelligence</div>
-                            </ul>
-                        </a>
-                    </div>
+<div class="container">
+         <div class="filters">
+             <div class="sort-by-container">
+                  <label for="sort-by">Sort by</label>
+                  <select id="sort-by">
+                         <option value="attributes">Attributes</option>
+                 </select>
+             </div>
+
+                <div class="type-container">
+                    <label for="type-filter">Type</label>
+                    <select id="type-filter">
+                        <option value="all">All</option>
+                        <option value="strength">Strength</option>
+                        <option value="agility">Agility</option>
+                        <option value="intelligence">Intelligence</option>
+                    </select>
                 </div>
+                 <div class="complexity-container">
+                   <label for="complexity-filter">Complexity</label>
+                   <select id="complexity-filter">
+                        <option value="all">All</option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                  </select>
+                 </div>
+
+                <input type="text" id="search-input" placeholder="Search Hero">
             </div>
-            <div class="type_of_herous">
-                <div class="dropdown_type dropdown">
-                    <button class="dropdown-button" id="dropdownButton_type">Sort by<br>Type<span class="arrow">&#9660;</span></button>
-                    <div class="dropdown-content" id="dropdownContent_type">
-                        <a class="atribut_btn" data-filter="CARRY">
-                            <ul class="filter_con">
-                                <div class="text_name_atribut_filter">Carry</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" data-filter="MID">
-                            <ul class="filter_con">
-                            <div class="text_name_atribut_filter">Mid</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" data-filter="HARD_CARRY">
-                            <ul class="filter_con">
-                                <div class="text_name_atribut_filter">Hard Carry</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" data-filter="HARD_SUPPORT">
-                            <ul class="filter_con">
-                                <div class="text_name_atribut_filter">Hard Support</div>
-                            </ul>
-                        </a>
-                        <a class="atribut_btn" data-filter="FULL_SUPPORT">
-                            <ul class="filter_con">
-                                <div class="text_name_atribut_filter">Full Support</div>
-                            </ul>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </ul>
-        <ul class="herous_agility_all">
-            <div class="col-33 sila pokaz typedif CARRY MID HC HS FS">
-                <ul class="name_of_atribut">
-                    <div class="create-line"></div>
-                    <img src="img/Level dot.svg" class="atribut_name_img">
-                    <div class="text_name_atribut">STRENGTH</div>
-                    <div class="create-line"></div>
-                </ul>
-                <div class="container_of_herous">
-                    <a href="#" class="hero_card FS HS HC pokaz typedif sila">
-                        <img src="img/Hero card (1).svg" class="hero_prev_img">
-                        <div class="hero_card_name medium_name">Abaddon</div>
-                    </a>
-                    <a href="alchemist.php" class="hero_card CARRY HS pokaz typedif sila">
-                        <img src="img/Hero card (2).svg" class="hero_prev_img">
-                        <div class="hero_card_name medium_name">Alchemist</div>
-                    </a>
-                    <a href="axe.php" class="hero_card HC typedif sila pokaz">
-                        <img src="img/Hero card (3).svg" class="hero_prev_img">
-                        <div class="hero_card_name small_name">Axe</div>
-                    </a>
-                    <a href="#" class="hero_card HC typedif sila pokaz">
-                        <img src="img/Hero card (4).svg" class="hero_prev_img">
-                        <div class="hero_card_name bg_name">Beastmaster</div>
-                    </a>
-                    <a href="#" class="hero_card HC MID typedif sila pokaz">
-                        <img src="img/Hero card (5).svg" class="hero_prev_img">
-                        <div class="hero_card_name bg_name">Brewmaster</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HC FS typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name mbg_name">Bristleback</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HC typedif sila pokaz">
-                        <img src="img/Hero card (7).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Centaur<br>Warrunner</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HC CARRY typedif sila pokaz">
-                        <img src="img/Hero card (8).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Chaos<br>Knight</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HS MID typedif sila pokaz">
-                        <img src="img/Hero card (9).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Clockwerk</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HC typedif sila pokaz">
-                        <img src="img/Hero card (10).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Dawnbreaker</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HC typedif sila pokaz">
-                        <img src="img/Hero card (11).svg" class="hero_prev_img">
-                        <div class="hero_card_name small_name">Doom</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HC CARRY typedif sila pokaz">
-                        <img src="img/Hero card (12).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Dragon<br>Knight</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card MID HS typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Earth Spirit</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card MID HS typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Earthshaker</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HS HC typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Elder Titan</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card MID HS typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Huskar</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card FS HS typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Io</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card MID HC typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Kunkka</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HC MID typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Legion<br>Commander</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card CARRY typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Lifestealer</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card MID HC typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Lycan</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card MID CARRY HC HS typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Magnus</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HS CARRY typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Marci</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HC typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Mars</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HC MID typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Night Stalker</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HS HC typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Omniknight</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card MID HS typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Phoenix</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HS MID typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Pudge</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card MID HC typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Sand King</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HC typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Slardar</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HS MID typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Snapfire</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HS HC typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Spirit<br>Breaker</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card CARRY FS typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Sven</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card HS HC typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Tidehunter</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card MID HC typedif sila pokaz">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Timbersaw</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card typedif sila">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Tiny</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card typedif sila">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Treant<br>Protector</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card typedif sila">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Tusk</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card typedif sila">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Underlord</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card typedif sila">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Undying</div>
-                    </a>
-                    <a href="bristleback.php" class="hero_card typedif sila">
-                        <img src="img/Hero card (6).svg" class="hero_prev_img">
-                        <div class="hero_card_name">Wraith King</div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-33 pokaz typedif lovk CARRY MID HC HS FS">
-                <ul class="name_of_atribut">
-                    <div class="create-line"></div>
-                    <img src="img/Level dot (1).svg" class="atribut_name_img">
-                    <div class="text_name_atribut">AGILITY</div>
-                    <div class="create-line"></div>
-                </ul>
-            </div>
-            <div class="col-33 pokaz typedif int CARRY MID HC HS FS">
-                <ul class="name_of_atribut">
-                    <div class="create-line"></div>
-                    <img src="img/Level dot (2).svg" class="atribut_name_img">
-                    <div class="text_name_atribut">Intelligence</div>
-                    <div class="create-line"></div>
-                </ul>
-            </div>
-        </ul>
+        
+        <div class="heroes-container">
+        </div>
     </div>
+    <script src="scripts/hero_filter.js"></script>
 </promo>
 </body>
 </html>

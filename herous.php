@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/promo_herous.css">
     <script src="scripts/drop_down.js"></script>
     <script src="scripts/drop_down_type.js"></script>
+    <link rel="stylesheet" href="css/media/desktop_media.css">
+    <link rel="stylesheet" href="css/media/Sdesktop_media.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -16,7 +18,8 @@
     <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <title>Main Page</title>
 </head>
-<body style="background-image: url('fonts/Dota 2 - redesign - main.svg');
+<!-- background-image: url('fonts/Dota 2 - redesign - main.svg'); -->
+<body style="
 background-repeat: no-repeat;
 background-color: #212121;
 display: block;

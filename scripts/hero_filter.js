@@ -12,23 +12,23 @@ const heroes = [
     { name: "Brewmaster", attribute: "strength", complexity: "high", image: "img/Hero card (5).svg" },
     { name: "Bristleback", attribute: "strength", complexity: "low", image: "img/Hero card (6).svg" },
     { name: "Anti-Mage", attribute: "agility", complexity: "medium", image: "img/anti-m.svg" },
-    { name: "Arc Warden", attribute: "agility", complexity: "high", image: "img/Hero card (8).svg" },
-    { name: "Bloodseeker", attribute: "agility", complexity: "low", image: "img/Hero card (9).svg" },
-    { name: "Bounty Hunter", attribute: "agility", complexity: "medium", image: "img/Hero card (10).svg" },
+    { name: "Arc Warden", attribute: "agility", complexity: "high", image: "img/Arc.svg" },
+    { name: "Bloodseeker", attribute: "agility", complexity: "low", image: "img/seeker.svg" },
+    { name: "Bounty Hunter", attribute: "agility", complexity: "medium", image: "img/bounty_hunter.svg" },
     { name: "Broodmother", attribute: "agility", complexity: "high", image: "img/Hero card (11).svg" },
     { name: "Clinkz", attribute: "agility", complexity: "medium", image: "img/Hero card (12).svg" },
-    { name: "Ancient Apparition", attribute: "intelligence", complexity: "medium", image: "images/ancient-apparition.png" },
-    { name: "Bane", attribute: "intelligence", complexity: "medium", image: "images/bane.png" },
-    { name: "Batrider", attribute: "intelligence", complexity: "high", image: "images/batrider.png" },
+    { name: "Ancient Apparition", attribute: "intelligence", complexity: "medium", image: "img/Anciet Apparat.svg" },
+    { name: "Bane", attribute: "intelligence", complexity: "medium", image: "img/bane.svg" },
+    { name: "Batrider", attribute: "intelligence", complexity: "high", image: "img/betrieder.svg" },
     { name: "Chen", attribute: "intelligence", complexity: "high", image: "images/chen.png" },
     { name: "Crystal Maiden", attribute: "intelligence", complexity: "low", image: "images/crystal-maiden.png" },
     { name: "Dark Seer", attribute: "intelligence", complexity: "medium", image: "images/dark-seer.png" },
     { name: "Centaur Warrunner", attribute: "strength", complexity: "low", image: "img/Hero card (7).svg" },
     { name: "Chaos Knight", attribute: "strength", complexity: "medium", image: "img/Hero card (8).svg" },
     { name: "Clockwerk", attribute: "strength", complexity: "medium", image: "img/Hero card (9).svg" },
-    { name: "Dawnbreaker", attribute: "strength", complexity: "medium", image: "images/dawnbreaker.png" },
-    { name: "Doom", attribute: "strength", complexity: "high", image: "images/doom.png" },
-    { name: "Dragon Knight", attribute: "strength", complexity: "low", image: "images/dragon-knight.png" },
+    { name: "Dawnbreaker", attribute: "strength", complexity: "medium", image: "img/Hero card (10).svg" },
+    { name: "Doom", attribute: "strength", complexity: "high", image: "img/Hero card (11).svg" },
+    { name: "Dragon Knight", attribute: "strength", complexity: "low", image: "img/Hero card (12).svg" },
     { name: "Drow Ranger", attribute: "agility", complexity: "low", image: "images/drow-ranger.png" },
     { name: "Ember Spirit", attribute: "agility", complexity: "high", image: "images/ember-spirit.png" },
      { name: "Faceless Void", attribute: "agility", complexity: "medium", image: "images/faceless-void.png" },
@@ -133,7 +133,7 @@ const heroes = [
 function generateHeroCards(filteredHeroes) {
     heroesContainer.innerHTML = '';
     filteredHeroes.forEach(hero => {
-        const card = document.createElement('div');
+        const card = document.createElement('a'); 
         card.classList.add('hero-card', hero.attribute);
         card.innerHTML = `
             <img src="${hero.image}" alt="${hero.name}">

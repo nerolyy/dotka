@@ -91,3 +91,6 @@
 .type-container, .complexity-container {
     margin-left: 20px;
 }
+.agility, .intelligence {
+    color: #aaa;
+}

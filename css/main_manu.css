@@ -270,7 +270,7 @@
 
 .main-bottom {
   display: flex;
-  margin-left: 45px;
+  margin-left: 63px;
   margin-bottom: 15px;
 }
 
@@ -419,4 +419,7 @@
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
+}
+.test-hero-button {
+  text-decoration: none;
 }

@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <title>Main Page</title>
 </head>
-<body style="background-image: url('fonts/Dota 2 - redesign - main.svg');
+<body style="background-image: url('img/kez_new_hero.jpg');
 background-repeat: no-repeat;
 background-color: #212121;
 display: block;
@@ -66,89 +66,96 @@ z-index:10">
 <promo>
 <div class="main-container">
     <div class="main-content">
-        <div class="sidebar">
-      <div class="guild">
-          <img src="guild_logo.png" alt="Guild Logo" class="guild-logo">
-           <div class="guild-info">
-               Guild of the noon
-               <div class="guild-members">5.755 guild members</div>
-           </div>
-       </div>
-        <div class="dota-party">
-           Dota Party
-          <div class="dota-party-icons">
-             <div class="party-icon" style="background-image: url('party_icon1.png');"></div>
-             <div class="party-icon"></div>
-             <div class="party-icon"></div>
-              <div class="party-icon"></div>
-            </div>
-        </div>
-      <div class="friends-groups">
-        Friends and groups
-          <button class="friends-add">+</button>
-      </div>
-        <div class="friends-online">
-         Online (4)
-        </div>
-         <div class="friends-list">
-            <div class="friend-item">
-                <img src="friend1.png" alt="GHX_monument22" class="friend-avatar">
-                <div class="friend-info">
-                    <div class="friend-name">GHX_monument22</div>
-                     <div class="friend-status">
-                        <span class="status online"></span>
-                        Online | <span class="message">1 message</span>
-                    </div>
-                </div>
-            </div>
-              <div class="friend-item">
-                <img src="friend2.png" alt="Andrew.ggg" class="friend-avatar">
-                <div class="friend-info">
-                    <div class="friend-name">Andrew.ggg</div>
-                     <div class="friend-status">
-                        <span class="status online"></span>
-                        Online
-                    </div>
-                </div>
-            </div>
-             <div class="friend-item">
-                <img src="friend3.png" alt="Anti-turtle" class="friend-avatar">
-                <div class="friend-info">
-                    <div class="friend-name">Anti-turtle</div>
-                     <div class="friend-status">
-                         <span class="status online"></span>
-                        Online
-                    </div>
-                </div>
-            </div>
-             <div class="friend-item">
-                               <img src="friend4.png" alt="Dash//\\\" class="friend-avatar">
-                <div class="friend-info">
-                    <div class="friend-name">Dash//\\</div>
-                     <div class="friend-status">
-                        <span class="status online"></span>
-                        Online
-                    </div>
-                </div>
-            </div>
-           <div class="friends-offline">
-              Offline (577)
-          </div>
-        </div>
-        </div>
+    <?php
+                                if(isset($_COOKIE['login']))
+                                    echo 
+                                    '<div class="sidebar">
+                                    <div class="guild">
+                                      <img src="guild_logo.png" alt="Guild Logo" class="guild-logo">
+                                       <div class="guild-info">
+                                           Guild of the noon
+                                           <div class="guild-members">5.755 guild members</div>
+                                       </div>
+                                   </div>
+                                    <div class="dota-party">
+                                       Dota Party
+                                      <div class="dota-party-icons">
+                                         <div class="party-icon" style="background-image: url("party_icon1.png);"></div>
+                                         <div class="party-icon"></div>
+                                         <div class="party-icon"></div>
+                                          <div class="party-icon"></div>
+                                        </div>
+                                    </div>
+                                  <div class="friends-groups">
+                                    Friends and groups
+                                      <button class="friends-add">+</button>
+                                  </div>
+                                    <div class="friends-online">
+                                     Online (4)
+                                    </div>
+                                     <div class="friends-list">
+                                        <div class="friend-item">
+                                            <img src="friend1.png" alt="GHX_monument22" class="friend-avatar">
+                                            <div class="friend-info">
+                                                <div class="friend-name">GHX_monument22</div>
+                                                 <div class="friend-status">
+                                                    <span class="status online"></span>
+                                                    Online | <span class="message">1 message</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                          <div class="friend-item">
+                                            <img src="friend2.png" alt="Andrew.ggg" class="friend-avatar">
+                                            <div class="friend-info">
+                                                <div class="friend-name">Andrew.ggg</div>
+                                                 <div class="friend-status">
+                                                    <span class="status online"></span>
+                                                    Online
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="friend-item">
+                                            <img src="friend3.png" alt="Anti-turtle" class="friend-avatar">
+                                            <div class="friend-info">
+                                                <div class="friend-name">Anti-turtle</div>
+                                                 <div class="friend-status">
+                                                     <span class="status online"></span>
+                                                    Online
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="friend-item">
+                                                           <img src="friend4.png" alt="Dash//\\\" class="friend-avatar">
+                                            <div class="friend-info">
+                                                <div class="friend-name">Dash//\\</div>
+                                                 <div class="friend-status">
+                                                    <span class="status online"></span>
+                                                    Online
+                                                </div>
+                                            </div>
+                                        </div>
+                                       <div class="friends-offline">
+                                          Offline (577)
+                                      </div>
+                                    </div>
+                                    </div>';
+                                else
+                                    echo ''
+                    ?>
     </div>
 
     <div class="main-header">
         <div class="strength">
-            <span class="strength-label">Strength</span>
+            <span class="strength-label">Agility</span>
         </div>
            <div class="marci-headline">
-            Marci marches in!
+            Kez marches in!
            </div>
           <div class="marci-text">
-               Marci powers her way from DOTA: Dragon’s Blood into the battle of the Ancients as the newest hero to join the fight, proving that undying loyalty yields unrivaled power.
+            Usually in battle, Kez is inspired by his imagination: on the fly he changes his katana to his sai and back again, so that, if necessary, he can attack, chop, parry and retreat.
+            Kez powers her way from DOTA: Dragon’s Blood into the battle of the Ancients as the newest hero to join the fight, proving that undying loyalty yields unrivaled power.
           </div>
-        <button class="test-hero-button">Test hero</button>
+        <a class="test-hero-button" href="kez.php">Watch about</a>
     </div>
     </div>
   </div>

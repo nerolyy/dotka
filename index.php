@@ -12,9 +12,10 @@
     <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
     <title>Main Page</title>
 </head>
-<body style="background-image: url('img/kez_new_hero.jpg');
+<body style="background-image: url('fonts/radiant_dire5.jpg');
 background-repeat: no-repeat;
 background-color: #212121;
+background-size: cover;
 display: block;
 z-index:10">
 <header>
@@ -146,14 +147,13 @@ z-index:10">
 
     <div class="main-header">
         <div class="strength">
-            <span class="strength-label">Agility</span>
+            <span class="strength-label">19.02.2025</span>
         </div>
            <div class="marci-headline">
-            Kez marches in!
+            New patch! (7.38)
            </div>
           <div class="marci-text">
-            Usually in battle, Kez is inspired by his imagination: on the fly he changes his katana to his sai and back again, so that, if necessary, he can attack, chop, parry and retreat.
-            Kez powers her way from DOTA: Dragon’s Blood into the battle of the Ancients as the newest hero to join the fight, proving that undying loyalty yields unrivaled power.
+                Just like the space miners extracting water in the movie Dune. Part Two" (and maybe in the book of the same name), Dota has always been the only game that considers water the most valuable resource both in the Dune universe and in our universe - the Universe.
           </div>
         <a class="test-hero-button" href="kez.php">Watch about</a>
     </div>
@@ -162,8 +162,8 @@ z-index:10">
   <div class="main-bottom">
            <div class="main-bottom-item">
                 <div class="bottom-item-header">
-                  <img src="new-hero.png" alt="New Hero"> New Hero
-                   <span class="bottom-item-date">20/11/2021</span>
+                  <img src="fonts/7.39patch.png" alt="New Hero"> New Patch(7.38)
+                   <span class="bottom-item-date">19/02/2025</span>
                  </div>
               <div class="bottom-item-content">
                   <div class="bottom-item-text">

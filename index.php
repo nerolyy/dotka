@@ -27,7 +27,7 @@ z-index:10">
                 </a>
             </div>
             <a class="menu_header_item text_item active">Home</a>
-            <a href="herous.php" class="menu_header_item text_item">Herous</a>
+            <a href="herous.php" class="menu_header_item text_item">Heroes</a>
             <a href="store.php" class="menu_header_item text_item">Store</a>
             <a class="menu_header_item text_item">Watch</a>
             <a class="menu_header_item text_item">Learn</a>

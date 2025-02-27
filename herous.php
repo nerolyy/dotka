@@ -34,7 +34,7 @@ z-index:10">
                 </a>
             </div>
             <a href="index.php" class="menu_header_item text_item">Home</a>
-            <a class="menu_header_item text_item active">Herous</a>
+            <a class="menu_header_item text_item active">Heroes</a>
             <a href="store.php" class="menu_header_item text_item">Store</a>
             <a class="menu_header_item text_item">Watch</a>
             <a class="menu_header_item text_item">Learn</a>

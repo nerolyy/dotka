@@ -24,5 +24,11 @@
         .container {
             max-width: 95%;
         }
+        .heroes-container {
+            height: 70vh;
+        }
+        .collection-container {
+            height: 80vh;
+        }
 }
 

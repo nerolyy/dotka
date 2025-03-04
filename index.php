@@ -11,7 +11,7 @@ if (!file_exists($contentFile)) {
 }
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'content/main_pages/header.php'; ?>
    
 <?php include $contentFile; ?>
    

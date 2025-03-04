@@ -1,6 +1,13 @@
 .body {
     cursor: url("cursor/cursor_default_vsz3 copy.bmp"), auto;
+    background-image: url('fonts/Dota 2 - redesign - main.svg');
+    background-repeat: no-repeat;
+    background-color: #212121;
+    display: block;
+    position: sticky;
+    z-index:10;
 }
+
 .header_container {
     width: 98%;
     height: 60px;

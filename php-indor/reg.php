@@ -17,4 +17,4 @@ $sql='INSERT INTO users(login, password) VALUES(?, ?)';
 $query=$pdo->prepare($sql);
 $query->execute([$login, $password]);
 
-header('Location: auth.php')
+header('Location: auth.php');

@@ -18,52 +18,6 @@ background-color: #212121;
 background-size: cover;
 display: block;
 z-index:10">
-<header>
-    <div class="header_container">
-        <ul class="header_items">
-            <div class="menu_header_item">
-                <a class="dota_logo_header">
-                    <img src="img/icons8-dota-2 1.svg" class="dota_logo_header_img">
-                </a>
-            </div>
-            <a class="menu_header_item text_item active">Home</a>
-            <a href="herous.php" class="menu_header_item text_item">Heroes</a>
-            <a href="store.php" class="menu_header_item text_item">Store</a>
-            <a class="menu_header_item text_item">Watch</a>
-            <a class="menu_header_item text_item">Learn</a>
-            <a class="menu_header_item text_item">Arcade</a>
-            <div class="menu_header_item mrg-l-669">
-                    <a href="#" class="lk">
-                        <p><?php isset($_COOKIE['login'])?></p>
-                    </a>
-                </div>
-                    <?php
-                                if(isset($_COOKIE['login']))
-                                    echo 
-                                    '<ul class="lk_header">
-                                        <div for="profile-image-input" class="lk_img_profile">
-                                            <img src="" alt="" class="profile-img">
-                                            <input type="file" id="profile-image-input" accept="image/*" class="hidden">
-                                        </div>
-                                        <div class="lk_name_profile"></div>
-                                    </ul>
-                                    <div class="menu_header_item small_img">
-                                        <a class="setting_header">
-                                            <img src="img/bi_gear-fill.svg" class="settings_header_img">
-                                        </a>
-                                    </div>
-                                    <a class="menu_header_item small_img">
-                                        <img src="img/heroicons-solid_logout.svg" class="logoout_header_img">
-                                    </a>';
-                                else
-                                    echo '<div class="menu_header_item text_item">
-                                    <a href="login.php" class="login_btn">Login</a>
-                                    <a href="auth.php" class="">Sign-up</a>
-                                    </div>'
-                    ?>
-        </ul>
-    </div>
-</header>
 <promo>
 <div class="main-container">
     <div class="main-content">

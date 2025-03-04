@@ -25,52 +25,7 @@ background-color: #212121;
 display: block;
 position: sticky;
 z-index:10">
-<header>
-    <div class="header_container">
-        <ul class="header_items">
-            <div class="menu_header_item">
-                <a href="index.php" class="dota_logo_header">
-                    <img src="img/icons8-dota-2 1.svg" class="dota_logo_header_img">
-                </a>
-            </div>
-            <a href="index.php" class="menu_header_item text_item">Home</a>
-            <a class="menu_header_item text_item active">Heroes</a>
-            <a href="store.php" class="menu_header_item text_item">Store</a>
-            <a class="menu_header_item text_item">Watch</a>
-            <a class="menu_header_item text_item">Learn</a>
-            <a class="menu_header_item text_item">Arcade</a>
-            <div class="menu_header_item mrg-l-669">
-                    <a href="#" class="lk">
-                        <p><?php isset($_COOKIE['login'])?></p>
-                    </a>
-                </div>
-                    <?php
-                                if(isset($_COOKIE['login']))
-                                    echo '
-                                <ul class="lk_header">
-                                    <div class="lk_img_profile">
-                                        <img src="" alt="" class="">
-                                    </div>
-                                    <div class="lk_name_profile"></div>
-                                </ul>
-                                <div class="menu_header_item small_img">
-                                    <a class="setting_header">
-                                        <img src="img/bi_gear-fill.svg" class="settings_header_img">
-                                    </a>
-                                </div>
-                                <a class="menu_header_item small_img">
-                                    <img src="img/heroicons-solid_logout.svg" class="logoout_header_img">
-                                </a>';
-                                else
-                                    echo '<div class="menu_header_item text_item">
-                                    <a href="login.php" class="login_btn glow-on-hover" type="button">Login</a>
-                                    <a href="auth.php" class="">Sign-up</a>
-                                    </div>'
-                    ?>
-        </ul>
-    </div>
-</header>
-<promo> 
+<main> 
 <div class="container">
          <div class="filters">
              <div class="sort-by-container">
@@ -106,6 +61,4 @@ z-index:10">
         </div>
     </div>
     <script src="scripts/hero_filter.js"></script>
-</promo>
-</body>
-</html>
+</main>

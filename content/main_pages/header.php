@@ -22,10 +22,10 @@
                     <img src="img/icons8-dota-2 1.svg" class="dota_logo_header_img">
                 </a>
             </div>
-            <a href="index.php?page=home" class="menu_header_item text_item">Home</a>
-            <a href="index.php?page=herous" class="menu_header_item text_item">Heroes</a>
-            <a href="index.php?page=store" class="menu_header_item text_item">Store</a>
-            <a href="index.php?page=cyber"class="menu_header_item text_item">Watch</a>
+            <a href="index.php?page=content/main_pages/home" class="menu_header_item text_item">Home</a>
+            <a href="index.php?page=content/main_pages/herous" class="menu_header_item text_item">Heroes</a>
+            <a href="index.php?page=content/main_pages/store" class="menu_header_item text_item">Store</a>
+            <a href="index.php?page=content/main_pages/cyber"class="menu_header_item text_item">Watch</a>
             <a class="menu_header_item text_item">Learn</a>
             <a class="menu_header_item text_item">Arcade</a>
             <div class="menu_header_item mrg-l-669">

@@ -18,16 +18,16 @@
     <div class="header_container">
         <ul class="header_items">
             <div class="menu_header_item">
-                <a class="dota_logo_header">
+                <a href="index.php?page=content/main_pages/home" class="dota_logo_header">
                     <img src="img/icons8-dota-2 1.svg" class="dota_logo_header_img">
                 </a>
             </div>
             <a href="index.php?page=content/main_pages/home" class="menu_header_item text_item">Home</a>
             <a href="index.php?page=content/main_pages/herous" class="menu_header_item text_item">Heroes</a>
             <a href="index.php?page=content/main_pages/store" class="menu_header_item text_item">Store</a>
-            <a href="index.php?page=content/main_pages/cyber"class="menu_header_item text_item">Watch</a>
-            <a class="menu_header_item text_item">Learn</a>
-            <a class="menu_header_item text_item">Arcade</a>
+            <a href="index.php?page=content/main_pages/cyber" class="menu_header_item text_item">Watch</a>
+            <a href="index.php?page=content/main_pages/learn" class="menu_header_item text_item">Learn</a>
+            <a href="index.php?page=content/main_pages/arcade" class="menu_header_item text_item">Arcade</a>
             <div class="menu_header_item mrg-l-669">
                     <a href="#" class="lk">
                         <p><?php isset($_COOKIE['login'])?></p>

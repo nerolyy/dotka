@@ -21,11 +21,24 @@ $query -> execute([$login, $password]);
 
 
 
-if ($query->rowCount() == 0)
-    echo"data entered incorrectly";
-else 
-    setcookie('login', $login, time() + 3600 * 24, "/");
-    header("Location: user_main.php");
+// if ($query->rowCount() == 0)
+//     echo"data entered incorrectly";
+// else 
+//     setcookie('login', $login, time() + 3600 * 24, "/");
+//     header("Location: index.php?page=content/main_pages/home");
 
 
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $username = $_POST['login'];
+    $password = $_POST['password'];
+    
+    if ($validCredentials) {
+        setcookie('login', $login, time() + 3600, '/'); 
+        setcookie('auth_token', $token, time() + 3600, '/'); 
+        header('Location: index.php');
+        exit();
+    } else {
+        echo "Неверные учетные данные";
+    }
+}

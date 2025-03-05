@@ -49,12 +49,14 @@
                                         </a>
                                     </div>
                                     <a class="menu_header_item small_img">
-                                        <img src="img/heroicons-solid_logout.svg" class="logoout_header_img">
+                                        <form action="php-indor/logout.php" method="post">
+                                            <img src="img/heroicons-solid_logout.svg" class="logoout_header_img">
+                                        </form>
                                     </a>';
                                 else
                                     echo '<div class="menu_header_item text_item">
-                                    <a href="content/login.php" class="login_btn">Login</a>
-                                    <a href="content/auth.php" class="">Sign-up</a>
+                                    <a href="index.php?page=content/main_pages/login" class="login_btn">Login</a>
+                                    <a href="index.php?page=content/main_pages/auth" class="">Sign-up</a>
                                     </div>'
                     ?>
         </ul>

@@ -2,42 +2,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="css/main_manu.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="css/media/desktop_media.css">
+    <link rel="stylesheet" href="css/media/Sdesktop_media.css">
+    <script src="scripts/profile_img.js" href="scripts/profile_img.js"></script>
+    <link rel="icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icons8-dota-2 1.svg" type="image/x-icon">
+    <title>Main Page</title>
 </head>
 <body style="background-image: url('fonts/mainfont.svg');
 background-repeat: no-repeat;
 background-color: #212121;
 z-index:10">
-<header class="p-3 bg-dark text-white">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="index.php" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                    <img class="bi me-2 tmsk" src="img/dotalogo.svg" width="109" height="22" role="img" aria-label="Bootstrap">
-                </a>
-
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="your_stats.php" class="nav-link px-2 text-white tmsk">личная статистика</a></li>
-                    <li><a href="meta_herous.php" class="nav-link px-2 text-white tmsk">meta herous</a></li>
-                    <li><a href="best_players.php" class="nav-link px-2 text-white tmsk">лучшие игроки</a></li>
-                </ul>
-
-                
-                <div class="text-end">
-                    <a type="button" href="auth.php" class="btn btn-warning">Sign-up</a>
-                </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-</header>
     
 <main class="form-signin w-100 m-auto pt-15">
-  <form method="post" action="authall.php">
+  <form method="post" action="php-indor/authall.php">
     <h1 class="h3 mb-3 fw-normal text-center text-white">Please Sign-up</h1>
 
     <div class="form-floating text-white">

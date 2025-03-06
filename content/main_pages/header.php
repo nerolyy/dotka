@@ -56,7 +56,7 @@
                                 else
                                     echo '<div class="menu_header_item text_item">
                                     <a href="index.php?page=content/main_pages/login" class="login_btn">Login</a>
-                                    <a href="index.php?page=content/main_pages/auth" class="">Sign-up</a>
+                                    <a href="index.php?page=content/main_pages/auth" class="auth_btn">Sign-up</a>
                                     </div>'
                     ?>
         </ul>

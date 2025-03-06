@@ -8,9 +8,11 @@ if (!file_exists($contentFile)) {
 }
 ?>
 
-<?php include 'content/main_pages/header.php'; ?>
 <?php include 'content/main_pages/loader.php'; ?> 
-<?php include $contentFile; ?>
+<main id="content">
+    <?php include 'content/main_pages/header.php'; ?>
+    <?php include $contentFile; ?>
+</main>
    
 </body>
 </html>

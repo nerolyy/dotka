@@ -1,5 +1,3 @@
-
-
 <?php
 $page = isset($_GET['page']) ? $_GET['page'] : 'home'; 
 
@@ -11,7 +9,7 @@ if (!file_exists($contentFile)) {
 ?>
 
 <?php include 'content/main_pages/header.php'; ?>
-   
+<?php include 'content/main_pages/loader.php'; ?> 
 <?php include $contentFile; ?>
    
 </body>

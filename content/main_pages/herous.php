@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/promo_herous.css">
+    <link rel="stylesheet" href="css/loader.css">
     <script src="scripts/drop_down.js"></script>
     <script src="scripts/drop_down_type.js"></script>
     <link rel="stylesheet" href="css/media/desktop_media.css">

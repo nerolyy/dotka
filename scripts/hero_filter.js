@@ -7,7 +7,7 @@ const searchInput = document.getElementById('search-input');
 const heroes = [
     { name: "Abaddon", attribute: "strength", complexity: "medium", image: "img/Hero card (1).svg", href: "#" },
     { name: "Alchemist", attribute: "strength", complexity: "medium", image: "img/Hero card (2).svg", href: "content/alchemist.php" },
-    { name: "Axe", attribute: "strength", complexity: "low", image: "img/Hero card (3).svg", href: "axe.php" },
+    { name: "Axe", attribute: "strength", complexity: "low", image: "img/Hero card (3).svg", href: "index.php?page=content/other_pages/axe" },
     { name: "Beastmaster", attribute: "strength", complexity: "medium", image: "img/Hero card (4).svg", href: "#" },
     { name: "Brewmaster", attribute: "strength", complexity: "high", image: "img/Hero card (5).svg", href: "#" },
     { name: "Bristleback", attribute: "strength", complexity: "low", image: "img/Hero card (6).svg", href: "#" },

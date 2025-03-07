@@ -1,4 +1,4 @@
-<?php
+ <?php
     $login = trim(filter_var($_POST['login'], FILTER_SANITIZE_SPECIAL_CHARS));
     $password = trim(filter_var($_POST['password'], FILTER_SANITIZE_SPECIAL_CHARS));
 
@@ -25,7 +25,11 @@ if ($query->rowCount() == 0)
     echo"data entered incorrectly";
 else 
     setcookie('login', $login, time() + 3600 * 24, "/");
-    header("Location: index.php?page=content/main_pages/home");
+    header("Location: index.php"); 
 
+
+
+
+    
 
 

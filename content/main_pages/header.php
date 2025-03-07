@@ -48,8 +48,8 @@
                                             <img src="img/bi_gear-fill.svg" class="settings_header_img">
                                         </a>
                                     </div>
-                                    <a class="menu_header_item small_img">
-                                        <form action="php-indor/logout.php" method="post">
+                                    <a action="php-indor/logout.php" class="menu_header_item small_img">
+                                        <form  method="post">
                                             <img src="img/heroicons-solid_logout.svg" class="logoout_header_img">
                                         </form>
                                     </a>';

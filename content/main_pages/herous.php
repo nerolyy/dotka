@@ -56,7 +56,7 @@ z-index:10">
                  </div>
 
                 <input type="text" id="search-input" placeholder="Search Hero">
-            </div>смс
+            </div>
         
         <div class="heroes-container">
         </div>

@@ -1,0 +1,30 @@
+.esports-matches-container {
+    background-color: #333; /* Более темный фон */
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .esports-matches-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  #matches-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #matches-list li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+  }
+  
+  #matches-list li:last-child {
+    border-bottom: none; /* Убрать черту у последнего элемента */
+  }
+  
+  /* Дополнительные стили для информации о матче (команды, счет) */
+  #matches-list li .team1 { font-weight: bold; }
+  #matches-list li .vs { margin: 0 10px; }

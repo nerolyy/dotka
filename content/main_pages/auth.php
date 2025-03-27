@@ -24,20 +24,20 @@ z-index:10">
     
 <main class="form-signin w-100 m-auto pt-15">
   <form method="post" action="php-indor/reg.php">
-    <h1 class="h3 mb-3 fw-normal text-center text-white">Please sign in</h1>
+    <h1 class="h3 mb-3 fw-normal text-center color-black">Please sign in</h1>
 
-    <div class="form-floating text-white">
-      <input type="login" name="login" class="form-control bg-dark color-white" id="floatingInput" placeholder="login">
+    <div class="form-floating color-black">
+      <input type="login" name="login" class="form-control bg-dark" id="floatingInput" placeholder="login">
       <label for="floatingInput">Login</label>
     </div>
-    <div class="form-floating text-white">
-      <input type="password" name="password" class="form-control bg-dark color-white" id="floatingPassword" placeholder="Password">
+    <div class="form-floating color-black">
+      <input type="password" name="password" class="form-control bg-dark" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
 
     <div class="form-check text-start  my-3">
-      <input class="form-check-input text-white" type="checkbox" value="remember-me" id="flexCheckDefault">
-      <label class="form-check-label text-white" for="flexCheckDefault">
+      <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+      <label class="form-check-label color-black" for="flexCheckDefault">
         Remember me
       </label>
     </div>

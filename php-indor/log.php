@@ -23,25 +23,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Авторизация</title>
-</head>
-<body>
-    <h2>Авторизация</h2>
-    <?php if (isset($error)): ?>
-        <p style="color:red;"><?= $error ?></p>
-    <?php endif; ?>
-    <form method="POST" action="">
-        <label for="login">Логин:</label> <!-- Изменили на Логин -->
-        <input type="text" name="login" id="login" required> <!-- Изменили на login -->
-        <br>
-        <label for="password">Пароль:</label>
-        <input type="password" name="password" id="password" required>
-        <br>
-        <button type="submit">Войти</button>
-    </form>
-</body>
-</html>
+

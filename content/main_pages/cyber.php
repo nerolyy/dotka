@@ -18,3 +18,29 @@ background-color: #212121;
 display: block;
 position: sticky;
 z-index:10">
+    <h1>Upcoming Matches</h1>
+    <ul id="matches-list"></ul>
+
+    <script>
+        async function fetchMatches() {
+            try {
+                const response = await fetch('http://127.0.0.1:5000/api/matches'); // URL Flask-сервера
+                const matches = await response.json();
+
+                const matchesList = document.getElementById('matches-list');
+                matchesList.innerHTML = '';
+
+                matches.forEach(match => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${match.team1} vs ${match.team2} (${match.tournament}) - ${match.date_time}`;
+                    matchesList.appendChild(listItem);
+                });
+            } catch (error) {
+                console.error("Error fetching matches:", error);
+            }
+        }
+
+        fetchMatches();
+        setInterval(fetchMatches, 60000); // Обновлять каждую минуту
+    </script>
+</body>

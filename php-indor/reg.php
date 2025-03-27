@@ -2,19 +2,30 @@
     $login = trim(filter_var($_POST['login'], FILTER_SANITIZE_SPECIAL_CHARS));
     $password = trim(filter_var($_POST['password'], FILTER_SANITIZE_SPECIAL_CHARS));
 
+
 if(strlen($login) < 3) {
-    echo "Login error";
+    echo "Login должен иметь более 3-х символов!";
     exit;
 }
 if(strlen($password) < 8) {
-    echo "Password error";
+    echo "Password должен иметь более 8-ми символов!";
     exit;
 }
 
-$pdo=new PDO('mysql:host=localhost;dbname=users;port=8889', 'root', 'root');
+
+require 'db.php';
+
+$hash = password_hash($password, PASSWORD_DEFAULT);
 
 $sql='INSERT INTO users(login, password) VALUES(?, ?)';
 $query=$pdo->prepare($sql);
-$query->execute([$login, $password]);
+try {
+    $query->execute([$login, $hash]); 
+    header('Location: index.php?reg=success'); 
+    exit;
+} catch (PDOException $e) {
+    echo "Ошибка регистрации: " . $e->getMessage();  
+    exit;
+}
 
-header('Location: index.php');
+?>

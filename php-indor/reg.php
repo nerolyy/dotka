@@ -21,7 +21,7 @@ $sql='INSERT INTO users(login, password) VALUES(?, ?)';
 $query=$pdo->prepare($sql);
 try {
     $query->execute([$login, $hash]); 
-    header('Location: index.php?reg=success'); 
+    header('Location: index.php?page=content/main_pages/home'); 
     exit;
 } catch (PDOException $e) {
     echo "Ошибка регистрации: " . $e->getMessage();  
